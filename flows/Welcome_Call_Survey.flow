@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>49.0</apiVersion>
+    <dynamicChoiceSets>
+        <name>Type</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Type__c</picklistField>
+        <picklistObject>Contact</picklistObject>
+    </dynamicChoiceSets>
+    <interviewLabel>Welcome Call Survey {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Welcome Call Survey</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Please_answer_the_below_short_survey</name>
+        <label>Please answer the below short survey</label>
+        <locationX>303</locationX>
+        <locationY>238</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>ThisisthefirsttimeIhaveselfadministeredaninjectabledrug</name>
+            <fieldText>&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;This is the first time I have self-administered an injectable drug&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Welcome_call_Survey</name>
+        <label>Welcome call Survey</label>
+        <locationX>301</locationX>
+        <locationY>49</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Please_answer_the_below_short_survey</targetReference>
+        </connector>
+        <fields>
+            <name>Your_First_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Your First Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Your_Last_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Your Last Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Contact_Type</name>
+            <choiceReferences>Type</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Contact Type</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Welcome_call_Survey</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

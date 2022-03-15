@@ -1,0 +1,7 @@
+<apex:page >
+<br/>
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>This is Patient Info Screen</h1>
+  
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>
