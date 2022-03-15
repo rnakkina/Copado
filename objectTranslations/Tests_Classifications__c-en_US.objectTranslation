@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tests - Classifications</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tests - Classifications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Tests - Classifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>Patient__c</name>
+    </fields>
+    <fields>
+        <label><!-- Results --></label>
+        <name>Results__c</name>
+        <picklistValues>
+            <masterLabel>Free Movement</masterLabel>
+            <translation><!-- Free Movement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor Restrictions</masterLabel>
+            <translation><!-- Minor Restrictions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate Restrictions</masterLabel>
+            <translation><!-- Moderate Restrictions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severely Restricted</masterLabel>
+            <translation><!-- Severely Restricted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test Date --></label>
+        <name>Test_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tests/Classifications --></label>
+        <name>Tests_Classifications__c</name>
+        <picklistValues>
+            <masterLabel>Activity Level</masterLabel>
+            <translation><!-- Activity Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bone Mineral Density</masterLabel>
+            <translation><!-- Bone Mineral Density --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD4 Tests</masterLabel>
+            <translation><!-- CD4 Tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CTEPH + Combo</masterLabel>
+            <translation><!-- CTEPH + Combo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CTEPH + Mono</masterLabel>
+            <translation><!-- CTEPH + Mono --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chest X-Ray</masterLabel>
+            <translation><!-- Chest X-Ray --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DLQI</masterLabel>
+            <translation><!-- DLQI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECOG</masterLabel>
+            <translation><!-- ECOG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDDS</masterLabel>
+            <translation><!-- EDDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERT Patient Re-Consent 2019</masterLabel>
+            <translation><!-- ERT Patient Re-Consent 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genotype – Hepatitis C</masterLabel>
+            <translation><!-- Genotype – Hepatitis C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KRAS Test</masterLabel>
+            <translation><!-- KRAS Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liver Function Tests</masterLabel>
+            <translation><!-- Liver Function Tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ Phase</masterLabel>
+            <translation><!-- NJ Phase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OP-Impact to Life</masterLabel>
+            <translation><!-- OP-Impact to Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P1NP</masterLabel>
+            <translation><!-- P1NP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P1NP baseline</masterLabel>
+            <translation><!-- P1NP baseline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAH + Combo</masterLabel>
+            <translation><!-- PAH + Combo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAH + Mono</masterLabel>
+            <translation><!-- PAH + Mono --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASI</masterLabel>
+            <translation><!-- PASI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEG-J</masterLabel>
+            <translation><!-- PEG-J --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuberculosis Test</masterLabel>
+            <translation><!-- Tuberculosis Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WHO Classification (PAH)</masterLabel>
+            <translation><!-- WHO Classification (PAH) --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Tests/Classifications Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Go_To_Patient --></label>
+        <name>Go_To_Patient</name>
+    </webLinks>
+</CustomObjectTranslation>

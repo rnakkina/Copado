@@ -129,6 +129,46 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Amount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BudgetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ChannelPartnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalApprovedFcs</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalApprovedFrs</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalReimbursedFcs</fullName>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>Budget</customTabListAdditionalFields>
         <customTabListAdditionalFields>ChannelPartner</customTabListAdditionalFields>
@@ -148,14 +188,4 @@
         <searchResultsAdditionalFields>Amount</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
-    <listViews>
-        <fullName>My_Partner_Fund_Allocations</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Partner Fund Allocations</label>
-    </listViews>
-    <listViews>
-        <fullName>All_Partner_Fund_Allocations</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Partner Fund Allocations</label>
-    </listViews>
 </CustomObject>

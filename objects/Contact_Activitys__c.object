@@ -153,26 +153,95 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Contact Activities</label>
-    <nameField>
-        <displayFormat>Act-{000000000}</displayFormat>
-        <label>Activity Id</label>
+    <fields>
+        <fullName>Case_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case Manager</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.UserRole.Name</field>
+                <operation>equals</operation>
+                <value>Case Manager</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contact_Activities</relationshipName>
+        <required>false</required>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Contact Activities</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Contact_Activities__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>New__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Sub_Type__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Disposition__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Activities__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact_Activities</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Contact_Activities</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Disposition__c</fullName>
+        <externalId>false</externalId>
+        <label>Disposition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Sub_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fax</fullName>
+                    <default>false</default>
+                    <label>Fax</label>
+                </value>
+                <value>
+                    <fullName>Unable to Reach HCP</fullName>
+                    <default>false</default>
+                    <label>Unable to Reach HCP</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Caprelsa Certified</controllingFieldValue>
+                <controllingFieldValue>Escalation</controllingFieldValue>
+                <controllingFieldValue>Exception</controllingFieldValue>
+                <valueName>Fax</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Clinic Notification</controllingFieldValue>
+                <controllingFieldValue>Exception</controllingFieldValue>
+                <valueName>Unable to Reach HCP</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
     <fields>
         <fullName>Due__c</fullName>
         <externalId>false</externalId>
@@ -192,49 +261,36 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Type__c</fullName>
+        <fullName>Preceding_Activity__c</fullName>
         <externalId>false</externalId>
-        <label>Type</label>
-        <required>true</required>
+        <label>Preceding Activity</label>
+        <length>100</length>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>CL</fullName>
-                    <default>false</default>
-                    <label>CL</label>
-                </value>
-                <value>
-                    <fullName>CL-1</fullName>
-                    <default>false</default>
-                    <label>CL-1</label>
-                </value>
-                <value>
-                    <fullName>CL-2</fullName>
-                    <default>false</default>
-                    <label>CL-2</label>
-                </value>
-                <value>
-                    <fullName>CM</fullName>
-                    <default>false</default>
-                    <label>CM</label>
-                </value>
-                <value>
-                    <fullName>CM-PAH-ON</fullName>
-                    <default>false</default>
-                    <label>CM-PAH-ON</label>
-                </value>
-                <value>
-                    <fullName>CM-PAH-QA</fullName>
-                    <default>false</default>
-                    <label>CM-PAH-QA</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reimbursement_Agent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Reimbursement Agent</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.UserRole.Name</field>
+                <operation>equals</operation>
+                <value>Reimbursement Agent</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contact_Activities1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Status__c</fullName>
@@ -265,15 +321,6 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>Comments__c</fullName>
-        <externalId>false</externalId>
-        <label>Comments</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Sub_Type__c</fullName>
@@ -334,122 +381,70 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Description__c</fullName>
+        <fullName>Type__c</fullName>
         <externalId>false</externalId>
-        <label>Description</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>Disposition__c</fullName>
-        <externalId>false</externalId>
-        <label>Disposition</label>
-        <required>false</required>
+        <label>Type</label>
+        <required>true</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
-            <controllingField>Sub_Type__c</controllingField>
             <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Fax</fullName>
+                    <fullName>CL</fullName>
                     <default>false</default>
-                    <label>Fax</label>
+                    <label>CL</label>
                 </value>
                 <value>
-                    <fullName>Unable to Reach HCP</fullName>
+                    <fullName>CL-1</fullName>
                     <default>false</default>
-                    <label>Unable to Reach HCP</label>
+                    <label>CL-1</label>
+                </value>
+                <value>
+                    <fullName>CL-2</fullName>
+                    <default>false</default>
+                    <label>CL-2</label>
+                </value>
+                <value>
+                    <fullName>CM</fullName>
+                    <default>false</default>
+                    <label>CM</label>
+                </value>
+                <value>
+                    <fullName>CM-PAH-ON</fullName>
+                    <default>false</default>
+                    <label>CM-PAH-ON</label>
+                </value>
+                <value>
+                    <fullName>CM-PAH-QA</fullName>
+                    <default>false</default>
+                    <label>CM-PAH-QA</label>
                 </value>
             </valueSetDefinition>
-            <valueSettings>
-                <controllingFieldValue>Caprelsa Certified</controllingFieldValue>
-                <controllingFieldValue>Escalation</controllingFieldValue>
-                <controllingFieldValue>Exception</controllingFieldValue>
-                <valueName>Fax</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Clinic Notification</controllingFieldValue>
-                <controllingFieldValue>Exception</controllingFieldValue>
-                <valueName>Unable to Reach HCP</valueName>
-            </valueSettings>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>Case_Manager__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Case Manager</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>User.UserRole.Name</field>
-                <operation>equals</operation>
-                <value>Case Manager</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>User</referenceTo>
-        <relationshipName>Contact_Activities</relationshipName>
-        <required>false</required>
+    <label>Contact Activities</label>
+    <nameField>
+        <displayFormat>Act-{000000000}</displayFormat>
+        <label>Activity Id</label>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Contact_Activities__c</fullName>
-        <externalId>false</externalId>
-        <label>Contact_Activities</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipName>Contact_Activities</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
-        <fullName>Preceding_Activity__c</fullName>
-        <externalId>false</externalId>
-        <label>Preceding Activity</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Reimbursement_Agent__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Reimbursement Agent</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>User.UserRole.Name</field>
-                <operation>equals</operation>
-                <value>Reimbursement Agent</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>User</referenceTo>
-        <relationshipName>Contact_Activities1</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Contact Activities</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Contact_Activities__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>New__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Sub_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Disposition__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Go_To_Patient</fullName>
         <availability>online</availability>

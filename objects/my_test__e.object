@@ -3,9 +3,6 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <description>my test</description>
     <eventType>HighVolume</eventType>
-    <label>my test</label>
-    <pluralLabel>my tests</pluralLabel>
-    <publishBehavior>PublishAfterCommit</publishBehavior>
     <fields>
         <fullName>Check__c</fullName>
         <defaultValue>false</defaultValue>
@@ -29,4 +26,7 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <label>my test</label>
+    <pluralLabel>my tests</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
 </CustomObject>

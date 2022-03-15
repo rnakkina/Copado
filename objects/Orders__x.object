@@ -121,36 +121,6 @@
     <enableSearch>true</enableSearch>
     <externalDataSource>OrderDB</externalDataSource>
     <externalName>Orders</externalName>
-    <label>Orders</label>
-    <pluralLabel>Orders</pluralLabel>
-    <searchLayouts/>
-    <fields>
-        <fullName>orderID__c</fullName>
-        <description>orderID</description>
-        <externalDeveloperName>orderID</externalDeveloperName>
-        <externalId>false</externalId>
-        <isFilteringDisabled>false</isFilteringDisabled>
-        <isNameField>false</isNameField>
-        <isSortingDisabled>false</isSortingDisabled>
-        <label>orderID</label>
-        <length>18</length>
-        <referenceTo>Orders__x</referenceTo>
-        <relationshipLabel>Orders</relationshipLabel>
-        <relationshipName>Orders</relationshipName>
-        <type>ExternalLookup</type>
-    </fields>
-    <fields>
-        <fullName>orderDate__c</fullName>
-        <description>orderDate</description>
-        <externalDeveloperName>orderDate</externalDeveloperName>
-        <externalId>false</externalId>
-        <isFilteringDisabled>false</isFilteringDisabled>
-        <isNameField>false</isNameField>
-        <isSortingDisabled>false</isSortingDisabled>
-        <label>orderDate</label>
-        <required>false</required>
-        <type>DateTime</type>
-    </fields>
     <fields>
         <fullName>customerID__c</fullName>
         <description>customerID</description>
@@ -168,6 +138,33 @@
         <type>IndirectLookup</type>
     </fields>
     <fields>
+        <fullName>orderDate__c</fullName>
+        <description>orderDate</description>
+        <externalDeveloperName>orderDate</externalDeveloperName>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>orderDate</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>orderID__c</fullName>
+        <description>orderID</description>
+        <externalDeveloperName>orderID</externalDeveloperName>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>orderID</label>
+        <length>18</length>
+        <referenceTo>Orders__x</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <type>ExternalLookup</type>
+    </fields>
+    <fields>
         <fullName>shippedDate__c</fullName>
         <description>shippedDate</description>
         <externalDeveloperName>shippedDate</externalDeveloperName>
@@ -179,9 +176,7 @@
         <required>false</required>
         <type>DateTime</type>
     </fields>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <label>Orders</label>
+    <pluralLabel>Orders</pluralLabel>
+    <searchLayouts/>
 </CustomObject>

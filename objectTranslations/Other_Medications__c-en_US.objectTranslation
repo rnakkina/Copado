@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OtherMedication</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OtherMedications</value>
+    </caseValues>
+    <fields>
+        <label><!-- DIN # --></label>
+        <name>DIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drug --></label>
+        <name>Drug__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>Frequency__c</name>
+        <picklistValues>
+            <masterLabel>3 times a day (TID)</masterLabel>
+            <translation><!-- 3 times a day (TID) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 times a day (QID)</masterLabel>
+            <translation><!-- 4 times a day (QID) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>After meals</masterLabel>
+            <translation><!-- After meals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bedtime (qhs)</masterLabel>
+            <translation><!-- Bedtime (qhs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before meals</masterLabel>
+            <translation><!-- Before meals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every other week</masterLabel>
+            <translation><!-- Every other week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twice a day (BID)</masterLabel>
+            <translation><!-- Twice a day (BID) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>Other_Medication__c</name>
+        <relationshipLabel><!-- OtherMedications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- OtherMedications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Specify Drug --></label>
+        <name>Specify_Drug__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Other Medication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Go_To_Patient --></label>
+        <name>Go_To_Patient</name>
+    </webLinks>
+</CustomObjectTranslation>

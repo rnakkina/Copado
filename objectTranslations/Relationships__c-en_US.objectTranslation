@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Relationships</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relationships</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Relationships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Main Contact --></label>
+        <name>Main_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related To --></label>
+        <name>Related_To__c</name>
+        <relationshipLabel><!-- Relationships (Related To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship Type --></label>
+        <name>Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Admin Assistant</masterLabel>
+            <translation><!-- Admin Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Affiliated With</masterLabel>
+            <translation><!-- Affiliated With --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent</masterLabel>
+            <translation><!-- Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alumni</masterLabel>
+            <translation><!-- Alumni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank Attorney</masterLabel>
+            <translation><!-- Bank Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits Analyst</masterLabel>
+            <translation><!-- Benefits Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill To</masterLabel>
+            <translation><!-- Bill To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board Member</masterLabel>
+            <translation><!-- Board Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boss</masterLabel>
+            <translation><!-- Boss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buying Influence</masterLabel>
+            <translation><!-- Buying Influence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Care Coach</masterLabel>
+            <translation><!-- Care Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caregiver</masterLabel>
+            <translation><!-- Caregiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Manager</masterLabel>
+            <translation><!-- Case Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinic Nurse</masterLabel>
+            <translation><!-- Clinic Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinic Nurse - Secondary</masterLabel>
+            <translation><!-- Clinic Nurse - Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation><!-- Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custodian</masterLabel>
+            <translation><!-- Custodian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DNE</masterLabel>
+            <translation><!-- DNE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daughter</masterLabel>
+            <translation><!-- Daughter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debtor Attorney</masterLabel>
+            <translation><!-- Debtor Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation><!-- Employer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enrollee</masterLabel>
+            <translation><!-- Enrollee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enrolling Doctor</masterLabel>
+            <translation><!-- Enrolling Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executor</masterLabel>
+            <translation><!-- Executor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faculty</masterLabel>
+            <translation><!-- Faculty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Member</masterLabel>
+            <translation><!-- Family Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Physician</masterLabel>
+            <translation><!-- Family Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Case Manager</masterLabel>
+            <translation><!-- Field Case Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Nurse</masterLabel>
+            <translation><!-- Field Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Analyst</masterLabel>
+            <translation><!-- Financial Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financier</masterLabel>
+            <translation><!-- Financier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardian</masterLabel>
+            <translation><!-- Guardian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Husband</masterLabel>
+            <translation><!-- Husband --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurer Contact</masterLabel>
+            <translation><!-- Insurer Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investor</masterLabel>
+            <translation><!-- Investor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint</masterLabel>
+            <translation><!-- Joint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Known Associate</masterLabel>
+            <translation><!-- Known Associate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lawyer</masterLabel>
+            <translation><!-- Lawyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lived With</masterLabel>
+            <translation><!-- Lived With --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Met With</masterLabel>
+            <translation><!-- Met With --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighbour</masterLabel>
+            <translation><!-- Neighbour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None Specified</masterLabel>
+            <translation><!-- None Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ODANO</masterLabel>
+            <translation><!-- ODANO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Clerk</masterLabel>
+            <translation><!-- Office Clerk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Attorney</masterLabel>
+            <translation><!-- Other Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCS</masterLabel>
+            <translation><!-- PCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLS</masterLabel>
+            <translation><!-- PLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMS</masterLabel>
+            <translation><!-- PMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POA</masterLabel>
+            <translation><!-- POA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parents</masterLabel>
+            <translation><!-- Parents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership</masterLabel>
+            <translation><!-- Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient</masterLabel>
+            <translation><!-- Patient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payer</masterLabel>
+            <translation><!-- Payer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Assistant</masterLabel>
+            <translation><!-- Personal Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power of Attorney</masterLabel>
+            <translation><!-- Power of Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescribing Doctor</masterLabel>
+            <translation><!-- Prescribing Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Contact (Backup)</masterLabel>
+            <translation><!-- Primary Contact (Backup) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Influence</masterLabel>
+            <translation><!-- Product Influence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proxy User</masterLabel>
+            <translation><!-- Proxy User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchases From</masterLabel>
+            <translation><!-- Purchases From --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNM</masterLabel>
+            <translation><!-- RNM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referred By</masterLabel>
+            <translation><!-- Referred By --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refers To</masterLabel>
+            <translation><!-- Refers To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reimbursement Agent</masterLabel>
+            <translation><!-- Reimbursement Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Subsidiary</masterLabel>
+            <translation><!-- Related Subsidiary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports To</masterLabel>
+            <translation><!-- Reports To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCN</masterLabel>
+            <translation><!-- SCN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation><!-- Service Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Worker</masterLabel>
+            <translation><!-- Social Worker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Son</masterLabel>
+            <translation><!-- Son --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staff</masterLabel>
+            <translation><!-- Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student</masterLabel>
+            <translation><!-- Student --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subordinate</masterLabel>
+            <translation><!-- Subordinate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior</masterLabel>
+            <translation><!-- Superior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Influence</masterLabel>
+            <translation><!-- Technical Influence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustee Attorney</masterLabel>
+            <translation><!-- Trustee Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wife</masterLabel>
+            <translation><!-- Wife --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Relationships Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Go_To_Patient --></label>
+        <name>Go_To_Patient</name>
+    </webLinks>
+</CustomObjectTranslation>

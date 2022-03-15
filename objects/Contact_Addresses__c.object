@@ -153,22 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Contact Address</label>
-    <nameField>
-        <displayFormat>R-{000000000}</displayFormat>
-        <label>Contact_Addresses Name</label>
-        <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Contact Address</pluralLabel>
-    <searchLayouts>
-        <lookupDialogsAdditionalFields>Address__c</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Address__c</lookupPhoneDialogsAdditionalFields>
-        <searchFilterFields>NAME</searchFilterFields>
-        <searchFilterFields>Address__c</searchFilterFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Address__c</fullName>
         <externalId>false</externalId>
@@ -195,6 +179,22 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
+    <label>Contact Address</label>
+    <nameField>
+        <displayFormat>R-{000000000}</displayFormat>
+        <label>Contact_Addresses Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Contact Address</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Address__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Address__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Address__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Go_To_Patient</fullName>
         <availability>online</availability>

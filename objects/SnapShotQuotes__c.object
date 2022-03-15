@@ -153,15 +153,16 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>SnapShotQuotes</label>
-    <nameField>
-        <label>SnapShotQuotes Name</label>
+    <fields>
+        <fullName>ConName__c</fullName>
+        <externalId>false</externalId>
+        <label>ConName</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>Text</type>
-    </nameField>
-    <pluralLabel>SnapShotQuotes</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>GDT__c</fullName>
         <externalId>false</externalId>
@@ -173,15 +174,14 @@
         <type>Currency</type>
     </fields>
     <fields>
-        <fullName>per__c</fullName>
+        <fullName>GrandTotal__c</fullName>
         <externalId>false</externalId>
-        <label>per</label>
-        <precision>18</precision>
+        <label>GrandTotal</label>
+        <precision>17</precision>
         <required>false</required>
-        <scale>0</scale>
+        <scale>2</scale>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Qunum__c</fullName>
@@ -195,23 +195,23 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>ConName__c</fullName>
+        <fullName>per__c</fullName>
         <externalId>false</externalId>
-        <label>ConName</label>
-        <length>150</length>
+        <label>per</label>
+        <precision>18</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>GrandTotal__c</fullName>
-        <externalId>false</externalId>
-        <label>GrandTotal</label>
-        <precision>17</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
+    <label>SnapShotQuotes</label>
+    <nameField>
+        <label>SnapShotQuotes Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>SnapShotQuotes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

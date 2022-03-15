@@ -154,32 +154,561 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Insurance</label>
-    <nameField>
-        <displayFormat>INS-{000000000}</displayFormat>
-        <label>Insurance Num</label>
+    <fields>
+        <fullName>Adjudicator_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Adjudicator Phone #</label>
+        <required>false</required>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Insurances</pluralLabel>
-    <searchLayouts>
-        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Insurance_End_Date__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Insurance_Start_Date__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Insurer__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Payor_Type__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Insurer__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Payor_Type__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Insurance_End_Date__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Insurance_Start_Date__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Adjudicator__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Adjudicator</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Adjudicator</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Insurances (Adjudicator)</relationshipLabel>
+        <relationshipName>Insurances1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Allowable_Markup__c</fullName>
+        <externalId>false</externalId>
+        <label>Allowable Markup</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Annual_Max_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual Max Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Annual_Max_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual Max Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Family</fullName>
+                    <default>false</default>
+                    <label>Family</label>
+                </value>
+                <value>
+                    <fullName>Self</fullName>
+                    <default>false</default>
+                    <label>Self</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Annual_Max__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual Max</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Billing_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Online Billing</fullName>
+                    <default>false</default>
+                    <label>Online Billing</label>
+                </value>
+                <value>
+                    <fullName>Agreement to Pay</fullName>
+                    <default>false</default>
+                    <label>Agreement to Pay</label>
+                </value>
+                <value>
+                    <fullName>Assignment of Benefits</fullName>
+                    <default>false</default>
+                    <label>Assignment of Benefits</label>
+                </value>
+                <value>
+                    <fullName>Invoice</fullName>
+                    <default>false</default>
+                    <label>Invoice</label>
+                </value>
+                <value>
+                    <fullName>Online Deferred Billing</fullName>
+                    <default>false</default>
+                    <label>Online Deferred Billing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cap_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Cap Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Private</fullName>
+                    <default>false</default>
+                    <label>Private</label>
+                </value>
+                <value>
+                    <fullName>Public</fullName>
+                    <default>false</default>
+                    <label>Public</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Carrier_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Carrier Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Change__c</fullName>
+        <externalId>false</externalId>
+        <label>% Change</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Insurances</relationshipLabel>
+        <relationshipName>Insurances</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Coverage_For__c</fullName>
+        <externalId>false</externalId>
+        <label>Coverage For</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Drug</fullName>
+                    <default>false</default>
+                    <label>Drug</label>
+                </value>
+                <value>
+                    <fullName>Infusions</fullName>
+                    <default>false</default>
+                    <label>Infusions</label>
+                </value>
+                <value>
+                    <fullName>Nursing</fullName>
+                    <default>false</default>
+                    <label>Nursing</label>
+                </value>
+                <value>
+                    <fullName>Pumps</fullName>
+                    <default>false</default>
+                    <label>Pumps</label>
+                </value>
+                <value>
+                    <fullName>Supplies</fullName>
+                    <default>false</default>
+                    <label>Supplies</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Coverage_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Coverage Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Coverage_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Coverage Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Insurance %</fullName>
+                    <default>false</default>
+                    <label>Insurance %</label>
+                </value>
+                <value>
+                    <fullName>FA/CU</fullName>
+                    <default>false</default>
+                    <label>FA/CU</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Coverage__c</fullName>
+        <externalId>false</externalId>
+        <label>Coverage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Day_Supply_Limit__c</fullName>
+        <externalId>false</externalId>
+        <label>Day Supply Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deductible_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Deductible Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Deductible_Frequency__c</fullName>
+        <externalId>false</externalId>
+        <label>Deductible Frequency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Annual</fullName>
+                    <default>false</default>
+                    <label>Annual</label>
+                </value>
+                <value>
+                    <fullName>Bi-Annual</fullName>
+                    <default>false</default>
+                    <label>Bi-Annual</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Week</fullName>
+                    <default>false</default>
+                    <label>Week</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Deductible_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Deductible Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Deductible_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Deductible Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Family</fullName>
+                    <default>false</default>
+                    <label>Family</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Deductible_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Deductible Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deductible__c</fullName>
+        <externalId>false</externalId>
+        <label>Deductible</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Dispensing_Cap__c</fullName>
+        <externalId>false</externalId>
+        <label>Dispensing Cap</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Eligible_Benefit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Eligible Benefit</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FA_CU_Pay_to_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>FA/CU Pay to Notes</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FA_CU_Pay_to__c</fullName>
+        <externalId>false</externalId>
+        <label>FA/CU Pay to</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Patient</fullName>
+                    <default>false</default>
+                    <label>Patient</label>
+                </value>
+                <value>
+                    <fullName>Pharmacy</fullName>
+                    <default>false</default>
+                    <label>Pharmacy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Id_Cert__c</fullName>
+        <externalId>false</externalId>
+        <label>Id/Cert #</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurance End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Insurance_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurance Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Insurer_Fax__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurer Fax #</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Insurer_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurer Phone #</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Insurer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Insurer</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Insurance Company</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Insurances</relationshipLabel>
+        <relationshipName>Insurances</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>LCA__c</fullName>
         <externalId>false</externalId>
@@ -206,56 +735,43 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Type__c</fullName>
+        <fullName>Lifetime_Max_Amt__c</fullName>
         <externalId>false</externalId>
-        <label>Type</label>
-        <required>true</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Primary</fullName>
-                    <default>false</default>
-                    <label>Primary</label>
-                </value>
-                <value>
-                    <fullName>Secondary</fullName>
-                    <default>false</default>
-                    <label>Secondary</label>
-                </value>
-                <value>
-                    <fullName>Tertiary</fullName>
-                    <default>false</default>
-                    <label>Tertiary</label>
-                </value>
-                <value>
-                    <fullName>None</fullName>
-                    <default>false</default>
-                    <label>None</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Change__c</fullName>
-        <externalId>false</externalId>
-        <label>% Change</label>
+        <label>Lifetime Max Amt</label>
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Percent</type>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Status__c</fullName>
+        <fullName>Lifetime_Max_Date__c</fullName>
         <externalId>false</externalId>
-        <label>Status</label>
-        <required>true</required>
+        <label>Lifetime Max Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lifetime_Max_Remaining__c</fullName>
+        <externalId>false</externalId>
+        <label>Lifetime Max Remaining</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lifetime_Max_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Lifetime Max Type</label>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -264,27 +780,22 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Active</fullName>
+                    <fullName>Individual</fullName>
                     <default>false</default>
-                    <label>Active</label>
+                    <label>Individual</label>
                 </value>
                 <value>
-                    <fullName>Inactive</fullName>
+                    <fullName>Family</fullName>
                     <default>false</default>
-                    <label>Inactive</label>
-                </value>
-                <value>
-                    <fullName>Canceled</fullName>
-                    <default>false</default>
-                    <label>Canceled</label>
+                    <label>Family</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
-        <fullName>Tiered__c</fullName>
+        <fullName>Lifetime_Max__c</fullName>
         <externalId>false</externalId>
-        <label>Tiered</label>
+        <label>Lifetime Max</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -307,23 +818,71 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Contact__c</fullName>
+        <fullName>Max_Notes__c</fullName>
         <externalId>false</externalId>
-        <label>Contact</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Insurances</relationshipLabel>
-        <relationshipName>Insurances</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <label>Max Notes</label>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+        <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>Id_Cert__c</fullName>
+        <fullName>Out_of_Pocket_Amount__c</fullName>
         <externalId>false</externalId>
-        <label>Id/Cert #</label>
+        <label>Out of Pocket Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Payor_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Payor Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Private</fullName>
+                    <default>false</default>
+                    <label>Private</label>
+                </value>
+                <value>
+                    <fullName>Public</fullName>
+                    <default>false</default>
+                    <label>Public</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Person_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Person Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Policy_Plan__c</fullName>
+        <externalId>false</externalId>
+        <label>Policy/Plan #</label>
         <length>100</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -332,26 +891,68 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Insurer__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
+        <fullName>Preferred_Pharmacy_Notes__c</fullName>
         <externalId>false</externalId>
-        <label>Insurer</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>Account.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Insurance Company</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>Insurances</relationshipLabel>
-        <relationshipName>Insurances</relationshipName>
+        <label>Preferred Pharmacy Notes</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Lookup</type>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Pharmacy_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Pharmacy Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mandatory</fullName>
+                    <default>false</default>
+                    <label>Mandatory</label>
+                </value>
+                <value>
+                    <fullName>Voluntary</fullName>
+                    <default>false</default>
+                    <label>Voluntary</label>
+                </value>
+                <value>
+                    <fullName>Coverage Difference</fullName>
+                    <default>false</default>
+                    <label>Coverage Difference</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Preferred_Pharmacy__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Pharmacy</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Premium__c</fullName>
@@ -400,9 +1001,18 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Cap_Type__c</fullName>
+        <fullName>Registration_Date__c</fullName>
         <externalId>false</externalId>
-        <label>Cap Type</label>
+        <label>Registration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -412,38 +1022,167 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Private</fullName>
+                    <fullName>Self</fullName>
                     <default>false</default>
-                    <label>Private</label>
+                    <label>Self</label>
                 </value>
                 <value>
-                    <fullName>Public</fullName>
+                    <fullName>Spouse</fullName>
                     <default>false</default>
-                    <label>Public</label>
+                    <label>Spouse</label>
+                </value>
+                <value>
+                    <fullName>Dependent</fullName>
+                    <default>false</default>
+                    <label>Dependent</label>
+                </value>
+                <value>
+                    <fullName>Not Known</fullName>
+                    <default>false</default>
+                    <label>Not Known</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
-        <fullName>Coverage__c</fullName>
+        <fullName>Sliding_Copay_Frequency__c</fullName>
         <externalId>false</externalId>
-        <label>Coverage</label>
-        <precision>18</precision>
+        <label>Sliding Copay Frequency</label>
         <required>false</required>
-        <scale>0</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Annual</fullName>
+                    <default>false</default>
+                    <label>Annual</label>
+                </value>
+                <value>
+                    <fullName>Bi-Annual</fullName>
+                    <default>false</default>
+                    <label>Bi-Annual</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Week</fullName>
+                    <default>false</default>
+                    <label>Week</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
-        <fullName>Max_Notes__c</fullName>
+        <fullName>Sliding_Copay_Type__c</fullName>
         <externalId>false</externalId>
-        <label>Max Notes</label>
+        <label>Sliding Copay Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>TextArea</type>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Family</fullName>
+                    <default>false</default>
+                    <label>Family</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sliding_Copay__c</fullName>
+        <externalId>false</externalId>
+        <label>Sliding Copay</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subscriber_DOB__c</fullName>
+        <externalId>false</externalId>
+        <label>Subscriber DOB</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Subscriber_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Subscriber Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Tier_Desc__c</fullName>
@@ -455,39 +1194,9 @@
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>Year_Type__c</fullName>
+        <fullName>Tiered__c</fullName>
         <externalId>false</externalId>
-        <label>Year Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Calendar</fullName>
-                    <default>false</default>
-                    <label>Calendar</label>
-                </value>
-                <value>
-                    <fullName>Policy</fullName>
-                    <default>false</default>
-                    <label>Policy</label>
-                </value>
-                <value>
-                    <fullName>Bi-Annual</fullName>
-                    <default>false</default>
-                    <label>Bi-Annual</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Annual_Max__c</fullName>
-        <externalId>false</externalId>
-        <label>Annual Max</label>
+        <label>Tiered</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -510,21 +1219,10 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Carrier_Id__c</fullName>
+        <fullName>Type__c</fullName>
         <externalId>false</externalId>
-        <label>Carrier Id</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Deductible__c</fullName>
-        <externalId>false</externalId>
-        <label>Deductible</label>
-        <required>false</required>
+        <label>Type</label>
+        <required>true</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -533,39 +1231,19 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Yes</fullName>
+                    <fullName>Primary</fullName>
                     <default>false</default>
-                    <label>Yes</label>
+                    <label>Primary</label>
                 </value>
                 <value>
-                    <fullName>No</fullName>
+                    <fullName>Secondary</fullName>
                     <default>false</default>
-                    <label>No</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Payor_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Payor Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Private</fullName>
-                    <default>false</default>
-                    <label>Private</label>
+                    <label>Secondary</label>
                 </value>
                 <value>
-                    <fullName>Public</fullName>
+                    <fullName>Tertiary</fullName>
                     <default>false</default>
-                    <label>Public</label>
+                    <label>Tertiary</label>
                 </value>
                 <value>
                     <fullName>None</fullName>
@@ -651,63 +1329,9 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Adjudicator__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
+        <fullName>Year_Type__c</fullName>
         <externalId>false</externalId>
-        <label>Adjudicator</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>Account.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Adjudicator</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>Insurances (Adjudicator)</relationshipLabel>
-        <relationshipName>Insurances1</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Insurer_Fax__c</fullName>
-        <externalId>false</externalId>
-        <label>Insurer Fax #</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Phone</type>
-    </fields>
-    <fields>
-        <fullName>Person_Code__c</fullName>
-        <externalId>false</externalId>
-        <label>Person Code</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Policy_Plan__c</fullName>
-        <externalId>false</externalId>
-        <label>Policy/Plan #</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Coverage_For__c</fullName>
-        <externalId>false</externalId>
-        <label>Coverage For</label>
+        <label>Year Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -717,678 +1341,49 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Drug</fullName>
+                    <fullName>Calendar</fullName>
                     <default>false</default>
-                    <label>Drug</label>
+                    <label>Calendar</label>
                 </value>
                 <value>
-                    <fullName>Infusions</fullName>
+                    <fullName>Policy</fullName>
                     <default>false</default>
-                    <label>Infusions</label>
-                </value>
-                <value>
-                    <fullName>Nursing</fullName>
-                    <default>false</default>
-                    <label>Nursing</label>
-                </value>
-                <value>
-                    <fullName>Pumps</fullName>
-                    <default>false</default>
-                    <label>Pumps</label>
-                </value>
-                <value>
-                    <fullName>Supplies</fullName>
-                    <default>false</default>
-                    <label>Supplies</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>FA_CU_Pay_to__c</fullName>
-        <externalId>false</externalId>
-        <label>FA/CU Pay to</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Patient</fullName>
-                    <default>false</default>
-                    <label>Patient</label>
-                </value>
-                <value>
-                    <fullName>Pharmacy</fullName>
-                    <default>false</default>
-                    <label>Pharmacy</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Lifetime_Max__c</fullName>
-        <externalId>false</externalId>
-        <label>Lifetime Max</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Yes</fullName>
-                    <default>false</default>
-                    <label>Yes</label>
-                </value>
-                <value>
-                    <fullName>No</fullName>
-                    <default>false</default>
-                    <label>No</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Relationship__c</fullName>
-        <externalId>false</externalId>
-        <label>Relationship</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Self</fullName>
-                    <default>false</default>
-                    <label>Self</label>
-                </value>
-                <value>
-                    <fullName>Spouse</fullName>
-                    <default>false</default>
-                    <label>Spouse</label>
-                </value>
-                <value>
-                    <fullName>Dependent</fullName>
-                    <default>false</default>
-                    <label>Dependent</label>
-                </value>
-                <value>
-                    <fullName>Not Known</fullName>
-                    <default>false</default>
-                    <label>Not Known</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Coverage_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Coverage Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Insurance %</fullName>
-                    <default>false</default>
-                    <label>Insurance %</label>
-                </value>
-                <value>
-                    <fullName>FA/CU</fullName>
-                    <default>false</default>
-                    <label>FA/CU</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Insurer_Phone__c</fullName>
-        <externalId>false</externalId>
-        <label>Insurer Phone #</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Phone</type>
-    </fields>
-    <fields>
-        <fullName>Sliding_Copay__c</fullName>
-        <externalId>false</externalId>
-        <label>Sliding Copay</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Yes</fullName>
-                    <default>false</default>
-                    <label>Yes</label>
-                </value>
-                <value>
-                    <fullName>No</fullName>
-                    <default>false</default>
-                    <label>No</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Billing_Method__c</fullName>
-        <externalId>false</externalId>
-        <label>Billing Method</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Online Billing</fullName>
-                    <default>false</default>
-                    <label>Online Billing</label>
-                </value>
-                <value>
-                    <fullName>Agreement to Pay</fullName>
-                    <default>false</default>
-                    <label>Agreement to Pay</label>
-                </value>
-                <value>
-                    <fullName>Assignment of Benefits</fullName>
-                    <default>false</default>
-                    <label>Assignment of Benefits</label>
-                </value>
-                <value>
-                    <fullName>Invoice</fullName>
-                    <default>false</default>
-                    <label>Invoice</label>
-                </value>
-                <value>
-                    <fullName>Online Deferred Billing</fullName>
-                    <default>false</default>
-                    <label>Online Deferred Billing</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Coverage_Notes__c</fullName>
-        <externalId>false</externalId>
-        <label>Coverage Notes</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>Dispensing_Cap__c</fullName>
-        <externalId>false</externalId>
-        <label>Dispensing Cap</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Subscriber_DOB__c</fullName>
-        <externalId>false</externalId>
-        <label>Subscriber DOB</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Annual_Max_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Annual Max Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Family</fullName>
-                    <default>false</default>
-                    <label>Family</label>
-                </value>
-                <value>
-                    <fullName>Self</fullName>
-                    <default>false</default>
-                    <label>Self</label>
-                </value>
-                <value>
-                    <fullName>Unknown</fullName>
-                    <default>false</default>
-                    <label>Unknown</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Deductible_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Deductible Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Individual</fullName>
-                    <default>false</default>
-                    <label>Individual</label>
-                </value>
-                <value>
-                    <fullName>Family</fullName>
-                    <default>false</default>
-                    <label>Family</label>
-                </value>
-                <value>
-                    <fullName>Unknown</fullName>
-                    <default>false</default>
-                    <label>Unknown</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Deductible_Year__c</fullName>
-        <externalId>false</externalId>
-        <label>Deductible Year</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Subscriber_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>Subscriber Name</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Allowable_Markup__c</fullName>
-        <externalId>false</externalId>
-        <label>Allowable Markup</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Day_Supply_Limit__c</fullName>
-        <externalId>false</externalId>
-        <label>Day Supply Limit</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Deductible_Notes__c</fullName>
-        <externalId>false</externalId>
-        <label>Deductible Notes</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>Eligible_Benefit__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Eligible Benefit</label>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Lifetime_Max_Amt__c</fullName>
-        <externalId>false</externalId>
-        <label>Lifetime Max Amt</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Adjudicator_Phone__c</fullName>
-        <externalId>false</externalId>
-        <label>Adjudicator Phone #</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Phone</type>
-    </fields>
-    <fields>
-        <fullName>Annual_Max_Amount__c</fullName>
-        <externalId>false</externalId>
-        <label>Annual Max Amount</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Deductible_Amount__c</fullName>
-        <externalId>false</externalId>
-        <label>Deductible Amount</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Lifetime_Max_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Lifetime Max Date</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Lifetime_Max_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Lifetime Max Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Individual</fullName>
-                    <default>false</default>
-                    <label>Individual</label>
-                </value>
-                <value>
-                    <fullName>Family</fullName>
-                    <default>false</default>
-                    <label>Family</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Registration_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Registration Date</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>FA_CU_Pay_to_Notes__c</fullName>
-        <externalId>false</externalId>
-        <label>FA/CU Pay to Notes</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Insurance_End_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Insurance End Date</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Preferred_Pharmacy__c</fullName>
-        <externalId>false</externalId>
-        <label>Preferred Pharmacy</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Yes</fullName>
-                    <default>false</default>
-                    <label>Yes</label>
-                </value>
-                <value>
-                    <fullName>No</fullName>
-                    <default>false</default>
-                    <label>No</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Sliding_Copay_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Sliding Copay Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Individual</fullName>
-                    <default>false</default>
-                    <label>Individual</label>
-                </value>
-                <value>
-                    <fullName>Family</fullName>
-                    <default>false</default>
-                    <label>Family</label>
-                </value>
-                <value>
-                    <fullName>Unknown</fullName>
-                    <default>false</default>
-                    <label>Unknown</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Deductible_Frequency__c</fullName>
-        <externalId>false</externalId>
-        <label>Deductible Frequency</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Annual</fullName>
-                    <default>false</default>
-                    <label>Annual</label>
+                    <label>Policy</label>
                 </value>
                 <value>
                     <fullName>Bi-Annual</fullName>
                     <default>false</default>
                     <label>Bi-Annual</label>
                 </value>
-                <value>
-                    <fullName>Month</fullName>
-                    <default>false</default>
-                    <label>Month</label>
-                </value>
-                <value>
-                    <fullName>Week</fullName>
-                    <default>false</default>
-                    <label>Week</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>Insurance_Start_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Insurance Start Date</label>
-        <required>false</required>
+    <label>Insurance</label>
+    <nameField>
+        <displayFormat>INS-{000000000}</displayFormat>
+        <label>Insurance Num</label>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Out_of_Pocket_Amount__c</fullName>
-        <externalId>false</externalId>
-        <label>Out of Pocket Amount</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Lifetime_Max_Remaining__c</fullName>
-        <externalId>false</externalId>
-        <label>Lifetime Max Remaining</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Preferred_Pharmacy_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Preferred Pharmacy Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Mandatory</fullName>
-                    <default>false</default>
-                    <label>Mandatory</label>
-                </value>
-                <value>
-                    <fullName>Voluntary</fullName>
-                    <default>false</default>
-                    <label>Voluntary</label>
-                </value>
-                <value>
-                    <fullName>Coverage Difference</fullName>
-                    <default>false</default>
-                    <label>Coverage Difference</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Sliding_Copay_Frequency__c</fullName>
-        <externalId>false</externalId>
-        <label>Sliding Copay Frequency</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Annual</fullName>
-                    <default>false</default>
-                    <label>Annual</label>
-                </value>
-                <value>
-                    <fullName>Bi-Annual</fullName>
-                    <default>false</default>
-                    <label>Bi-Annual</label>
-                </value>
-                <value>
-                    <fullName>Month</fullName>
-                    <default>false</default>
-                    <label>Month</label>
-                </value>
-                <value>
-                    <fullName>Week</fullName>
-                    <default>false</default>
-                    <label>Week</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Preferred_Pharmacy_Notes__c</fullName>
-        <externalId>false</externalId>
-        <label>Preferred Pharmacy Notes</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>TextArea</type>
-    </fields>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Insurances</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Insurance_End_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Insurance_Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Insurer__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Payor_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Insurer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Payor_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Insurance_End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Insurance_Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Go_To_Patient</fullName>
         <availability>online</availability>

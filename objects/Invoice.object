@@ -87,6 +87,80 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>BillToContactId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillingAccountId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DueDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InvoiceDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InvoiceNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReferenceEntityId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalChargeAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalChargeAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalChargeTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
@@ -106,18 +180,4 @@
         <searchResultsAdditionalFields>BillToContact</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <listViews>
-        <fullName>mine</fullName>
-        <columns>Name</columns>
-        <columns>BillingAccount</columns>
-        <columns>Status</columns>
-        <columns>TotalAmount</columns>
-        <columns>TotalChargeAmount</columns>
-        <columns>TotalAdjustmentAmount</columns>
-        <columns>TotalTaxAmount</columns>
-        <columns>InvoiceDate</columns>
-        <columns>DueDate</columns>
-        <filterScope>Mine</filterScope>
-        <label>My Invoices</label>
-    </listViews>
 </CustomObject>

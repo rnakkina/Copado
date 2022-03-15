@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Payments</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Payments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Authorization Code --></label>
+        <name>Authorization_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorization Date --></label>
+        <name>Authorization_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address --></label>
+        <name>Billing_Address__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Card Holder --></label>
+        <name>Card_Holder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Card Number --></label>
+        <name>Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Month --></label>
+        <name>Expiration_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Year --></label>
+        <name>Expiration_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Automatic Debit</masterLabel>
+            <translation><!-- Automatic Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Me</masterLabel>
+            <translation><!-- Bill Me --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cashier Check</masterLabel>
+            <translation><!-- Cashier Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cashout Claim</masterLabel>
+            <translation><!-- Cashout Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claim</masterLabel>
+            <translation><!-- Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Memo</masterLabel>
+            <translation><!-- Credit Memo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deduction</masterLabel>
+            <translation><!-- Deduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Debit</masterLabel>
+            <translation><!-- Direct Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Deposit</masterLabel>
+            <translation><!-- Direct Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expenses</masterLabel>
+            <translation><!-- Expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indemnity Payment</masterLabel>
+            <translation><!-- Indemnity Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original Claim</masterLabel>
+            <translation><!-- Original Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Deposit</masterLabel>
+            <translation><!-- Payroll Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation><!-- Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Claim</masterLabel>
+            <translation><!-- Related Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIU Expenses</masterLabel>
+            <translation><!-- SIU Expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stored Value</masterLabel>
+            <translation><!-- Stored Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subrogation Expenses</masterLabel>
+            <translation><!-- Subrogation Expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party</masterLabel>
+            <translation><!-- Third Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire Transfer</masterLabel>
+            <translation><!-- Wire Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Status --></label>
+        <name>Payment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Type --></label>
+        <name>Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>American Express</masterLabel>
+            <translation><!-- American Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MASTER</masterLabel>
+            <translation><!-- MASTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISA</masterLabel>
+            <translation><!-- VISA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quote Payment --></label>
+        <name>Quote_Payment__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction Amount --></label>
+        <name>Transaction_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verification Number --></label>
+        <name>Verification_Number__c</name>
+    </fields>
+    <layouts>
+        <layout>Payments Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Back --></label>
+        <name>Back</name>
+    </webLinks>
+</CustomObjectTranslation>

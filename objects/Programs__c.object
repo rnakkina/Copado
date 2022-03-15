@@ -153,38 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Program</label>
-    <nameField>
-        <displayFormat>P-{000000000}</displayFormat>
-        <label>Programs Name</label>
-        <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Programs</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Patient_Program__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Program__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Program_Group__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Consent__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Start_Date__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>End_Date__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Registration_Date__c</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>OBJECT_ID</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Program__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Program_Group__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Start_Date__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>End_Date__c</lookupDialogsAdditionalFields>
-        <searchFilterFields>NAME</searchFilterFields>
-        <searchFilterFields>Program__c</searchFilterFields>
-        <searchFilterFields>Program_Group__c</searchFilterFields>
-        <searchResultsAdditionalFields>OBJECT_ID</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Program__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Program_Group__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Start_Date__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>End_Date__c</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Consent__c</fullName>
         <defaultValue>false</defaultValue>
@@ -193,6 +161,63 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Patient_Program__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Patient Program</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Programs</relationshipLabel>
+        <relationshipName>Programs_Contact</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Program_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Program Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manufacturer Program</fullName>
+                    <default>false</default>
+                    <label>Manufacturer Program</label>
+                </value>
+                <value>
+                    <fullName>Patient Inquiry</fullName>
+                    <default>false</default>
+                    <label>Patient Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Physician Referral</fullName>
+                    <default>false</default>
+                    <label>Physician Referral</label>
+                </value>
+                <value>
+                    <fullName>Referral GP</fullName>
+                    <default>false</default>
+                    <label>Referral GP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Program__c</fullName>
@@ -250,9 +275,9 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>End_Date__c</fullName>
+        <fullName>Registration_Date__c</fullName>
         <externalId>false</externalId>
-        <label>End Date</label>
+        <label>Registration Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -267,68 +292,38 @@
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
-    <fields>
-        <fullName>Program_Group__c</fullName>
-        <externalId>false</externalId>
-        <label>Program Group</label>
-        <required>false</required>
+    <label>Program</label>
+    <nameField>
+        <displayFormat>P-{000000000}</displayFormat>
+        <label>Programs Name</label>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Manufacturer Program</fullName>
-                    <default>false</default>
-                    <label>Manufacturer Program</label>
-                </value>
-                <value>
-                    <fullName>Patient Inquiry</fullName>
-                    <default>false</default>
-                    <label>Patient Inquiry</label>
-                </value>
-                <value>
-                    <fullName>Physician Referral</fullName>
-                    <default>false</default>
-                    <label>Physician Referral</label>
-                </value>
-                <value>
-                    <fullName>Referral GP</fullName>
-                    <default>false</default>
-                    <label>Referral GP</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Patient_Program__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Patient Program</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Programs</relationshipLabel>
-        <relationshipName>Programs_Contact</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Registration_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Registration Date</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Programs</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Patient_Program__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Program__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Program_Group__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Consent__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>End_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Registration_Date__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OBJECT_ID</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Program__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Program_Group__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>End_Date__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Program__c</searchFilterFields>
+        <searchFilterFields>Program_Group__c</searchFilterFields>
+        <searchResultsAdditionalFields>OBJECT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Program__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Program_Group__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>End_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Go_To_Patient</fullName>
         <availability>online</availability>

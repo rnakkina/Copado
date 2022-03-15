@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skill xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Admin</profile>
+            <profile>NRK Business Admin</profile>
+            <profile>NRK Call Center</profile>
+            <profile>NRK Call Center Admin</profile>
+            <profile>NRK Call Center Rep</profile>
+            <profile>NRK Case Management</profile>
+            <profile>NRK Clinical Profile</profile>
+            <profile>NRK Finance</profile>
+            <profile>NRK IT Admin</profile>
+            <profile>NRK Insurance</profile>
+            <profile>NRK Intake</profile>
+            <profile>NRK Management</profile>
+            <profile>NRK Pharmacist%2FTechnician</profile>
+            <profile>NRK Pharmacy</profile>
+            <profile>NRK Refill</profile>
+            <profile>NRK Reimbersement</profile>
+            <profile>NRK_CallCenter_Agent</profile>
+            <profile>NRK_SalesTeam</profile>
+        </profiles>
+        <users>
+            <user>nakkina.ramakrishna@gmail.com</user>
+            <user>ramakrishna.nakkina@gmail.com</user>
+        </users>
+    </assignments>
+    <label>LiveAgent</label>
+</Skill>

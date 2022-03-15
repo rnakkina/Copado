@@ -121,9 +121,6 @@
     <enableSearch>true</enableSearch>
     <externalDataSource>OrderDB</externalDataSource>
     <externalName>OrderDetails</externalName>
-    <label>OrderDetails</label>
-    <pluralLabel>OrderDetails</pluralLabel>
-    <searchLayouts/>
     <fields>
         <fullName>orderID__c</fullName>
         <description>orderID</description>
@@ -138,6 +135,21 @@
         <relationshipLabel>OrderDetails</relationshipLabel>
         <relationshipName>OrderDetails</relationshipName>
         <type>ExternalLookup</type>
+    </fields>
+    <fields>
+        <fullName>orderLine__c</fullName>
+        <description>orderLine</description>
+        <externalDeveloperName>orderLine</externalDeveloperName>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>orderLine</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>product__c</fullName>
@@ -169,21 +181,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>orderLine__c</fullName>
-        <description>orderLine</description>
-        <externalDeveloperName>orderLine</externalDeveloperName>
-        <externalId>false</externalId>
-        <isFilteringDisabled>false</isFilteringDisabled>
-        <isNameField>false</isNameField>
-        <isSortingDisabled>false</isSortingDisabled>
-        <label>orderLine</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>unitPrice__c</fullName>
         <description>unitPrice</description>
         <externalDeveloperName>unitPrice</externalDeveloperName>
@@ -198,4 +195,7 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <label>OrderDetails</label>
+    <pluralLabel>OrderDetails</pluralLabel>
+    <searchLayouts/>
 </CustomObject>

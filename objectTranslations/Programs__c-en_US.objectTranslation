@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Program</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Programs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Consent --></label>
+        <name>Consent__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Program --></label>
+        <name>Patient_Program__c</name>
+        <relationshipLabel><!-- Programs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Group --></label>
+        <name>Program_Group__c</name>
+        <picklistValues>
+            <masterLabel>Manufacturer Program</masterLabel>
+            <translation><!-- Manufacturer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Inquiry</masterLabel>
+            <translation><!-- Patient Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician Referral</masterLabel>
+            <translation><!-- Physician Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral GP</masterLabel>
+            <translation><!-- Referral GP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <picklistValues>
+            <masterLabel>Aclasta</masterLabel>
+            <translation><!-- Aclasta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baraclude</masterLabel>
+            <translation><!-- Baraclude --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caelyx</masterLabel>
+            <translation><!-- Caelyx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diflucan</masterLabel>
+            <translation><!-- Diflucan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ebixa</masterLabel>
+            <translation><!-- Ebixa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forteo</masterLabel>
+            <translation><!-- Forteo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gleevec</masterLabel>
+            <translation><!-- Gleevec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harvoni</masterLabel>
+            <translation><!-- Harvoni --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registration Date --></label>
+        <name>Registration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Program Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Go_To_Patient --></label>
+        <name>Go_To_Patient</name>
+    </webLinks>
+</CustomObjectTranslation>
