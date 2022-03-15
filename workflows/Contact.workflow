@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>MasterBillingAcct</fullName>
+        <description>MasterBillingAcct</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/AcctConfirmEmail</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_to_Patient</fullName>
+        <description>Send_Email_to_Patient</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/PatientRegConfirmationEmail</template>
+    </alerts>
+    <rules>
+        <fullName>Contact_Green</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Contact.Status_Indicator__c</field>
+            <operation>equals</operation>
+            <value>Green</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Green_List</name>
+                <type>Task</type>
+            </actions>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Reg_confirmation_email</fullName>
+        <actions>
+            <name>Send_Email_to_Patient</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Contact_Name_Patient_Registration_Confirmation</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Contact.Reg_Id__c</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Email</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Contact_Name_Patient_Registration_Confirmation</fullName>
+        <assignedTo>nakkina.ramakrishna@gmail.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>In Progress</status>
+        <subject>{!Contact.Name}: Patient Registration Confirmation</subject>
+    </tasks>
+    <tasks>
+        <fullName>Green_List</fullName>
+        <assignedTo>ramakrishna.nakkina@gmail.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>Green List</description>
+        <dueDateOffset>1</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Low</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Green List</subject>
+    </tasks>
+</Workflow>
