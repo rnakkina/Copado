@@ -309,4 +309,15 @@
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Actual_Cost__c</columns>
+        <columns>Req_Ship_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Total_Pay__c</columns>
+        <columns>Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>

@@ -144,4 +144,24 @@
         <searchResultsAdditionalFields>SOLUTION.TIMES_USED</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SOLUTION.LAST_UPDATE</searchResultsAdditionalFields>
     </searchLayouts>
+    <listViews>
+        <fullName>AllReviewedSolutions</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SOLUTION.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Reviewed Solutions</label>
+    </listViews>
+    <listViews>
+        <fullName>AllUnreviewedSolutions</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SOLUTION.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Unreviewed Solutions</label>
+    </listViews>
 </CustomObject>

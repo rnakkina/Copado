@@ -130,4 +130,14 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>MyScorecards</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Scorecards</label>
+    </listViews>
+    <listViews>
+        <fullName>AllScorecards</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Scorecards</label>
+    </listViews>
 </CustomObject>

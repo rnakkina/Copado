@@ -282,6 +282,11 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <webLinks>
         <fullName>Go_To_Patient</fullName>
         <availability>online</availability>

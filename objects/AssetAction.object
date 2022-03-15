@@ -126,4 +126,9 @@
         <searchResultsAdditionalFields>CategoryEnum</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <listViews>
+        <fullName>AssetAction</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>

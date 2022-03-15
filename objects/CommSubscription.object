@@ -134,4 +134,9 @@
         <searchResultsAdditionalFields>DataUsePurpose</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_CommSubscriptions</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Communication Subscriptions</label>
+    </listViews>
 </CustomObject>

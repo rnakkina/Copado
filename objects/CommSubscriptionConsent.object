@@ -144,4 +144,9 @@
         <searchResultsAdditionalFields>ConsentCapturedSource</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_CommSubscriptionConsents</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Communication Subscription Consents</label>
+    </listViews>
 </CustomObject>

@@ -93,4 +93,9 @@
         <searchResultsAdditionalFields>CreatedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <listViews>
+        <fullName>All_Namespace_Registries</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Namespace Registries</label>
+    </listViews>
 </CustomObject>

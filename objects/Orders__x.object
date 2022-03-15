@@ -179,4 +179,9 @@
         <required>false</required>
         <type>DateTime</type>
     </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>

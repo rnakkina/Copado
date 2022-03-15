@@ -148,4 +148,9 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_ContactPointTypeConsents</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Contact Point Type Consents</label>
+    </listViews>
 </CustomObject>

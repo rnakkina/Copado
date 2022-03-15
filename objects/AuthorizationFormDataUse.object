@@ -140,4 +140,9 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_AuthorizationFormDataUses</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Authorization Form Data Uses</label>
+    </listViews>
 </CustomObject>

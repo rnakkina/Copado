@@ -102,4 +102,14 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>My_Scratch_Org_Infos</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Scratch Org Infos</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Scratch_Org_Infos</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Scratch Org Infos</label>
+    </listViews>
 </CustomObject>

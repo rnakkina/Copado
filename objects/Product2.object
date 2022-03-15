@@ -256,4 +256,17 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <listViews>
+        <fullName>AllProducts</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>Generic_Name__c</columns>
+        <columns>DIN__c</columns>
+        <columns>UPC__c</columns>
+        <columns>Strength__c</columns>
+        <columns>Strength_Unit__c</columns>
+        <columns>Package_Size__c</columns>
+        <columns>Form_CDFO__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Products</label>
+    </listViews>
 </CustomObject>

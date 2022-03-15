@@ -140,4 +140,13 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>Name</columns>
+        <columns>CompanyName</columns>
+        <columns>Description</columns>
+        <columns>Status</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Legal Entities</label>
+    </listViews>
 </CustomObject>

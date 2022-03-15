@@ -216,4 +216,29 @@
         <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <listViews>
+        <fullName>AllOrders</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>AllDraftOrders</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ORDERS.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>All Draft Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>AllActivatedOrders</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ORDERS.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>All Activated Orders</label>
+    </listViews>
 </CustomObject>

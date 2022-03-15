@@ -142,4 +142,9 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <listViews>
+        <fullName>All_AuthorizationFormText</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Authorization Form Text</label>
+    </listViews>
 </CustomObject>

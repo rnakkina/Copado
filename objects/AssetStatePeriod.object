@@ -142,4 +142,9 @@
         <searchResultsAdditionalFields>Mrr</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <listViews>
+        <fullName>AssetStatePeriod</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>

@@ -116,4 +116,9 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <sharingModel>ReadWrite</sharingModel>
+    <listViews>
+        <fullName>PaymentAuthorization</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>
