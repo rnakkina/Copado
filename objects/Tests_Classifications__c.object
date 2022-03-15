@@ -153,16 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Tests - Classifications</label>
-    <nameField>
-        <displayFormat>TC-{0000000000}</displayFormat>
-        <label>Tests/Classifications Name</label>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Tests - Classifications</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Contact__c</fullName>
         <externalId>false</externalId>
@@ -354,6 +344,16 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <label>Tests - Classifications</label>
+    <nameField>
+        <displayFormat>TC-{0000000000}</displayFormat>
+        <label>Tests/Classifications Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Tests - Classifications</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Go_To_Patient</fullName>
         <availability>online</availability>

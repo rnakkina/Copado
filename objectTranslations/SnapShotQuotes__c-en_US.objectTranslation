@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SnapShotQuotes</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SnapShotQuotes</value>
+    </caseValues>
+    <fields>
+        <label><!-- ConName --></label>
+        <name>ConName__c</name>
+    </fields>
+    <fields>
+        <label><!-- GDT --></label>
+        <name>GDT__c</name>
+    </fields>
+    <fields>
+        <label><!-- GrandTotal --></label>
+        <name>GrandTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qunum --></label>
+        <name>Qunum__c</name>
+    </fields>
+    <fields>
+        <label><!-- per --></label>
+        <name>per__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

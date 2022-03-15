@@ -153,38 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Line Items_old</label>
-    <nameField>
-        <displayFormat>L-{000000000}</displayFormat>
-        <label>Line Number</label>
-        <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Line Items_old</pluralLabel>
-    <searchLayouts>
-        <lookupDialogsAdditionalFields>Qty__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Quote_Items__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CURRENCY_ISO_CODE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Insurance_Paid__c</lookupDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Qty__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Quote_Items__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Insurance_Paid__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CURRENCY_ISO_CODE</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
-    <fields>
-        <fullName>Qty__c</fullName>
-        <externalId>false</externalId>
-        <label>Qty</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
     <fields>
         <fullName>Catogery__c</fullName>
         <externalId>false</externalId>
@@ -211,6 +179,27 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Insurance_Paid__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Insurance Paid</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Qty__c</fullName>
+        <externalId>false</externalId>
+        <label>Qty</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Quote_Items__c</fullName>
         <externalId>false</externalId>
         <label>Quote_Items</label>
@@ -223,18 +212,24 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <fields>
-        <fullName>Insurance_Paid__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Insurance Paid</label>
+    <label>Line Items_old</label>
+    <nameField>
+        <displayFormat>L-{000000000}</displayFormat>
+        <label>Line Number</label>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Line Items_old</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Qty__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Quote_Items__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CURRENCY_ISO_CODE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Insurance_Paid__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Qty__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Quote_Items__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Insurance_Paid__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CURRENCY_ISO_CODE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

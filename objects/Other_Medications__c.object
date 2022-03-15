@@ -154,16 +154,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>OtherMedication</label>
-    <nameField>
-        <displayFormat>OM-{0000000000}</displayFormat>
-        <label>Other Medications Id</label>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>OtherMedications</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>DIN__c</fullName>
         <externalId>false</externalId>
@@ -183,18 +173,6 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Product__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Product</label>
-        <referenceTo>Product2</referenceTo>
-        <relationshipLabel>OtherMedications</relationshipLabel>
-        <relationshipName>Other_Medications_Products</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>End_Date__c</fullName>
@@ -269,12 +247,28 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Start_Date__c</fullName>
+        <fullName>Other_Medication__c</fullName>
         <externalId>false</externalId>
-        <label>Start Date</label>
+        <label>Patient</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Other_Medications</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>OtherMedications</relationshipLabel>
+        <relationshipName>Other_Medications_Products</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Specify_Drug__c</fullName>
@@ -287,22 +281,23 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Other_Medication__c</fullName>
+        <fullName>Start_Date__c</fullName>
         <externalId>false</externalId>
-        <label>Patient</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipName>Other_Medications</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <label>Start Date</label>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+        <type>Date</type>
     </fields>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <label>OtherMedication</label>
+    <nameField>
+        <displayFormat>OM-{0000000000}</displayFormat>
+        <label>Other Medications Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>OtherMedications</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Go_To_Patient</fullName>
         <availability>online</availability>

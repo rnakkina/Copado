@@ -101,106 +101,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <sharingModel>ControlledByParent</sharingModel>
-    <fields>
-        <fullName>Dose__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Dose</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Drug__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Drug</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>MD_Sig__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>MD Sig</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>QuoteId__c</fullName>
-        <externalId>false</externalId>
-        <label>QuoteId</label>
-        <length>100</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Fill_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Fill Date</label>
-        <required>false</required>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Physician__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Physician</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>Contact.Prescriber__c</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Quote Line Items</relationshipLabel>
-        <relationshipName>Quote_Line_Items</relationshipName>
-        <required>false</required>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Rx_Number__c</fullName>
-        <externalId>false</externalId>
-        <label>Rx Number</label>
-        <length>100</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Ship_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Ship Date</label>
-        <required>false</required>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Lot_Number__c</fullName>
-        <externalId>false</externalId>
-        <label>Lot Number</label>
-        <length>100</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Days_Supply__c</fullName>
-        <externalId>false</externalId>
-        <label>Days Supply</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Expiry_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Expiry Date</label>
-        <required>false</required>
-        <type>Date</type>
-    </fields>
     <fields>
         <fullName>Carrier_code__c</fullName>
         <externalId>false</externalId>
@@ -307,9 +207,161 @@
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>Days_Supply__c</fullName>
+        <externalId>false</externalId>
+        <label>Days Supply</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Supply_ck__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Days Supply</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Delivery_Date__c</fullName>
         <externalId>false</externalId>
         <label>Delivery Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount</fullName>
+    </fields>
+    <fields>
+        <fullName>Dose__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Dose</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Drug__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Drug</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Expiry_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fill_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Fill Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Lot_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Lot Number</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MD_Sig__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>MD Sig</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Physician__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Physician</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.Prescriber__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Quote Line Items</relationshipLabel>
+        <relationshipName>Quote_Line_Items</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+    </fields>
+    <fields>
+        <fullName>QuoteId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>QuoteId__c</fullName>
+        <externalId>false</externalId>
+        <label>QuoteId</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Refills_Authorized__c</fullName>
+        <externalId>false</externalId>
+        <label>Refills Authorized</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Refills_Remaining__c</fullName>
+        <externalId>false</externalId>
+        <label>Refills Remaining</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rx_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Rx Number</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ServiceDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Ship_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship Date</label>
         <required>false</required>
         <type>Date</type>
     </fields>
@@ -323,11 +375,11 @@
         <type>Currency</type>
     </fields>
     <fields>
-        <fullName>Days_Supply_ck__c</fullName>
-        <defaultValue>false</defaultValue>
+        <fullName>Shipping_Instructions__c</fullName>
         <externalId>false</externalId>
-        <label>Days Supply</label>
-        <type>Checkbox</type>
+        <label>Shipping Instructions</label>
+        <required>false</required>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Shipping_Method__c</fullName>
@@ -358,6 +410,12 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
         <fullName>Tracking_Number__c</fullName>
         <externalId>false</externalId>
         <label>Tracking Number</label>
@@ -367,32 +425,9 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Refills_Remaining__c</fullName>
-        <externalId>false</externalId>
-        <label>Refills Remaining</label>
-        <precision>10</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <type>Number</type>
-        <unique>false</unique>
+        <fullName>UnitPrice</fullName>
     </fields>
-    <fields>
-        <fullName>Refills_Authorized__c</fullName>
-        <externalId>false</externalId>
-        <label>Refills Authorized</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Shipping_Instructions__c</fullName>
-        <externalId>false</externalId>
-        <label>Shipping Instructions</label>
-        <required>false</required>
-        <type>TextArea</type>
-    </fields>
+    <sharingModel>ControlledByParent</sharingModel>
     <webLinks>
         <fullName>Back</fullName>
         <availability>online</availability>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- External Orders --></label>
+        <name>External_Orders</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Patient Portal --></label>
+        <name>NRK_Patient_Portal</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Patient Portal Lightning --></label>
+        <name>NRK_Patient_Portal_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- testappforme --></label>
+        <name>testappforme</name>
+    </customApplications>
+    <customTabs>
+        <label><!-- Calendar --></label>
+        <name>Calendar</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Quickstart --></label>
+        <name>Quickstart</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Accttest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Activity_crt</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>BillingAccountAuto</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Create_task_process</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Opportunity_update</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>OtherMed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>QT</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>QuoteItemUpd</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Quotes_Price</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>UpdateQN</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ThisisthefirsttimeIhaveselfadministeredaninjectabledrug</name>
+                </fields>
+                <name>Please_answer_the_below_short_survey</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Contact_Type</name>
+                </fields>
+                <fields>
+                    <name>Your_First_Name</name>
+                </fields>
+                <fields>
+                    <name>Your_Last_Name</name>
+                </fields>
+                <name>Welcome_call_Survey</name>
+            </screens>
+        </flows>
+        <fullName>Welcome_Call_Survey</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>S_2bc72fc2_6499_4037_bc2a_7f0bb0253035</name>
+            </choices>
+            <choices>
+                <name>S_6fc8f7aa_4c72_4fdc_95d8_eef60c30d6b6</name>
+            </choices>
+            <choices>
+                <name>S_8a1f8516_3e7d_4a75_91ca_afcc17ec9028</name>
+            </choices>
+            <choices>
+                <name>S_af4d4d32_8083_4bcc_a0fb_8f1b5abd7b1c</name>
+            </choices>
+            <choices>
+                <name>S_c0ce1c48_5bc1_4421_a0a3_765e75d89f6e</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>S_165700df_906f_4331_b40d_261bbd9b6471</name>
+                </fields>
+                <fields>
+                    <name>S_507b37ce_a878_4ef8_8db6_1bb13314d735</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>customer_satisfaction</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>ht</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>S_74e83ada_16e2_4ce6_8a8a_762ea08df50a</name>
+                </fields>
+                <fields>
+                    <name>S_e55e1f01_49ba_41ae_b8cc_eb5bcb2df662</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>net_promoter_score</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>testbk</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Create New Contact --></label>
+        <name>CrtCust</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Account --></label>
+        <name>NRKStoreAction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

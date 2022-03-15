@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Insurance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Insurances</value>
+    </caseValues>
+    <fields>
+        <label><!-- Adjudicator Phone # --></label>
+        <name>Adjudicator_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjudicator --></label>
+        <name>Adjudicator__c</name>
+        <relationshipLabel><!-- Insurances (Adjudicator) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Allowable Markup --></label>
+        <name>Allowable_Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Max Amount --></label>
+        <name>Annual_Max_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Max Type --></label>
+        <name>Annual_Max_Type__c</name>
+        <picklistValues>
+            <masterLabel>Family</masterLabel>
+            <translation><!-- Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Annual Max --></label>
+        <name>Annual_Max__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Method --></label>
+        <name>Billing_Method__c</name>
+        <picklistValues>
+            <masterLabel>Agreement to Pay</masterLabel>
+            <translation><!-- Agreement to Pay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assignment of Benefits</masterLabel>
+            <translation><!-- Assignment of Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Billing</masterLabel>
+            <translation><!-- Online Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Deferred Billing</masterLabel>
+            <translation><!-- Online Deferred Billing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cap Type --></label>
+        <name>Cap_Type__c</name>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Carrier Id --></label>
+        <name>Carrier_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Change --></label>
+        <name>Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Insurances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Coverage For --></label>
+        <name>Coverage_For__c</name>
+        <picklistValues>
+            <masterLabel>Drug</masterLabel>
+            <translation><!-- Drug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infusions</masterLabel>
+            <translation><!-- Infusions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nursing</masterLabel>
+            <translation><!-- Nursing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pumps</masterLabel>
+            <translation><!-- Pumps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplies</masterLabel>
+            <translation><!-- Supplies --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Coverage Notes --></label>
+        <name>Coverage_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coverage Type --></label>
+        <name>Coverage_Type__c</name>
+        <picklistValues>
+            <masterLabel>FA/CU</masterLabel>
+            <translation><!-- FA/CU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance %</masterLabel>
+            <translation><!-- Insurance % --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Coverage --></label>
+        <name>Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day Supply Limit --></label>
+        <name>Day_Supply_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deductible Amount --></label>
+        <name>Deductible_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deductible Frequency --></label>
+        <name>Deductible_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Annual</masterLabel>
+            <translation><!-- Bi-Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deductible Notes --></label>
+        <name>Deductible_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deductible Type --></label>
+        <name>Deductible_Type__c</name>
+        <picklistValues>
+            <masterLabel>Family</masterLabel>
+            <translation><!-- Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deductible Year --></label>
+        <name>Deductible_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deductible --></label>
+        <name>Deductible__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dispensing Cap --></label>
+        <name>Dispensing_Cap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligible Benefit --></label>
+        <name>Eligible_Benefit__c</name>
+    </fields>
+    <fields>
+        <label><!-- FA/CU Pay to Notes --></label>
+        <name>FA_CU_Pay_to_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- FA/CU Pay to --></label>
+        <name>FA_CU_Pay_to__c</name>
+        <picklistValues>
+            <masterLabel>Patient</masterLabel>
+            <translation><!-- Patient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Id/Cert # --></label>
+        <name>Id_Cert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance End Date --></label>
+        <name>Insurance_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Start Date --></label>
+        <name>Insurance_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurer Fax # --></label>
+        <name>Insurer_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurer Phone # --></label>
+        <name>Insurer_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurer --></label>
+        <name>Insurer__c</name>
+        <relationshipLabel><!-- Insurances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LCA --></label>
+        <name>LCA__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lifetime Max Amt --></label>
+        <name>Lifetime_Max_Amt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lifetime Max Date --></label>
+        <name>Lifetime_Max_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lifetime Max Remaining --></label>
+        <name>Lifetime_Max_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lifetime Max Type --></label>
+        <name>Lifetime_Max_Type__c</name>
+        <picklistValues>
+            <masterLabel>Family</masterLabel>
+            <translation><!-- Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lifetime Max --></label>
+        <name>Lifetime_Max__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Max Notes --></label>
+        <name>Max_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Out of Pocket Amount --></label>
+        <name>Out_of_Pocket_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor Type --></label>
+        <name>Payor_Type__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Person Code --></label>
+        <name>Person_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policy/Plan # --></label>
+        <name>Policy_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Pharmacy Notes --></label>
+        <name>Preferred_Pharmacy_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Pharmacy Type --></label>
+        <name>Preferred_Pharmacy_Type__c</name>
+        <picklistValues>
+            <masterLabel>Coverage Difference</masterLabel>
+            <translation><!-- Coverage Difference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mandatory</masterLabel>
+            <translation><!-- Mandatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voluntary</masterLabel>
+            <translation><!-- Voluntary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Pharmacy --></label>
+        <name>Preferred_Pharmacy__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Premium --></label>
+        <name>Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <picklistValues>
+            <masterLabel>Child Benefit</masterLabel>
+            <translation><!-- Child Benefit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mans Care</masterLabel>
+            <translation><!-- Mans Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Woman Care</masterLabel>
+            <translation><!-- Woman Care --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registration Date --></label>
+        <name>Registration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Dependent</masterLabel>
+            <translation><!-- Dependent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Known</masterLabel>
+            <translation><!-- Not Known --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sliding Copay Frequency --></label>
+        <name>Sliding_Copay_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Annual</masterLabel>
+            <translation><!-- Bi-Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sliding Copay Type --></label>
+        <name>Sliding_Copay_Type__c</name>
+        <picklistValues>
+            <masterLabel>Family</masterLabel>
+            <translation><!-- Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sliding Copay --></label>
+        <name>Sliding_Copay__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subscriber DOB --></label>
+        <name>Subscriber_DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscriber Name --></label>
+        <name>Subscriber_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier Desc --></label>
+        <name>Tier_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tiered --></label>
+        <name>Tiered__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Year Start --></label>
+        <name>Year_Start__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation><!-- April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation><!-- August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation><!-- December --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation><!-- February --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation><!-- January --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation><!-- July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation><!-- June --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation><!-- March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation><!-- November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation><!-- September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Year Type --></label>
+        <name>Year_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bi-Annual</masterLabel>
+            <translation><!-- Bi-Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calendar</masterLabel>
+            <translation><!-- Calendar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Policy</masterLabel>
+            <translation><!-- Policy --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Insurance Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Go_To_Patient --></label>
+        <name>Go_To_Patient</name>
+    </webLinks>
+</CustomObjectTranslation>

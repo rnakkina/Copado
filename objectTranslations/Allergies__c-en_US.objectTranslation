@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Allergies</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Allergies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Allergy --></label>
+        <name>Allergy__c</name>
+        <picklistValues>
+            <masterLabel>ACE inhibitors</masterLabel>
+            <translation><!-- ACE inhibitors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACIDE NALIDIXIQUE</masterLabel>
+            <translation><!-- ACIDE NALIDIXIQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AINS (tous)</masterLabel>
+            <translation><!-- AINS (tous) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZATHIOPRINE</masterLabel>
+            <translation><!-- AZATHIOPRINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acariens</masterLabel>
+            <translation><!-- Acariens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acetaminophen</masterLabel>
+            <translation><!-- Acetaminophen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acetominophen Tramadol Hydrochloride</masterLabel>
+            <translation><!-- Acetominophen Tramadol Hydrochloride --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acetyl cysteine</masterLabel>
+            <translation><!-- Acetyl cysteine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acide alendronique</masterLabel>
+            <translation><!-- Acide alendronique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acétaminophène</masterLabel>
+            <translation><!-- Acétaminophène --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acétyl cystéine</masterLabel>
+            <translation><!-- Acétyl cystéine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aerosols (Insect</masterLabel>
+            <translation><!-- Aerosols (Insect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agents chimiothérapeutiques (asparaginase</masterLabel>
+            <translation><!-- Agents chimiothérapeutiques (asparaginase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agents de conservations (parabène et sulfites)</masterLabel>
+            <translation><!-- Agents de conservations (parabène et sulfites) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agents de diagnostic (fluoroscéine</masterLabel>
+            <translation><!-- Agents de diagnostic (fluoroscéine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albumine sérique humaine</masterLabel>
+            <translation><!-- Albumine sérique humaine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alcohol</masterLabel>
+            <translation><!-- Alcohol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alcool</masterLabel>
+            <translation><!-- Alcool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aldosterone Antagonists (Spironolactone</masterLabel>
+            <translation><!-- Aldosterone Antagonists (Spironolactone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alendronic Acid</masterLabel>
+            <translation><!-- Alendronic Acid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allerg. aux prod. cosmétiques</masterLabel>
+            <translation><!-- Allerg. aux prod. cosmétiques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allerg. herbe à puce et plantes</masterLabel>
+            <translation><!-- Allerg. herbe à puce et plantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allerg.yeux (conjonctiv. allerg.)</masterLabel>
+            <translation><!-- Allerg.yeux (conjonctiv. allerg.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au blé</masterLabel>
+            <translation><!-- Allergie au blé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au gluten (maladie cœliaque)</masterLabel>
+            <translation><!-- Allergie au gluten (maladie cœliaque) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au lait</masterLabel>
+            <translation><!-- Allergie au lait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au latex</masterLabel>
+            <translation><!-- Allergie au latex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au poisson</masterLabel>
+            <translation><!-- Allergie au poisson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au pollen des arbres</masterLabel>
+            <translation><!-- Allergie au pollen des arbres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au soleil</masterLabel>
+            <translation><!-- Allergie au soleil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au soufre</masterLabel>
+            <translation><!-- Allergie au soufre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au soya</masterLabel>
+            <translation><!-- Allergie au soya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie au sulfite</masterLabel>
+            <translation><!-- Allergie au sulfite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie aux cafards</masterLabel>
+            <translation><!-- Allergie aux cafards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie aux mollusques et crustacés</masterLabel>
+            <translation><!-- Allergie aux mollusques et crustacés --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie aux noix</masterLabel>
+            <translation><!-- Allergie aux noix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie aux piqûres d’abeilles</masterLabel>
+            <translation><!-- Allergie aux piqûres d’abeilles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie aux œufs</masterLabel>
+            <translation><!-- Allergie aux œufs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie à l&apos;herbe à poux</masterLabel>
+            <translation><!-- Allergie à l&apos;herbe à poux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie à la cigarette</masterLabel>
+            <translation><!-- Allergie à la cigarette --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie à la moisissure</masterLabel>
+            <translation><!-- Allergie à la moisissure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie à la poussière</masterLabel>
+            <translation><!-- Allergie à la poussière --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie à la pénicilline</masterLabel>
+            <translation><!-- Allergie à la pénicilline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergie à l’aspirine (au salicylate)</masterLabel>
+            <translation><!-- Allergie à l’aspirine (au salicylate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergies aux animaux de comp.</masterLabel>
+            <translation><!-- Allergies aux animaux de comp. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergies aux bijoux</masterLabel>
+            <translation><!-- Allergies aux bijoux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergy immunotherapy vaccines</masterLabel>
+            <translation><!-- Allergy immunotherapy vaccines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amoxicillin</masterLabel>
+            <translation><!-- Amoxicillin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amoxicilline</masterLabel>
+            <translation><!-- Amoxicilline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anesthésie locale</masterLabel>
+            <translation><!-- Anesthésie locale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antagonistes de l’aldostérone (spironolactone</masterLabel>
+            <translation><!-- Antagonistes de l’aldostérone (spironolactone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-Fungal</masterLabel>
+            <translation><!-- Anti-Fungal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-Muscarinic</masterLabel>
+            <translation><!-- Anti-Muscarinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-fongiques</masterLabel>
+            <translation><!-- Anti-fongiques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-histamines</masterLabel>
+            <translation><!-- Anti-histamines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-histaminiques</masterLabel>
+            <translation><!-- Anti-histaminiques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-inflammatory drugs (diclofena</masterLabel>
+            <translation><!-- Anti-inflammatory drugs (diclofena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-émétiques</masterLabel>
+            <translation><!-- Anti-émétiques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antibiotics (neomycin</masterLabel>
+            <translation><!-- Antibiotics (neomycin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antibiotiques (néomycine</masterLabel>
+            <translation><!-- Antibiotiques (néomycine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticoagulants (Heparin</masterLabel>
+            <translation><!-- Anticoagulants (Heparin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticonvulsants</masterLabel>
+            <translation><!-- Anticonvulsants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticonvulsivants</masterLabel>
+            <translation><!-- Anticonvulsivants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticorps monoclonaux (Remicade</masterLabel>
+            <translation><!-- Anticorps monoclonaux (Remicade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antimuscarinique</masterLabel>
+            <translation><!-- Antimuscarinique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antineoplastic (Taxol)</masterLabel>
+            <translation><!-- Antineoplastic (Taxol) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antinéoplasiques (Taxol)</masterLabel>
+            <translation><!-- Antinéoplasiques (Taxol) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antiseptics (mercurochrome</masterLabel>
+            <translation><!-- Antiseptics (mercurochrome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antiseptiques (mercurochrome</masterLabel>
+            <translation><!-- Antiseptiques (mercurochrome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antivenins</masterLabel>
+            <translation><!-- Antivenins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antivenoms</masterLabel>
+            <translation><!-- Antivenoms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arian Cough</masterLabel>
+            <translation><!-- Arian Cough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aripiprazole</masterLabel>
+            <translation><!-- Aripiprazole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aspirin Allergy (Salicylate Allergy)</masterLabel>
+            <translation><!-- Aspirin Allergy (Salicylate Allergy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atovaquone/Chlorhydrate de proguanil</masterLabel>
+            <translation><!-- Atovaquone/Chlorhydrate de proguanil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atovaquone/Proguanil Hydrochloride</masterLabel>
+            <translation><!-- Atovaquone/Proguanil Hydrochloride --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aucune n’est connue</masterLabel>
+            <translation><!-- Aucune n’est connue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avelox (Moxiflacin)</masterLabel>
+            <translation><!-- Avelox (Moxiflacin) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avelox (moxiflacine)</masterLabel>
+            <translation><!-- Avelox (moxiflacine) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aérosols (insectes</masterLabel>
+            <translation><!-- Aérosols (insectes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbiturates</masterLabel>
+            <translation><!-- Barbiturates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbituriques</masterLabel>
+            <translation><!-- Barbituriques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bee Sting Allergy</masterLabel>
+            <translation><!-- Bee Sting Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bellergal</masterLabel>
+            <translation><!-- Bellergal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biaxin</masterLabel>
+            <translation><!-- Biaxin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biphosphonates</masterLabel>
+            <translation><!-- Biphosphonates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caffeine</masterLabel>
+            <translation><!-- Caffeine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caféine</masterLabel>
+            <translation><!-- Caféine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calcium Channel Blocking Drugs</masterLabel>
+            <translation><!-- Calcium Channel Blocking Drugs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Captain America</masterLabel>
+            <translation><!-- Captain America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Celecoxib  (Celebrex)</masterLabel>
+            <translation><!-- Celecoxib  (Celebrex) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Celecoxib (Celebrex)</masterLabel>
+            <translation><!-- Celecoxib (Celebrex) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemotherapeutic agents (asparaginase</masterLabel>
+            <translation><!-- Chemotherapeutic agents (asparaginase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chlorhydrate de méfloquine</masterLabel>
+            <translation><!-- Chlorhydrate de méfloquine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chlorhydrate d’acétaminophène/tramadol</masterLabel>
+            <translation><!-- Chlorhydrate d’acétaminophène/tramadol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigarette Smoke Allergy</masterLabel>
+            <translation><!-- Cigarette Smoke Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cimetidine</masterLabel>
+            <translation><!-- Cimetidine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cimétidine</masterLabel>
+            <translation><!-- Cimétidine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cockroach Allergy</masterLabel>
+            <translation><!-- Cockroach Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Codeine</masterLabel>
+            <translation><!-- Codeine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Codéine</masterLabel>
+            <translation><!-- Codéine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorant</masterLabel>
+            <translation><!-- Colorant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorants (Érythrosine et tatrazine)</masterLabel>
+            <translation><!-- Colorants (Érythrosine et tatrazine) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contrast Dye</masterLabel>
+            <translation><!-- Contrast Dye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corticosteroids</masterLabel>
+            <translation><!-- Corticosteroids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corticostéroïdes</masterLabel>
+            <translation><!-- Corticostéroïdes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cosmetic Allergies</masterLabel>
+            <translation><!-- Cosmetic Allergies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demerol</masterLabel>
+            <translation><!-- Demerol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desferoxamine</masterLabel>
+            <translation><!-- Desferoxamine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dextranes</masterLabel>
+            <translation><!-- Dextranes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dextrans</masterLabel>
+            <translation><!-- Dextrans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostic agents (fluoroscein</masterLabel>
+            <translation><!-- Diagnostic agents (fluoroscein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dimenhydrinate</masterLabel>
+            <translation><!-- Dimenhydrinate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dust Mites</masterLabel>
+            <translation><!-- Dust Mites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dyes (erythrosine and tatrazine)</masterLabel>
+            <translation><!-- Dyes (erythrosine and tatrazine) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Démérol</masterLabel>
+            <translation><!-- Démérol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eczema (Atopic Dermatitis)</masterLabel>
+            <translation><!-- Eczema (Atopic Dermatitis) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eczéma (dermatite atopique)</masterLabel>
+            <translation><!-- Eczéma (dermatite atopique) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egg Allergy</masterLabel>
+            <translation><!-- Egg Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endothelin Receptor Antagonist (Tracleer</masterLabel>
+            <translation><!-- Endothelin Receptor Antagonist (Tracleer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enzymes (aprotinin</masterLabel>
+            <translation><!-- Enzymes (aprotinin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enzymes (aprotinine</masterLabel>
+            <translation><!-- Enzymes (aprotinine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erythromycin-sulfisoxazole</masterLabel>
+            <translation><!-- Erythromycin-sulfisoxazole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eye Allergies (Allergic Conjunctivitis)</masterLabel>
+            <translation><!-- Eye Allergies (Allergic Conjunctivitis) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fentanyl</masterLabel>
+            <translation><!-- Fentanyl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fish Allergy</masterLabel>
+            <translation><!-- Fish Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fragrance and Scent</masterLabel>
+            <translation><!-- Fragrance and Scent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fruit and Nuts</masterLabel>
+            <translation><!-- Fruit and Nuts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fruits tropicaux</masterLabel>
+            <translation><!-- Fruits tropicaux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Furosemide (Lasix)</masterLabel>
+            <translation><!-- Furosemide (Lasix) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Furosémide (Lasix)</masterLabel>
+            <translation><!-- Furosémide (Lasix) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabapentin (Neurontin)</masterLabel>
+            <translation><!-- Gabapentin (Neurontin) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabapentine (Neurontin)</masterLabel>
+            <translation><!-- Gabapentine (Neurontin) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gadolinium (MRI Contrast)</masterLabel>
+            <translation><!-- Gadolinium (MRI Contrast) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gadolinium (contraste IRM)</masterLabel>
+            <translation><!-- Gadolinium (contraste IRM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garamycin</masterLabel>
+            <translation><!-- Garamycin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garamycine</masterLabel>
+            <translation><!-- Garamycine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Tropical Fruits</masterLabel>
+            <translation><!-- General Tropical Fruits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generic Drugs</masterLabel>
+            <translation><!-- Generic Drugs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glimepiride (Amaryl)</masterLabel>
+            <translation><!-- Glimepiride (Amaryl) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glimépiride (Amaryl)</masterLabel>
+            <translation><!-- Glimépiride (Amaryl) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gluten Allergy (Celiac Disease)</masterLabel>
+            <translation><!-- Gluten Allergy (Celiac Disease) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glyburide  (Glynase</masterLabel>
+            <translation><!-- Glyburide  (Glynase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glyburide (Glynase</masterLabel>
+            <translation><!-- Glyburide (Glynase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gravol</masterLabel>
+            <translation><!-- Gravol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hay Fever (Allergic Rhinitis)</masterLabel>
+            <translation><!-- Hay Fever (Allergic Rhinitis) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Herbal Products “ Drinks</masterLabel>
+            <translation><!-- Herbal Products “ Drinks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hives (Urticaria)</masterLabel>
+            <translation><!-- Hives (Urticaria) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hormones (ACTH</masterLabel>
+            <translation><!-- Hormones (ACTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>House Dust Allergy</masterLabel>
+            <translation><!-- House Dust Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human serum albumin</masterLabel>
+            <translation><!-- Human serum albumin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrochlorothiazide  (Microzide)</masterLabel>
+            <translation><!-- Hydrochlorothiazide  (Microzide) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrochlorothiazide (Microzide)</masterLabel>
+            <translation><!-- Hydrochlorothiazide (Microzide) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrochlorure d’oxycodone</masterLabel>
+            <translation><!-- Hydrochlorure d’oxycodone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydromorphone Hydrochloride</masterLabel>
+            <translation><!-- Hydromorphone Hydrochloride --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydromorphone chlorohydrate</masterLabel>
+            <translation><!-- Hydromorphone chlorohydrate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydroxychloroquine Sulphate</masterLabel>
+            <translation><!-- Hydroxychloroquine Sulphate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Héparine</masterLabel>
+            <translation><!-- Héparine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDOMETHACIN</masterLabel>
+            <translation><!-- INDOMETHACIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDOMÉTHACINE</masterLabel>
+            <translation><!-- INDOMÉTHACINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ibuprofen</masterLabel>
+            <translation><!-- Ibuprofen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ibuprofène</masterLabel>
+            <translation><!-- Ibuprofène --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immunosuppresseur (Imuran)</masterLabel>
+            <translation><!-- Immunosuppresseur (Imuran) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infliximab</masterLabel>
+            <translation><!-- Infliximab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inhibiteur de l’agrégation plaquettaire</masterLabel>
+            <translation><!-- Inhibiteur de l’agrégation plaquettaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inhibiteurs IEC</masterLabel>
+            <translation><!-- Inhibiteurs IEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inhibiteurs calciques</masterLabel>
+            <translation><!-- Inhibiteurs calciques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ink</masterLabel>
+            <translation><!-- Ink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insect Stings and Bites</masterLabel>
+            <translation><!-- Insect Stings and Bites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intolérance au lactose</masterLabel>
+            <translation><!-- Intolérance au lactose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravenous Pyelogram Dye</masterLabel>
+            <translation><!-- Intravenous Pyelogram Dye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isoniazid</masterLabel>
+            <translation><!-- Isoniazid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isoniazide</masterLabel>
+            <translation><!-- Isoniazide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jewelry Allergies</masterLabel>
+            <translation><!-- Jewelry Allergies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juggernaut</masterLabel>
+            <translation><!-- Juggernaut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactose Intolerance</masterLabel>
+            <translation><!-- Lactose Intolerance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latex Allergy</masterLabel>
+            <translation><!-- Latex Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithium</masterLabel>
+            <translation><!-- Lithium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local anaesthetics</masterLabel>
+            <translation><!-- Local anaesthetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lorazepam</masterLabel>
+            <translation><!-- Lorazepam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lorazépam</masterLabel>
+            <translation><!-- Lorazépam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macrobid (nitrofurantoin)</masterLabel>
+            <translation><!-- Macrobid (nitrofurantoin) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macrobid (nitrofurantoine)</masterLabel>
+            <translation><!-- Macrobid (nitrofurantoine) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maladie sérique</masterLabel>
+            <translation><!-- Maladie sérique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicines for hyperthyroidism</masterLabel>
+            <translation><!-- Medicines for hyperthyroidism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mefloquine Hydrochloride</masterLabel>
+            <translation><!-- Mefloquine Hydrochloride --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methocarbamol and Acetaminophen</masterLabel>
+            <translation><!-- Methocarbamol and Acetaminophen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk Allergy</masterLabel>
+            <translation><!-- Milk Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mold Allergy</masterLabel>
+            <translation><!-- Mold Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morphine</masterLabel>
+            <translation><!-- Morphine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moules (mollusque)</masterLabel>
+            <translation><!-- Moules (mollusque) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muscle relaxants</masterLabel>
+            <translation><!-- Muscle relaxants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mussels (shellfish)</masterLabel>
+            <translation><!-- Mussels (shellfish) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myorelaxants</masterLabel>
+            <translation><!-- Myorelaxants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Méd. anti-inflammatoires (diclofénac</masterLabel>
+            <translation><!-- Méd. anti-inflammatoires (diclofénac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Méd. contre l’hyperthyroïdie</masterLabel>
+            <translation><!-- Méd. contre l’hyperthyroïdie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Méthocarbamol et acétaminophène</masterLabel>
+            <translation><!-- Méthocarbamol et acétaminophène --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NALIDIXIC ACID</masterLabel>
+            <translation><!-- NALIDIXIC ACID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSAID’s (all)</masterLabel>
+            <translation><!-- NSAID’s (all) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niacine</masterLabel>
+            <translation><!-- Niacine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nitrofurantion</masterLabel>
+            <translation><!-- Nitrofurantion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nitrofurantoïne</masterLabel>
+            <translation><!-- Nitrofurantoïne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nut Allergy</masterLabel>
+            <translation><!-- Nut Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oxycodone Hydrochloride</masterLabel>
+            <translation><!-- Oxycodone Hydrochloride --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parfums</masterLabel>
+            <translation><!-- Parfums --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Penicillin Allergy</masterLabel>
+            <translation><!-- Penicillin Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pentazocine</masterLabel>
+            <translation><!-- Pentazocine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Allergies</masterLabel>
+            <translation><!-- Pet Allergies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pethidine</masterLabel>
+            <translation><!-- Pethidine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phosphate de primaquine</masterLabel>
+            <translation><!-- Phosphate de primaquine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photosensibilité</masterLabel>
+            <translation><!-- Photosensibilité --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photosensitivity</masterLabel>
+            <translation><!-- Photosensitivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piqûres et morsures d’insectes</masterLabel>
+            <translation><!-- Piqûres et morsures d’insectes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platelet Aggregation Inhibitors</masterLabel>
+            <translation><!-- Platelet Aggregation Inhibitors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poison Ivy &amp; Plant Allergies</masterLabel>
+            <translation><!-- Poison Ivy &amp; Plant Allergies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preservatives (parabens and sulphites)</masterLabel>
+            <translation><!-- Preservatives (parabens and sulphites) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primaquine Phosphate</masterLabel>
+            <translation><!-- Primaquine Phosphate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Produits à base de plantes (Boissons</masterLabel>
+            <translation><!-- Produits à base de plantes (Boissons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Péthidine</masterLabel>
+            <translation><!-- Péthidine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ragweed Allergies</masterLabel>
+            <translation><!-- Ragweed Allergies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ramipril</masterLabel>
+            <translation><!-- Ramipril --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ranitidine</masterLabel>
+            <translation><!-- Ranitidine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resperidone</masterLabel>
+            <translation><!-- Resperidone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respéridone</masterLabel>
+            <translation><!-- Respéridone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhume des foins (rhinite allergique)</masterLabel>
+            <translation><!-- Rhume des foins (rhinite allergique) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serum sickness</masterLabel>
+            <translation><!-- Serum sickness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellfish Allergy</masterLabel>
+            <translation><!-- Shellfish Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solvants (crémophor)</masterLabel>
+            <translation><!-- Solvants (crémophor) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solvents (cremophor)</masterLabel>
+            <translation><!-- Solvents (cremophor) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soy Allergy</masterLabel>
+            <translation><!-- Soy Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Statines</masterLabel>
+            <translation><!-- Statines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Statins</masterLabel>
+            <translation><!-- Statins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sulfa Allergy</masterLabel>
+            <translation><!-- Sulfa Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sulfamethoxazole</masterLabel>
+            <translation><!-- Sulfamethoxazole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sulfaméthoxazole</masterLabel>
+            <translation><!-- Sulfaméthoxazole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sulfasalazine (Azulfidine)</masterLabel>
+            <translation><!-- Sulfasalazine (Azulfidine) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sulfate d’hydrochloroquine</masterLabel>
+            <translation><!-- Sulfate d’hydrochloroquine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sulfite Allergy</masterLabel>
+            <translation><!-- Sulfite Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sumatriptan  (Imitrex)</masterLabel>
+            <translation><!-- Sumatriptan  (Imitrex) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sumatriptan (Imitrex)</masterLabel>
+            <translation><!-- Sumatriptan (Imitrex) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sun Allergy</masterLabel>
+            <translation><!-- Sun Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEST</masterLabel>
+            <translation><!-- TEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAMADOL</masterLabel>
+            <translation><!-- TRAMADOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test 10</masterLabel>
+            <translation><!-- Test 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Allergy 08112015</masterLabel>
+            <translation><!-- Test Allergy 08112015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Pollen</masterLabel>
+            <translation><!-- Test Pollen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test99</masterLabel>
+            <translation><!-- Test99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test_99</masterLabel>
+            <translation><!-- Test_99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tetracycline</masterLabel>
+            <translation><!-- Tetracycline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trazadone</masterLabel>
+            <translation><!-- Trazadone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tree Pollen Allergy</masterLabel>
+            <translation><!-- Tree Pollen Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trimethoprim-sulfamethoxazole (Septra</masterLabel>
+            <translation><!-- Trimethoprim-sulfamethoxazole (Septra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triméthoprime-sulfaméthoxazole (Septra</masterLabel>
+            <translation><!-- Triméthoprime-sulfaméthoxazole (Septra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tétracycline</masterLabel>
+            <translation><!-- Tétracycline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urographie intraveineuse</masterLabel>
+            <translation><!-- Urographie intraveineuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urticaire</masterLabel>
+            <translation><!-- Urticaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccines</masterLabel>
+            <translation><!-- Vaccines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccins</masterLabel>
+            <translation><!-- Vaccins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccins immuno. ctre allergies</masterLabel>
+            <translation><!-- Vaccins immuno. ctre allergies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vasodilator (Remodulin</masterLabel>
+            <translation><!-- Vasodilator (Remodulin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vitamines</masterLabel>
+            <translation><!-- Vitamines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vitamins</masterLabel>
+            <translation><!-- Vitamins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheat Allergy</masterLabel>
+            <translation><!-- Wheat Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cGMP-Specific Phosphodiesterase Type 5 Inhibitor</masterLabel>
+            <translation><!-- cGMP-Specific Phosphodiesterase Type 5 Inhibitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kryptonite</masterLabel>
+            <translation><!-- kryptonite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Érythromycine-sulfisoxazole</masterLabel>
+            <translation><!-- Érythromycine-sulfisoxazole --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Allergies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reaction --></label>
+        <name>Reaction__c</name>
+        <picklistValues>
+            <masterLabel>Abdominal pain and/or cramps</masterLabel>
+            <translation><!-- Abdominal pain and/or cramps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anaphylaxis</masterLabel>
+            <translation><!-- Anaphylaxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asthma or wheezing</masterLabel>
+            <translation><!-- Asthma or wheezing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chest tightness or pain</masterLabel>
+            <translation><!-- Chest tightness or pain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congestion</masterLabel>
+            <translation><!-- Congestion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constipation</masterLabel>
+            <translation><!-- Constipation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diarrhea</masterLabel>
+            <translation><!-- Diarrhea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Difficulty breathing</masterLabel>
+            <translation><!-- Difficulty breathing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Difficulty swallowing</masterLabel>
+            <translation><!-- Difficulty swallowing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dizziness</masterLabel>
+            <translation><!-- Dizziness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eczema</masterLabel>
+            <translation><!-- Eczema --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fatigue</masterLabel>
+            <translation><!-- Fatigue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flushing</masterLabel>
+            <translation><!-- Flushing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headaches</masterLabel>
+            <translation><!-- Headaches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hives</masterLabel>
+            <translation><!-- Hives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itchiness</masterLabel>
+            <translation><!-- Itchiness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itchy, red, swollen eyes</masterLabel>
+            <translation><!-- Itchy, red, swollen eyes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itchy, watery eyes</masterLabel>
+            <translation><!-- Itchy, watery eyes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental confusion</masterLabel>
+            <translation><!-- Mental confusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauseau and vomiting</masterLabel>
+            <translation><!-- Nauseau and vomiting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rash</masterLabel>
+            <translation><!-- Rash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reflux</masterLabel>
+            <translation><!-- Reflux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shortness of breathe</masterLabel>
+            <translation><!-- Shortness of breathe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sneezing and/or coughing</masterLabel>
+            <translation><!-- Sneezing and/or coughing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swelling</masterLabel>
+            <translation><!-- Swelling --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>Sevi__c</name>
+        <picklistValues>
+            <masterLabel>Fatal</masterLabel>
+            <translation><!-- Fatal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mild</masterLabel>
+            <translation><!-- Mild --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severe</masterLabel>
+            <translation><!-- Severe --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Allergies Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Go_To_Patient --></label>
+        <name>Go_To_Patient</name>
+    </webLinks>
+</CustomObjectTranslation>

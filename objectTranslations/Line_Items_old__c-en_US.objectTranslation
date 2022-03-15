@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Line Items_old</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Line Items_old</value>
+    </caseValues>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Catogery__c</name>
+        <picklistValues>
+            <masterLabel>Drug</masterLabel>
+            <translation><!-- Drug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplies</masterLabel>
+            <translation><!-- Supplies --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Insurance Paid --></label>
+        <name>Insurance_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qty --></label>
+        <name>Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote_Items --></label>
+        <name>Quote_Items__c</name>
+        <relationshipLabel><!-- Line Items_old --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Line Items Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

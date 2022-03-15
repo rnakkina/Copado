@@ -153,53 +153,25 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Quotes_old</label>
-    <nameField>
-        <displayFormat>1-Q{000000000}</displayFormat>
-        <label>Quote Number</label>
-        <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Quotes_old</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Delivery_Date__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Req_Ship_Date__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Actual_Cost__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Total_Pay__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
-        <fullName>Type__c</fullName>
+        <fullName>Actual_Cost__c</fullName>
         <externalId>false</externalId>
-        <label>Type</label>
+        <label>Actual Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Patient</fullName>
-                    <default>false</default>
-                    <label>Patient</label>
-                </value>
-                <value>
-                    <fullName>Pharmacy</fullName>
-                    <default>false</default>
-                    <label>Pharmacy</label>
-                </value>
-                <value>
-                    <fullName>Hospital</fullName>
-                    <default>false</default>
-                    <label>Hospital</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>Email__c</fullName>
@@ -212,6 +184,15 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Main_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Main Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
         <fullName>Notes__c</fullName>
         <externalId>false</externalId>
         <label>Notes</label>
@@ -219,6 +200,15 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Req_Ship_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Req Ship Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>Status__c</fullName>
@@ -272,52 +262,51 @@
         <type>Currency</type>
     </fields>
     <fields>
-        <fullName>Main_Phone__c</fullName>
+        <fullName>Type__c</fullName>
         <externalId>false</externalId>
-        <label>Main Phone</label>
+        <label>Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Phone</type>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Patient</fullName>
+                    <default>false</default>
+                    <label>Patient</label>
+                </value>
+                <value>
+                    <fullName>Pharmacy</fullName>
+                    <default>false</default>
+                    <label>Pharmacy</label>
+                </value>
+                <value>
+                    <fullName>Hospital</fullName>
+                    <default>false</default>
+                    <label>Hospital</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
-    <fields>
-        <fullName>Actual_Cost__c</fullName>
-        <externalId>false</externalId>
-        <label>Actual Cost</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
+    <label>Quotes_old</label>
+    <nameField>
+        <displayFormat>1-Q{000000000}</displayFormat>
+        <label>Quote Number</label>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Delivery_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Delivery Date</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Req_Ship_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Req Ship Date</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <listViews>
-        <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>Actual_Cost__c</columns>
-        <columns>Req_Ship_Date__c</columns>
-        <columns>Status__c</columns>
-        <columns>Total_Pay__c</columns>
-        <columns>Type__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Quotes_old</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Delivery_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Req_Ship_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Actual_Cost__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Pay__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

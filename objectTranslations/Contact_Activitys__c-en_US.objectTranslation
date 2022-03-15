@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Activities</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Activities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Manager --></label>
+        <name>Case_Manager__c</name>
+        <relationshipLabel><!-- Contact Activities (Case Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact_Activities --></label>
+        <name>Contact_Activities__c</name>
+        <relationshipLabel><!-- Contact Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Reach HCP</masterLabel>
+            <translation><!-- Unable to Reach HCP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Due --></label>
+        <name>Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- New --></label>
+        <name>New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preceding Activity --></label>
+        <name>Preceding_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reimbursement Agent --></label>
+        <name>Reimbursement_Agent__c</name>
+        <relationshipLabel><!-- Contact Activities (Reimbursement Agent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unassigned</masterLabel>
+            <translation><!-- Unassigned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Type --></label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Caprelsa Certified</masterLabel>
+            <translation><!-- Caprelsa Certified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinic Notification</masterLabel>
+            <translation><!-- Clinic Notification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalation</masterLabel>
+            <translation><!-- Escalation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation><!-- Exception --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>CL</masterLabel>
+            <translation><!-- CL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CL-1</masterLabel>
+            <translation><!-- CL-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CL-2</masterLabel>
+            <translation><!-- CL-2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM</masterLabel>
+            <translation><!-- CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM-PAH-ON</masterLabel>
+            <translation><!-- CM-PAH-ON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM-PAH-QA</masterLabel>
+            <translation><!-- CM-PAH-QA --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Contact_Activities Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Go_To_Patient --></label>
+        <name>Go_To_Patient</name>
+    </webLinks>
+</CustomObjectTranslation>

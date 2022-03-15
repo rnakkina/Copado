@@ -3,5 +3,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Comments</fullName>
+    </fields>
+    <fields>
+        <fullName>CompanyName</fullName>
+    </fields>
+    <fields>
+        <fullName>NickName</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+    </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -323,55 +323,6 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
-    <enableHistory>true</enableHistory>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
-    <searchLayouts>
-        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTACT.SALUTATION</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTACT.FIRST_NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTACT.LAST_NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Reg_Id__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTACT.EMAIL</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTACT.PHONE3</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTACT.BIRTHDATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CONTACT.TITLE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CONTACT.FIRST_NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CONTACT.LAST_NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Reg_Id__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CONTACT.BIRTHDATE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>OHIP__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <massQuickActions>Patient_Update</massQuickActions>
-        <massQuickActions>CRT_OPTY</massQuickActions>
-        <searchFilterFields>CONTACT.FIRST_NAME</searchFilterFields>
-        <searchFilterFields>CONTACT.LAST_NAME</searchFilterFields>
-        <searchFilterFields>CONTACT.PHONE3</searchFilterFields>
-        <searchFilterFields>CONTACT.EMAIL</searchFilterFields>
-        <searchFilterFields>Reg_Id__c</searchFilterFields>
-        <searchFilterFields>SysCode_Id__c</searchFilterFields>
-        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
     <compactLayouts>
         <fullName>CustomCL</fullName>
         <fields>Title</fields>
@@ -380,43 +331,30 @@
         <fields>Reg_Id__c</fields>
         <label>CustomCL</label>
     </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>RN__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>RN</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Checkbox</type>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>MyId__c</fullName>
-        <caseSensitive>false</caseSensitive>
-        <externalId>true</externalId>
-        <label>MyId</label>
-        <length>50</length>
-        <required>false</required>
+        <fullName>AssistantName</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>true</unique>
     </fields>
     <fields>
-        <fullName>OHIP__c</fullName>
-        <externalId>false</externalId>
-        <label>OHIP Card #</label>
-        <length>25</length>
-        <maskChar>asterisk</maskChar>
-        <maskType>lastFour</maskType>
-        <required>false</required>
+        <fullName>AssistantPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <type>EncryptedText</type>
     </fields>
     <fields>
-        <fullName>Type__c</fullName>
+        <fullName>Best_Time_to_Call__c</fullName>
         <externalId>false</externalId>
-        <label>Type</label>
-        <required>true</required>
+        <label>Best Time to Call</label>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <type>Picklist</type>
@@ -425,47 +363,235 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Family Doctor</fullName>
+                    <fullName>Early afternoon</fullName>
                     <default>false</default>
-                    <label>Family Doctor</label>
+                    <label>Early afternoon</label>
                 </value>
                 <value>
-                    <fullName>Insurance Rep</fullName>
+                    <fullName>Early morning</fullName>
                     <default>false</default>
-                    <label>Insurance Rep</label>
+                    <label>Early morning</label>
                 </value>
                 <value>
-                    <fullName>MD Specialist</fullName>
+                    <fullName>Evening</fullName>
                     <default>false</default>
-                    <label>MD Specialist</label>
+                    <label>Evening</label>
                 </value>
                 <value>
-                    <fullName>None</fullName>
+                    <fullName>Late afternoon</fullName>
                     <default>false</default>
-                    <label>None</label>
+                    <label>Late afternoon</label>
                 </value>
                 <value>
-                    <fullName>Nurse Practitioner</fullName>
+                    <fullName>Mid-morning</fullName>
                     <default>false</default>
-                    <label>Nurse Practitioner</label>
+                    <label>Mid-morning</label>
                 </value>
                 <value>
-                    <fullName>Pharmacist</fullName>
+                    <fullName>Saturday</fullName>
                     <default>false</default>
-                    <label>Pharmacist</label>
+                    <label>Saturday</label>
                 </value>
                 <value>
-                    <fullName>Physician</fullName>
+                    <fullName>Sunday</fullName>
                     <default>false</default>
-                    <label>Physician</label>
+                    <label>Sunday</label>
                 </value>
                 <value>
-                    <fullName>Physiotherapist</fullName>
+                    <fullName>Weekend</fullName>
                     <default>false</default>
-                    <label>Physiotherapist</label>
+                    <label>Weekend</label>
+                </value>
+                <value>
+                    <fullName>Any Time</fullName>
+                    <default>false</default>
+                    <label>Any Time</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Birthdate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Case_Managed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case Managed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CleanStatus</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Contact_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alternate Phone</fullName>
+                    <default>false</default>
+                    <label>Alternate Phone</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Fax</fullName>
+                    <default>false</default>
+                    <label>Fax</label>
+                </value>
+                <value>
+                    <fullName>Home Phone</fullName>
+                    <default>false</default>
+                    <label>Home Phone</label>
+                </value>
+                <value>
+                    <fullName>Mobile Phone</fullName>
+                    <default>false</default>
+                    <label>Mobile Phone</label>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                    <label>Phone</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Department</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Expiry_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiry Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Gender__c</fullName>
+        <externalId>false</externalId>
+        <label>Gender</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Male</fullName>
+                    <default>false</default>
+                    <label>Male</label>
+                </value>
+                <value>
+                    <fullName>Female</fullName>
+                    <default>false</default>
+                    <label>Female</label>
+                </value>
+                <value>
+                    <fullName>Trans</fullName>
+                    <default>false</default>
+                    <label>Trans</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HomePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IndividualId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Languages__c</fullName>
+        <externalId>false</externalId>
+        <label>Languages</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastCURequestDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LastCUUpdateDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Level__c</fullName>
@@ -497,9 +623,78 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Gender__c</fullName>
+        <fullName>MailingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>MyId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>MyId</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OHIP__c</fullName>
         <externalId>false</externalId>
-        <label>Gender</label>
+        <label>OHIP Card #</label>
+        <length>25</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>lastFour</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OtherAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OtherPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Patient__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>All Patient records require this field</inlineHelpText>
+        <label>Patient</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Preferred_Language__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Language</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -509,22 +704,61 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Male</fullName>
+                    <fullName>English</fullName>
                     <default>false</default>
-                    <label>Male</label>
+                    <label>English</label>
                 </value>
                 <value>
-                    <fullName>Female</fullName>
+                    <fullName>French</fullName>
                     <default>false</default>
-                    <label>Female</label>
-                </value>
-                <value>
-                    <fullName>Trans</fullName>
-                    <default>false</default>
-                    <label>Trans</label>
+                    <label>French</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Prescriber__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Prescriber</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Address__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Address</label>
+        <referenceTo>Address__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Programs__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Programs</label>
+        <referenceTo>Programs__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>RN</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Reg_Id__c</fullName>
@@ -621,6 +855,27 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>ReportsToId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status_Indicator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (AND(Patient__c = TRUE,  CONTAINS(CASE(Programs__r.Program__c, &quot;Forteo&quot;, &quot;Y&quot;, &quot;Ebixa&quot;, &quot;Y&quot;, &quot;N&quot;), &quot;Y&quot;)), 
+
+IF(ISPICKVAL(Status__c, &quot;Active&quot;),&quot;Green&quot;, &quot;Yellow&quot;),
+
+&quot;Red&quot;
+)</formula>
+        <label>Status Indicator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Status__c</fullName>
         <externalId>false</externalId>
         <label>Status</label>
@@ -651,49 +906,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Patient__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <inlineHelpText>All Patient records require this field</inlineHelpText>
-        <label>Patient</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Programs__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Programs</label>
-        <referenceTo>Programs__c</referenceTo>
-        <relationshipLabel>Contacts</relationshipLabel>
-        <relationshipName>Contacts</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Languages__c</fullName>
-        <externalId>false</externalId>
-        <label>Languages</label>
-        <length>100</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Prescriber__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Prescriber</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>SysCode_Id__c</fullName>
         <externalId>false</externalId>
         <formula>Id</formula>
@@ -704,102 +916,15 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Expiry_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Expiry Date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Case_Managed__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Case Managed</label>
+        <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
-        <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Contact_Method__c</fullName>
+        <fullName>Type__c</fullName>
         <externalId>false</externalId>
-        <label>Contact Method</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Alternate Phone</fullName>
-                    <default>false</default>
-                    <label>Alternate Phone</label>
-                </value>
-                <value>
-                    <fullName>Email</fullName>
-                    <default>false</default>
-                    <label>Email</label>
-                </value>
-                <value>
-                    <fullName>Fax</fullName>
-                    <default>false</default>
-                    <label>Fax</label>
-                </value>
-                <value>
-                    <fullName>Home Phone</fullName>
-                    <default>false</default>
-                    <label>Home Phone</label>
-                </value>
-                <value>
-                    <fullName>Mobile Phone</fullName>
-                    <default>false</default>
-                    <label>Mobile Phone</label>
-                </value>
-                <value>
-                    <fullName>Phone</fullName>
-                    <default>false</default>
-                    <label>Phone</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-        <visibleLines>4</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Primary_Address__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Primary Address</label>
-        <referenceTo>Address__c</referenceTo>
-        <relationshipLabel>Contacts</relationshipLabel>
-        <relationshipName>Contacts</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Status_Indicator__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF (AND(Patient__c = TRUE,  CONTAINS(CASE(Programs__r.Program__c, &quot;Forteo&quot;, &quot;Y&quot;, &quot;Ebixa&quot;, &quot;Y&quot;, &quot;N&quot;), &quot;Y&quot;)), 
-
-IF(ISPICKVAL(Status__c, &quot;Active&quot;),&quot;Green&quot;, &quot;Yellow&quot;),
-
-&quot;Red&quot;
-)</formula>
-        <label>Status Indicator</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Best_Time_to_Call__c</fullName>
-        <externalId>false</externalId>
-        <label>Best Time to Call</label>
-        <required>false</required>
+        <label>Type</label>
+        <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <type>Picklist</type>
@@ -808,153 +933,50 @@ IF(ISPICKVAL(Status__c, &quot;Active&quot;),&quot;Green&quot;, &quot;Yellow&quot
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Early afternoon</fullName>
+                    <fullName>Family Doctor</fullName>
                     <default>false</default>
-                    <label>Early afternoon</label>
+                    <label>Family Doctor</label>
                 </value>
                 <value>
-                    <fullName>Early morning</fullName>
+                    <fullName>Insurance Rep</fullName>
                     <default>false</default>
-                    <label>Early morning</label>
+                    <label>Insurance Rep</label>
                 </value>
                 <value>
-                    <fullName>Evening</fullName>
+                    <fullName>MD Specialist</fullName>
                     <default>false</default>
-                    <label>Evening</label>
+                    <label>MD Specialist</label>
                 </value>
                 <value>
-                    <fullName>Late afternoon</fullName>
+                    <fullName>None</fullName>
                     <default>false</default>
-                    <label>Late afternoon</label>
+                    <label>None</label>
                 </value>
                 <value>
-                    <fullName>Mid-morning</fullName>
+                    <fullName>Nurse Practitioner</fullName>
                     <default>false</default>
-                    <label>Mid-morning</label>
+                    <label>Nurse Practitioner</label>
                 </value>
                 <value>
-                    <fullName>Saturday</fullName>
+                    <fullName>Pharmacist</fullName>
                     <default>false</default>
-                    <label>Saturday</label>
+                    <label>Pharmacist</label>
                 </value>
                 <value>
-                    <fullName>Sunday</fullName>
+                    <fullName>Physician</fullName>
                     <default>false</default>
-                    <label>Sunday</label>
+                    <label>Physician</label>
                 </value>
                 <value>
-                    <fullName>Weekend</fullName>
+                    <fullName>Physiotherapist</fullName>
                     <default>false</default>
-                    <label>Weekend</label>
-                </value>
-                <value>
-                    <fullName>Any Time</fullName>
-                    <default>false</default>
-                    <label>Any Time</label>
+                    <label>Physiotherapist</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>Preferred_Language__c</fullName>
-        <externalId>false</externalId>
-        <label>Preferred Language</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>English</fullName>
-                    <default>false</default>
-                    <label>English</label>
-                </value>
-                <value>
-                    <fullName>French</fullName>
-                    <default>false</default>
-                    <label>French</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <listViews>
-        <fullName>MyContacts</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Contacts</label>
-    </listViews>
-    <listViews>
-        <fullName>AllContacts</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>CONTACT.SALUTATION</columns>
-        <columns>CONTACT.FIRST_NAME</columns>
-        <columns>CONTACT.LAST_NAME</columns>
-        <columns>Reg_Id__c</columns>
-        <columns>Status__c</columns>
-        <columns>Gender__c</columns>
-        <columns>Languages__c</columns>
-        <columns>CONTACT.BIRTHDATE</columns>
-        <columns>CONTACT.EMAIL</columns>
-        <filterScope>Everything</filterScope>
-        <label>All Contacts</label>
-    </listViews>
-    <listViews>
-        <fullName>NewLastWeek</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CONTACT.CREATED_DATE</field>
-            <operation>equals</operation>
-            <value>LAST_WEEK</value>
-        </filters>
-        <label>New Last Week</label>
-    </listViews>
-    <listViews>
-        <fullName>NewThisWeek</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CONTACT.CREATED_DATE</field>
-            <operation>equals</operation>
-            <value>THIS_WEEK</value>
-        </filters>
-        <label>New This Week</label>
-    </listViews>
-    <listViews>
-        <fullName>Patient_rec</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>CONTACT.PHONE1</columns>
-        <columns>CONTACT.EMAIL</columns>
-        <columns>CONTACT.TITLE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CONTACT.RECORDTYPE</field>
-            <operation>equals</operation>
-            <value>Contact.Patient</value>
-        </filters>
-        <label>Patient_rec</label>
-    </listViews>
-    <listViews>
-        <fullName>BirthdaysThisMonth</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CONTACT.BIRTHDATE</field>
-            <operation>equals</operation>
-            <value>THIS_MONTH</value>
-        </filters>
-        <label>Birthdays This Month</label>
-    </listViews>
-    <listViews>
-        <fullName>BulkMessageContacts</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>CONTACT.PHONE3</columns>
-        <columns>CONTACT.LAST_ACTIVITY</columns>
-        <filterScope>Everything</filterScope>
-        <label>Bulk_SMS_Contacts</label>
-    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Others</fullName>
         <active>true</active>
@@ -1695,6 +1717,56 @@ IF(ISPICKVAL(Status__c, &quot;Active&quot;),&quot;Green&quot;, &quot;Yellow&quot
             </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.SALUTATION</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.FIRST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.LAST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Reg_Id__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.EMAIL</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE3</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.BIRTHDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.TITLE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.FIRST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.LAST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Reg_Id__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.BIRTHDATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OHIP__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <massQuickActions>Patient_Update</massQuickActions>
+        <massQuickActions>CRT_OPTY</massQuickActions>
+        <searchFilterFields>CONTACT.FIRST_NAME</searchFilterFields>
+        <searchFilterFields>CONTACT.LAST_NAME</searchFilterFields>
+        <searchFilterFields>CONTACT.PHONE3</searchFilterFields>
+        <searchFilterFields>CONTACT.EMAIL</searchFilterFields>
+        <searchFilterFields>Reg_Id__c</searchFilterFields>
+        <searchFilterFields>SysCode_Id__c</searchFilterFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>At_least_one_Phone_number</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND((Patient__c = TRUE)  ,  ISBLANK(HomePhone) , ISBLANK(Phone) , ISBLANK(MobilePhone))</errorConditionFormula>
+        <errorMessage>Patent record should contain at least one Phone number</errorMessage>
+    </validationRules>
     <validationRules>
         <fullName>Contact_method</fullName>
         <active>true</active>
@@ -1718,71 +1790,6 @@ NOT(REGEX( FirstName,&quot;^[a-z  A-Z]*$&quot;))</errorConditionFormula>
 (Patient__c  = false &amp;&amp; RN__c = false &amp;&amp;  Prescriber__c = false &amp;&amp;  Case_Managed__c = true )) &lt;&gt; True</errorConditionFormula>
         <errorMessage>Only one Flag should be Checked in (Patient, RN, Prescriber, Case Managed)</errorMessage>
     </validationRules>
-    <validationRules>
-        <fullName>At_least_one_Phone_number</fullName>
-        <active>true</active>
-        <errorConditionFormula>AND((Patient__c = TRUE)  ,  ISBLANK(HomePhone) , ISBLANK(Phone) , ISBLANK(MobilePhone))</errorConditionFormula>
-        <errorMessage>Patent record should contain at least one Phone number</errorMessage>
-    </validationRules>
-    <webLinks>
-        <fullName>weather</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>weather</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://weather.yahoo.com/search/weather2?p={!Contact.MailingPostalCode}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>New_Quote</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <linkType>javascript</linkType>
-        <masterLabel>New Quote</masterLabel>
-        <openType>onClickJavaScript</openType>
-        <protected>false</protected>
-        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/22.0/connection.js&quot;)}
-{!REQUIRESCRIPT(&quot;/soap/ajax/22.0/apex.js&quot; )}
-var connection = sforce.connection;
-var newopportunity= new sforce.SObject(&quot;Opportunity&quot;);
-newopportunity.RecordTypeId=&quot;0123i000000YhMLAA0&quot;;
-newopportunity.Name = &quot;my new opportunity&quot;;
-newopportunity.StageName =&quot;Prospecting&quot;;
-newopportunity.Amount = &quot;100&quot;;
-newopportunity.CloseDate=new Date();
-result = sforce.connection.create([newopportunity]);
-if ( result[0].success === &quot;false&quot; ) {
-    alert( result[0].errors.message );
-}
-else {
-var newopportunityRole= new sforce.SObject(&quot;OpportunityContactRole&quot;);
-newopportunityRole.ContactId=&quot;{!Contact.Id}&quot;;
-newopportunityRole.OpportunityId = result[0].id;
-result1 = sforce.connection.create([newopportunityRole]);
-if ( result1[0].success === &quot;false&quot; ) {
-    alert( result1[0].errors.message );
-}
-else {
-var newQuote= new sforce.SObject(&quot;Quote&quot;);
-newQuote.RecordTypeId=&quot;0123i000000YgOWAA0&quot;;
-newQuote.Name = &quot;my new Quote&quot;;
-newQuote.ContactId = &quot;{!Contact.Id}&quot;;
-newQuote.OpportunityId = result[0].id;
-result2 = sforce.connection.create([newQuote]);
-window.location.reload();
-}
-}</url>
-    </webLinks>
     <webLinks>
         <fullName>Create_Opty</fullName>
         <availability>online</availability>
@@ -1874,5 +1881,64 @@ window.location.reload();
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
         <url>https://google.com/#q={!Contact.Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Quote</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New Quote</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/22.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/22.0/apex.js&quot; )}
+var connection = sforce.connection;
+var newopportunity= new sforce.SObject(&quot;Opportunity&quot;);
+newopportunity.RecordTypeId=&quot;0123i000000YhMLAA0&quot;;
+newopportunity.Name = &quot;my new opportunity&quot;;
+newopportunity.StageName =&quot;Prospecting&quot;;
+newopportunity.Amount = &quot;100&quot;;
+newopportunity.CloseDate=new Date();
+result = sforce.connection.create([newopportunity]);
+if ( result[0].success === &quot;false&quot; ) {
+    alert( result[0].errors.message );
+}
+else {
+var newopportunityRole= new sforce.SObject(&quot;OpportunityContactRole&quot;);
+newopportunityRole.ContactId=&quot;{!Contact.Id}&quot;;
+newopportunityRole.OpportunityId = result[0].id;
+result1 = sforce.connection.create([newopportunityRole]);
+if ( result1[0].success === &quot;false&quot; ) {
+    alert( result1[0].errors.message );
+}
+else {
+var newQuote= new sforce.SObject(&quot;Quote&quot;);
+newQuote.RecordTypeId=&quot;0123i000000YgOWAA0&quot;;
+newQuote.Name = &quot;my new Quote&quot;;
+newQuote.ContactId = &quot;{!Contact.Id}&quot;;
+newQuote.OpportunityId = result[0].id;
+result2 = sforce.connection.create([newQuote]);
+window.location.reload();
+}
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>weather</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>weather</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://weather.yahoo.com/search/weather2?p={!Contact.MailingPostalCode}</url>
     </webLinks>
 </CustomObject>

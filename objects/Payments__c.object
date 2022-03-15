@@ -153,17 +153,40 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Payments</label>
-    <nameField>
-        <displayFormat>Py-{0000000000}</displayFormat>
-        <label>Payments Name</label>
+    <fields>
+        <fullName>Authorization_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Authorization Code</label>
+        <length>4</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Payments</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>Authorization_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Authorization Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Address__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Billing Address</label>
+        <referenceTo>Address__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>Card_Holder__c</fullName>
         <externalId>false</externalId>
@@ -188,48 +211,28 @@
         <type>EncryptedText</type>
     </fields>
     <fields>
-        <fullName>Payment_Type__c</fullName>
+        <fullName>Expiration_Month__c</fullName>
         <externalId>false</externalId>
-        <label>Payment Type</label>
+        <label>Expiration Month</label>
+        <precision>2</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>VISA</fullName>
-                    <default>false</default>
-                    <label>VISA</label>
-                </value>
-                <value>
-                    <fullName>MASTER</fullName>
-                    <default>false</default>
-                    <label>MASTER</label>
-                </value>
-                <value>
-                    <fullName>American Express</fullName>
-                    <default>false</default>
-                    <label>American Express</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Quote_Payment__c</fullName>
+        <fullName>Expiration_Year__c</fullName>
         <externalId>false</externalId>
-        <label>Quote Payment</label>
-        <referenceTo>Quote</referenceTo>
-        <relationshipLabel>Payments</relationshipLabel>
-        <relationshipName>Payments</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <label>Expiration Year</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Payment_Method__c</fullName>
@@ -387,62 +390,48 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Billing_Address__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
+        <fullName>Payment_Type__c</fullName>
         <externalId>false</externalId>
-        <label>Billing Address</label>
-        <referenceTo>Address__c</referenceTo>
+        <label>Payment Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>VISA</fullName>
+                    <default>false</default>
+                    <label>VISA</label>
+                </value>
+                <value>
+                    <fullName>MASTER</fullName>
+                    <default>false</default>
+                    <label>MASTER</label>
+                </value>
+                <value>
+                    <fullName>American Express</fullName>
+                    <default>false</default>
+                    <label>American Express</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quote_Payment__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Payment</label>
+        <referenceTo>Quote</referenceTo>
         <relationshipLabel>Payments</relationshipLabel>
         <relationshipName>Payments</relationshipName>
-        <required>false</required>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Expiration_Year__c</fullName>
-        <externalId>false</externalId>
-        <label>Expiration Year</label>
-        <precision>4</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Expiration_Month__c</fullName>
-        <externalId>false</externalId>
-        <label>Expiration Month</label>
-        <precision>2</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Authorization_Code__c</fullName>
-        <externalId>false</externalId>
-        <label>Authorization Code</label>
-        <length>4</length>
-        <maskChar>asterisk</maskChar>
-        <maskType>all</maskType>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>EncryptedText</type>
-    </fields>
-    <fields>
-        <fullName>Authorization_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Authorization Date</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
         <fullName>Transaction_Amount__c</fullName>
@@ -467,6 +456,17 @@
         <trackTrending>false</trackTrending>
         <type>EncryptedText</type>
     </fields>
+    <label>Payments</label>
+    <nameField>
+        <displayFormat>Py-{0000000000}</displayFormat>
+        <label>Payments Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Payments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Back</fullName>
         <availability>online</availability>

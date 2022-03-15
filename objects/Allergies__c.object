@@ -153,50 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Allergies</label>
-    <nameField>
-        <displayFormat>Alg-{0000000000}</displayFormat>
-        <label>Allergies Name</label>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Allergies</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
-    <fields>
-        <fullName>Sevi__c</fullName>
-        <externalId>false</externalId>
-        <label>Severity</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>true</sorted>
-                <value>
-                    <fullName>Fatal</fullName>
-                    <default>false</default>
-                    <label>Fatal</label>
-                </value>
-                <value>
-                    <fullName>Mild</fullName>
-                    <default>false</default>
-                    <label>Mild</label>
-                </value>
-                <value>
-                    <fullName>Moderate</fullName>
-                    <default>false</default>
-                    <label>Moderate</label>
-                </value>
-                <value>
-                    <fullName>Severe</fullName>
-                    <default>false</default>
-                    <label>Severe</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
     <fields>
         <fullName>Allergy__c</fullName>
         <externalId>false</externalId>
@@ -1542,6 +1498,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Contact__c</fullName>
         <externalId>false</externalId>
         <label>Contact</label>
@@ -1553,16 +1519,6 @@
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
-        <fullName>Comments__c</fullName>
-        <externalId>false</externalId>
-        <label>Comments</label>
-        <length>100</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Reaction__c</fullName>
@@ -1703,6 +1659,50 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Sevi__c</fullName>
+        <externalId>false</externalId>
+        <label>Severity</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Fatal</fullName>
+                    <default>false</default>
+                    <label>Fatal</label>
+                </value>
+                <value>
+                    <fullName>Mild</fullName>
+                    <default>false</default>
+                    <label>Mild</label>
+                </value>
+                <value>
+                    <fullName>Moderate</fullName>
+                    <default>false</default>
+                    <label>Moderate</label>
+                </value>
+                <value>
+                    <fullName>Severe</fullName>
+                    <default>false</default>
+                    <label>Severe</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Allergies</label>
+    <nameField>
+        <displayFormat>Alg-{0000000000}</displayFormat>
+        <label>Allergies Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Allergies</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Go_To_Patient</fullName>
         <availability>online</availability>

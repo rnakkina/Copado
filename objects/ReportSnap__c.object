@@ -153,25 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>ReportSnap</label>
-    <nameField>
-        <label>ReportSnap Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>ReportSnaps</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <fields>
-        <fullName>Line__c</fullName>
-        <externalId>false</externalId>
-        <label>Line Item Number</label>
-        <length>20</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <fields>
         <fullName>Amount__c</fullName>
         <externalId>false</externalId>
@@ -184,10 +165,30 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Status__c</fullName>
+        <fullName>Line__c</fullName>
         <externalId>false</externalId>
-        <label>Status</label>
+        <label>Line Item Number</label>
         <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Name</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Name</label>
+        <length>50</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -215,6 +216,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Total_Price__c</fullName>
         <externalId>false</externalId>
         <label>Total Price</label>
@@ -225,24 +236,13 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>Product_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>Product Name</label>
-        <length>50</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
+    <label>ReportSnap</label>
+    <nameField>
+        <label>ReportSnap Name</label>
         <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Opportunity_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>Opportunity Name</label>
-        <length>20</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
+    </nameField>
+    <pluralLabel>ReportSnaps</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

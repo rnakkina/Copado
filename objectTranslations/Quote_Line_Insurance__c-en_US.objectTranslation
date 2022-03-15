@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quote Line Insurance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quote Line Insurance</value>
+    </caseValues>
+    <fields>
+        <label><!-- Deductible --></label>
+        <name>Deductible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paid --></label>
+        <name>Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor Name --></label>
+        <name>Payor_Name__c</name>
+        <relationshipLabel><!-- Quote Line Insurance --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Percent --></label>
+        <name>Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line Item --></label>
+        <name>Quote_Line_Item__c</name>
+        <relationshipLabel><!-- Quote Line Insurance --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Price - Drug --></label>
+        <name>Sales_Price_Drug__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Price - Payor --></label>
+        <name>Sales_Price_Payor__c</name>
+    </fields>
+    <layouts>
+        <layout>Quote Line Insurance Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Back --></label>
+        <name>Back</name>
+    </webLinks>
+</CustomObjectTranslation>

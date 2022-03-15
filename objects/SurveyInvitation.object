@@ -143,5 +143,37 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>CommunityId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EmailBrandingId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>InvitationLink</fullName>
+    </fields>
+    <fields>
+        <fullName>InviteExpiryDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParticipantId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ResponseStatus</fullName>
+    </fields>
+    <fields>
+        <fullName>SurveyId</fullName>
+        <type>Lookup</type>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

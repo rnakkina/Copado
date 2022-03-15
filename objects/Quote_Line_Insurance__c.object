@@ -154,34 +154,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Quote Line Insurance</label>
-    <nameField>
-        <displayFormat>Qli-{0000000000}</displayFormat>
-        <label>Quote Line Insurance Name</label>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Quote Line Insurance</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <fields>
-        <fullName>Paid__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Paid</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Percent__c</fullName>
-        <externalId>false</externalId>
-        <label>Percent</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Percent</type>
-    </fields>
     <fields>
         <fullName>Deductible__c</fullName>
         <externalId>false</externalId>
@@ -191,6 +163,14 @@
         <scale>0</scale>
         <trackTrending>false</trackTrending>
         <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Paid__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Paid</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Payor_Name__c</fullName>
@@ -203,6 +183,16 @@
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Percent__c</fullName>
+        <externalId>false</externalId>
+        <label>Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
     </fields>
     <fields>
         <fullName>Quote_Line_Item__c</fullName>
@@ -236,6 +226,16 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <label>Quote Line Insurance</label>
+    <nameField>
+        <displayFormat>Qli-{0000000000}</displayFormat>
+        <label>Quote Line Insurance Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Quote Line Insurance</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <webLinks>
         <fullName>Back</fullName>
         <availability>online</availability>

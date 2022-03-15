@@ -129,6 +129,65 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Amount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ChannelPartnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsIgnoreValidation</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentMdfBudgetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAllocatedAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalApprovedFcs</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalApprovedFrs</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalReimbursedFcs</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
         <customTabListAdditionalFields>Amount</customTabListAdditionalFields>
@@ -156,14 +215,4 @@
         <searchResultsAdditionalFields>ChannelPartner</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
-    <listViews>
-        <fullName>My_Partner_Marketing_Budgets</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Partner Marketing Budgets</label>
-    </listViews>
-    <listViews>
-        <fullName>All_Partner_Marketing_Budgets</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Partner Marketing Budgets</label>
-    </listViews>
 </CustomObject>

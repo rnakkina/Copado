@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ramakrishna.nakkina@gmail.com</contactEmail>
+    <contactPhone>4162099758</contactPhone>
+    <description>auth</description>
+    <label>myAuth</label>
+    <oauthConfig>
+        <callbackUrl>https://nrkportal-dev-ed.lightning.force.com/services/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9vtcvGoeH2bgeNwevBMYDwPhhKJb.aQ1edLC_fDJfKeBGitMOzZ8KfzbmTj2SsPX4AvOlUk8FVj5ckY58</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <sessionPolicy>
+        <sessionTimeout>60</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>
