@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Tests - Classifications</label>
+    <nameField>
+        <displayFormat>TC-{0000000000}</displayFormat>
+        <label>Tests/Classifications Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Tests - Classifications</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Tests_Classifications</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Patient__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Patient</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Results__c</fullName>
+        <externalId>false</externalId>
+        <label>Results</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Free Movement</fullName>
+                    <default>false</default>
+                    <label>Free Movement</label>
+                </value>
+                <value>
+                    <fullName>Minor Restrictions</fullName>
+                    <default>false</default>
+                    <label>Minor Restrictions</label>
+                </value>
+                <value>
+                    <fullName>Moderate Restrictions</fullName>
+                    <default>false</default>
+                    <label>Moderate Restrictions</label>
+                </value>
+                <value>
+                    <fullName>Severely Restricted</fullName>
+                    <default>false</default>
+                    <label>Severely Restricted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Test_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tests_Classifications__c</fullName>
+        <externalId>false</externalId>
+        <label>Tests/Classifications</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Activity Level</fullName>
+                    <default>false</default>
+                    <label>Activity Level</label>
+                </value>
+                <value>
+                    <fullName>Bone Mineral Density</fullName>
+                    <default>false</default>
+                    <label>Bone Mineral Density</label>
+                </value>
+                <value>
+                    <fullName>CD4 Tests</fullName>
+                    <default>false</default>
+                    <label>CD4 Tests</label>
+                </value>
+                <value>
+                    <fullName>Chest X-Ray</fullName>
+                    <default>false</default>
+                    <label>Chest X-Ray</label>
+                </value>
+                <value>
+                    <fullName>CTEPH + Combo</fullName>
+                    <default>false</default>
+                    <label>CTEPH + Combo</label>
+                </value>
+                <value>
+                    <fullName>CTEPH + Mono</fullName>
+                    <default>false</default>
+                    <label>CTEPH + Mono</label>
+                </value>
+                <value>
+                    <fullName>DLQI</fullName>
+                    <default>false</default>
+                    <label>DLQI</label>
+                </value>
+                <value>
+                    <fullName>ECOG</fullName>
+                    <default>false</default>
+                    <label>ECOG</label>
+                </value>
+                <value>
+                    <fullName>EDDS</fullName>
+                    <default>false</default>
+                    <label>EDDS</label>
+                </value>
+                <value>
+                    <fullName>ERT Patient Re-Consent 2019</fullName>
+                    <default>false</default>
+                    <label>ERT Patient Re-Consent 2019</label>
+                </value>
+                <value>
+                    <fullName>Genotype – Hepatitis C</fullName>
+                    <default>false</default>
+                    <label>Genotype – Hepatitis C</label>
+                </value>
+                <value>
+                    <fullName>KRAS Test</fullName>
+                    <default>false</default>
+                    <label>KRAS Test</label>
+                </value>
+                <value>
+                    <fullName>Liver Function Tests</fullName>
+                    <default>false</default>
+                    <label>Liver Function Tests</label>
+                </value>
+                <value>
+                    <fullName>NJ Phase</fullName>
+                    <default>false</default>
+                    <label>NJ Phase</label>
+                </value>
+                <value>
+                    <fullName>OP-Impact to Life</fullName>
+                    <default>false</default>
+                    <label>OP-Impact to Life</label>
+                </value>
+                <value>
+                    <fullName>P1NP</fullName>
+                    <default>false</default>
+                    <label>P1NP</label>
+                </value>
+                <value>
+                    <fullName>P1NP baseline</fullName>
+                    <default>false</default>
+                    <label>P1NP baseline</label>
+                </value>
+                <value>
+                    <fullName>PAH + Combo</fullName>
+                    <default>false</default>
+                    <label>PAH + Combo</label>
+                </value>
+                <value>
+                    <fullName>PAH + Mono</fullName>
+                    <default>false</default>
+                    <label>PAH + Mono</label>
+                </value>
+                <value>
+                    <fullName>PASI</fullName>
+                    <default>false</default>
+                    <label>PASI</label>
+                </value>
+                <value>
+                    <fullName>PEG-J</fullName>
+                    <default>false</default>
+                    <label>PEG-J</label>
+                </value>
+                <value>
+                    <fullName>Tuberculosis Test</fullName>
+                    <default>false</default>
+                    <label>Tuberculosis Test</label>
+                </value>
+                <value>
+                    <fullName>WHO Classification (PAH)</fullName>
+                    <default>false</default>
+                    <label>WHO Classification (PAH)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <webLinks>
+        <fullName>Go_To_Patient</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Go To Patient</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Action.Contact.View,  Tests_Classifications__c.ContactId__c , null)}</url>
+    </webLinks>
+</CustomObject>

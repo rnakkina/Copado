@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Relationships</label>
+    <nameField>
+        <displayFormat>Rel-{000000000}</displayFormat>
+        <label>Relationship Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Relationships</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Relationships</relationshipLabel>
+        <relationshipName>Relationships</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Related_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related To</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Relationships (Related To)</relationshipLabel>
+        <relationshipName>Relationships1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Main_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Main Contact</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Relationship_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Care Coach</fullName>
+                    <default>false</default>
+                    <label>Care Coach</label>
+                </value>
+                <value>
+                    <fullName>Caregiver</fullName>
+                    <default>false</default>
+                    <label>Caregiver</label>
+                </value>
+                <value>
+                    <fullName>Case Manager</fullName>
+                    <default>false</default>
+                    <label>Case Manager</label>
+                </value>
+                <value>
+                    <fullName>Clinic Nurse</fullName>
+                    <default>false</default>
+                    <label>Clinic Nurse</label>
+                </value>
+                <value>
+                    <fullName>Clinic Nurse - Secondary</fullName>
+                    <default>false</default>
+                    <label>Clinic Nurse - Secondary</label>
+                </value>
+                <value>
+                    <fullName>DNE</fullName>
+                    <default>false</default>
+                    <label>DNE</label>
+                </value>
+                <value>
+                    <fullName>Daughter</fullName>
+                    <default>false</default>
+                    <label>Daughter</label>
+                </value>
+                <value>
+                    <fullName>Employer</fullName>
+                    <default>false</default>
+                    <label>Employer</label>
+                </value>
+                <value>
+                    <fullName>Family Member</fullName>
+                    <default>false</default>
+                    <label>Family Member</label>
+                </value>
+                <value>
+                    <fullName>Family Physician</fullName>
+                    <default>false</default>
+                    <label>Family Physician</label>
+                </value>
+                <value>
+                    <fullName>Field Case Manager</fullName>
+                    <default>false</default>
+                    <label>Field Case Manager</label>
+                </value>
+                <value>
+                    <fullName>Field Nurse</fullName>
+                    <default>false</default>
+                    <label>Field Nurse</label>
+                </value>
+                <value>
+                    <fullName>Husband</fullName>
+                    <default>false</default>
+                    <label>Husband</label>
+                </value>
+                <value>
+                    <fullName>Insurer Contact</fullName>
+                    <default>false</default>
+                    <label>Insurer Contact</label>
+                </value>
+                <value>
+                    <fullName>Neighbour</fullName>
+                    <default>false</default>
+                    <label>Neighbour</label>
+                </value>
+                <value>
+                    <fullName>ODANO</fullName>
+                    <default>false</default>
+                    <label>ODANO</label>
+                </value>
+                <value>
+                    <fullName>Office Clerk</fullName>
+                    <default>false</default>
+                    <label>Office Clerk</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>PCS</fullName>
+                    <default>false</default>
+                    <label>PCS</label>
+                </value>
+                <value>
+                    <fullName>Partner</fullName>
+                    <default>false</default>
+                    <label>Partner</label>
+                </value>
+                <value>
+                    <fullName>Patient</fullName>
+                    <default>false</default>
+                    <label>Patient</label>
+                </value>
+                <value>
+                    <fullName>Pharmacy</fullName>
+                    <default>false</default>
+                    <label>Pharmacy</label>
+                </value>
+                <value>
+                    <fullName>Power of Attorney</fullName>
+                    <default>false</default>
+                    <label>Power of Attorney</label>
+                </value>
+                <value>
+                    <fullName>Prescribing Doctor</fullName>
+                    <default>false</default>
+                    <label>Prescribing Doctor</label>
+                </value>
+                <value>
+                    <fullName>RNM</fullName>
+                    <default>false</default>
+                    <label>RNM</label>
+                </value>
+                <value>
+                    <fullName>SCN</fullName>
+                    <default>false</default>
+                    <label>SCN</label>
+                </value>
+                <value>
+                    <fullName>Social Worker</fullName>
+                    <default>false</default>
+                    <label>Social Worker</label>
+                </value>
+                <value>
+                    <fullName>Son</fullName>
+                    <default>false</default>
+                    <label>Son</label>
+                </value>
+                <value>
+                    <fullName>Spouse</fullName>
+                    <default>false</default>
+                    <label>Spouse</label>
+                </value>
+                <value>
+                    <fullName>Wife</fullName>
+                    <default>false</default>
+                    <label>Wife</label>
+                </value>
+                <value>
+                    <fullName>Enrolling Doctor</fullName>
+                    <default>false</default>
+                    <label>Enrolling Doctor</label>
+                </value>
+                <value>
+                    <fullName>Reimbursement Agent</fullName>
+                    <default>false</default>
+                    <label>Reimbursement Agent</label>
+                </value>
+                <value>
+                    <fullName>Reports To</fullName>
+                    <default>false</default>
+                    <label>Reports To</label>
+                </value>
+                <value>
+                    <fullName>Lawyer</fullName>
+                    <default>false</default>
+                    <label>Lawyer</label>
+                </value>
+                <value>
+                    <fullName>Board Member</fullName>
+                    <default>false</default>
+                    <label>Board Member</label>
+                </value>
+                <value>
+                    <fullName>Primary Contact (Backup)</fullName>
+                    <default>false</default>
+                    <label>Primary Contact (Backup)</label>
+                </value>
+                <value>
+                    <fullName>Admin Assistant</fullName>
+                    <default>false</default>
+                    <label>Admin Assistant</label>
+                </value>
+                <value>
+                    <fullName>Competitor</fullName>
+                    <default>false</default>
+                    <label>Competitor</label>
+                </value>
+                <value>
+                    <fullName>Service Provider</fullName>
+                    <default>false</default>
+                    <label>Service Provider</label>
+                </value>
+                <value>
+                    <fullName>Investor</fullName>
+                    <default>false</default>
+                    <label>Investor</label>
+                </value>
+                <value>
+                    <fullName>Related Subsidiary</fullName>
+                    <default>false</default>
+                    <label>Related Subsidiary</label>
+                </value>
+                <value>
+                    <fullName>Bank Attorney</fullName>
+                    <default>false</default>
+                    <label>Bank Attorney</label>
+                </value>
+                <value>
+                    <fullName>Trustee Attorney</fullName>
+                    <default>false</default>
+                    <label>Trustee Attorney</label>
+                </value>
+                <value>
+                    <fullName>Debtor Attorney</fullName>
+                    <default>false</default>
+                    <label>Debtor Attorney</label>
+                </value>
+                <value>
+                    <fullName>Other Attorney</fullName>
+                    <default>false</default>
+                    <label>Other Attorney</label>
+                </value>
+                <value>
+                    <fullName>Partnership</fullName>
+                    <default>false</default>
+                    <label>Partnership</label>
+                </value>
+                <value>
+                    <fullName>Agent</fullName>
+                    <default>false</default>
+                    <label>Agent</label>
+                </value>
+                <value>
+                    <fullName>Custodian</fullName>
+                    <default>false</default>
+                    <label>Custodian</label>
+                </value>
+                <value>
+                    <fullName>Executor</fullName>
+                    <default>false</default>
+                    <label>Executor</label>
+                </value>
+                <value>
+                    <fullName>POA</fullName>
+                    <default>false</default>
+                    <label>POA</label>
+                </value>
+                <value>
+                    <fullName>Personal Assistant</fullName>
+                    <default>false</default>
+                    <label>Personal Assistant</label>
+                </value>
+                <value>
+                    <fullName>Referred By</fullName>
+                    <default>false</default>
+                    <label>Referred By</label>
+                </value>
+                <value>
+                    <fullName>Refers To</fullName>
+                    <default>false</default>
+                    <label>Refers To</label>
+                </value>
+                <value>
+                    <fullName>Benefits Analyst</fullName>
+                    <default>false</default>
+                    <label>Benefits Analyst</label>
+                </value>
+                <value>
+                    <fullName>Buying Influence</fullName>
+                    <default>false</default>
+                    <label>Buying Influence</label>
+                </value>
+                <value>
+                    <fullName>Enrollee</fullName>
+                    <default>false</default>
+                    <label>Enrollee</label>
+                </value>
+                <value>
+                    <fullName>Financial Analyst</fullName>
+                    <default>false</default>
+                    <label>Financial Analyst</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Product Influence</fullName>
+                    <default>false</default>
+                    <label>Product Influence</label>
+                </value>
+                <value>
+                    <fullName>Technical Influence</fullName>
+                    <default>false</default>
+                    <label>Technical Influence</label>
+                </value>
+                <value>
+                    <fullName>Financier</fullName>
+                    <default>false</default>
+                    <label>Financier</label>
+                </value>
+                <value>
+                    <fullName>Known Associate</fullName>
+                    <default>false</default>
+                    <label>Known Associate</label>
+                </value>
+                <value>
+                    <fullName>Lived With</fullName>
+                    <default>false</default>
+                    <label>Lived With</label>
+                </value>
+                <value>
+                    <fullName>Met With</fullName>
+                    <default>false</default>
+                    <label>Met With</label>
+                </value>
+                <value>
+                    <fullName>Subordinate</fullName>
+                    <default>false</default>
+                    <label>Subordinate</label>
+                </value>
+                <value>
+                    <fullName>Superior</fullName>
+                    <default>false</default>
+                    <label>Superior</label>
+                </value>
+                <value>
+                    <fullName>Affiliated With</fullName>
+                    <default>false</default>
+                    <label>Affiliated With</label>
+                </value>
+                <value>
+                    <fullName>Purchases From</fullName>
+                    <default>false</default>
+                    <label>Purchases From</label>
+                </value>
+                <value>
+                    <fullName>None Specified</fullName>
+                    <default>false</default>
+                    <label>None Specified</label>
+                </value>
+                <value>
+                    <fullName>Bill To</fullName>
+                    <default>false</default>
+                    <label>Bill To</label>
+                </value>
+                <value>
+                    <fullName>Payer</fullName>
+                    <default>false</default>
+                    <label>Payer</label>
+                </value>
+                <value>
+                    <fullName>Proxy User</fullName>
+                    <default>false</default>
+                    <label>Proxy User</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+                <value>
+                    <fullName>Staff</fullName>
+                    <default>false</default>
+                    <label>Staff</label>
+                </value>
+                <value>
+                    <fullName>Faculty</fullName>
+                    <default>false</default>
+                    <label>Faculty</label>
+                </value>
+                <value>
+                    <fullName>Alumni</fullName>
+                    <default>false</default>
+                    <label>Alumni</label>
+                </value>
+                <value>
+                    <fullName>Parents</fullName>
+                    <default>false</default>
+                    <label>Parents</label>
+                </value>
+                <value>
+                    <fullName>Secondary</fullName>
+                    <default>false</default>
+                    <label>Secondary</label>
+                </value>
+                <value>
+                    <fullName>Boss</fullName>
+                    <default>false</default>
+                    <label>Boss</label>
+                </value>
+                <value>
+                    <fullName>Guardian</fullName>
+                    <default>false</default>
+                    <label>Guardian</label>
+                </value>
+                <value>
+                    <fullName>Joint</fullName>
+                    <default>false</default>
+                    <label>Joint</label>
+                </value>
+                <value>
+                    <fullName>PLS</fullName>
+                    <default>false</default>
+                    <label>PLS</label>
+                </value>
+                <value>
+                    <fullName>PMS</fullName>
+                    <default>false</default>
+                    <label>PMS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <webLinks>
+        <fullName>Go_To_Patient</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Go To Patient</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Action.Contact.View,  Relationships__c.ContactId__c , null)}</url>
+    </webLinks>
+</CustomObject>

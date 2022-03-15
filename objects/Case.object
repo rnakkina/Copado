@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>ReadWriteTransfer</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWriteTransfer</sharingModel>
+    <fields>
+        <fullName>Product__c</fullName>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GC1040</fullName>
+                    <default>false</default>
+                    <label>GC1040</label>
+                </value>
+                <value>
+                    <fullName>GC1060</fullName>
+                    <default>false</default>
+                    <label>GC1060</label>
+                </value>
+                <value>
+                    <fullName>GC3020</fullName>
+                    <default>false</default>
+                    <label>GC3020</label>
+                </value>
+                <value>
+                    <fullName>GC3040</fullName>
+                    <default>false</default>
+                    <label>GC3040</label>
+                </value>
+                <value>
+                    <fullName>GC3060</fullName>
+                    <default>false</default>
+                    <label>GC3060</label>
+                </value>
+                <value>
+                    <fullName>GC5020</fullName>
+                    <default>false</default>
+                    <label>GC5020</label>
+                </value>
+                <value>
+                    <fullName>GC5040</fullName>
+                    <default>false</default>
+                    <label>GC5040</label>
+                </value>
+                <value>
+                    <fullName>GC5060</fullName>
+                    <default>false</default>
+                    <label>GC5060</label>
+                </value>
+                <value>
+                    <fullName>GC1020</fullName>
+                    <default>false</default>
+                    <label>GC1020</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sent Email</fullName>
+                    <default>false</default>
+                    <label>Sent Email</label>
+                </value>
+                <value>
+                    <fullName>Bounce Back</fullName>
+                    <default>false</default>
+                    <label>Bounce Back</label>
+                </value>
+                <value>
+                    <fullName>Unsubscribe</fullName>
+                    <default>false</default>
+                    <label>Unsubscribe</label>
+                </value>
+                <value>
+                    <fullName>Communication</fullName>
+                    <default>false</default>
+                    <label>Communication</label>
+                </value>
+                <value>
+                    <fullName>Escalation</fullName>
+                    <default>false</default>
+                    <label>Escalation</label>
+                </value>
+                <value>
+                    <fullName>Exception</fullName>
+                    <default>false</default>
+                    <label>Exception</label>
+                </value>
+                <value>
+                    <fullName>Clinic Notification</fullName>
+                    <default>false</default>
+                    <label>Clinic Notification</label>
+                </value>
+                <value>
+                    <fullName>FAX Received</fullName>
+                    <default>false</default>
+                    <label>FAX Received</label>
+                </value>
+                <value>
+                    <fullName>Services Requested</fullName>
+                    <default>false</default>
+                    <label>Services Requested</label>
+                </value>
+                <value>
+                    <fullName>Conduct Survey</fullName>
+                    <default>false</default>
+                    <label>Conduct Survey</label>
+                </value>
+                <value>
+                    <fullName>Reply Text</fullName>
+                    <default>false</default>
+                    <label>Reply Text</label>
+                </value>
+                <value>
+                    <fullName>Request Stop</fullName>
+                    <default>false</default>
+                    <label>Request Stop</label>
+                </value>
+                <value>
+                    <fullName>Reschedule FU 1</fullName>
+                    <default>false</default>
+                    <label>Reschedule FU 1</label>
+                </value>
+                <value>
+                    <fullName>Reschedule FU 2</fullName>
+                    <default>false</default>
+                    <label>Reschedule FU 2</label>
+                </value>
+                <value>
+                    <fullName>Reschedule FU 3</fullName>
+                    <default>false</default>
+                    <label>Reschedule FU 3</label>
+                </value>
+                <value>
+                    <fullName>Schedule Delivery</fullName>
+                    <default>false</default>
+                    <label>Schedule Delivery</label>
+                </value>
+                <value>
+                    <fullName>Schedule Follow-Up 1</fullName>
+                    <default>false</default>
+                    <label>Schedule Follow-Up 1</label>
+                </value>
+                <value>
+                    <fullName>Schedule Follow-Up 2</fullName>
+                    <default>false</default>
+                    <label>Schedule Follow-Up 2</label>
+                </value>
+                <value>
+                    <fullName>Schedule Follow-Up 3</fullName>
+                    <default>false</default>
+                    <label>Schedule Follow-Up 3</label>
+                </value>
+                <value>
+                    <fullName>HCP Follow-Up 1</fullName>
+                    <default>false</default>
+                    <label>HCP Follow-Up 1</label>
+                </value>
+                <value>
+                    <fullName>HCP Follow-Up 2</fullName>
+                    <default>false</default>
+                    <label>HCP Follow-Up 2</label>
+                </value>
+                <value>
+                    <fullName>HCP Follow-Up 3</fullName>
+                    <default>false</default>
+                    <label>HCP Follow-Up 3</label>
+                </value>
+                <value>
+                    <fullName>PT Follow-Up 1</fullName>
+                    <default>false</default>
+                    <label>PT Follow-Up 1</label>
+                </value>
+                <value>
+                    <fullName>PT Follow-Up 2</fullName>
+                    <default>false</default>
+                    <label>PT Follow-Up 2</label>
+                </value>
+                <value>
+                    <fullName>PT Follow-Up 3</fullName>
+                    <default>false</default>
+                    <label>PT Follow-Up 3</label>
+                </value>
+                <value>
+                    <fullName>PT Welcome Call</fullName>
+                    <default>false</default>
+                    <label>PT Welcome Call</label>
+                </value>
+                <value>
+                    <fullName>Reschedule Delivery</fullName>
+                    <default>false</default>
+                    <label>Reschedule Delivery</label>
+                </value>
+                <value>
+                    <fullName>Reschedule Delivery 1</fullName>
+                    <default>false</default>
+                    <label>Reschedule Delivery 1</label>
+                </value>
+                <value>
+                    <fullName>Reschedule Delivery 2</fullName>
+                    <default>false</default>
+                    <label>Reschedule Delivery 2</label>
+                </value>
+                <value>
+                    <fullName>Reschedule Delivery 3</fullName>
+                    <default>false</default>
+                    <label>Reschedule Delivery 3</label>
+                </value>
+                <value>
+                    <fullName>Welcome Call FU 1</fullName>
+                    <default>false</default>
+                    <label>Welcome Call FU 1</label>
+                </value>
+                <value>
+                    <fullName>Welcome Call FU 2</fullName>
+                    <default>false</default>
+                    <label>Welcome Call FU 2</label>
+                </value>
+                <value>
+                    <fullName>Welcome Call FU 3</fullName>
+                    <default>false</default>
+                    <label>Welcome Call FU 3</label>
+                </value>
+                <value>
+                    <fullName>Pt Survey Call 1</fullName>
+                    <default>false</default>
+                    <label>Pt Survey Call 1</label>
+                </value>
+                <value>
+                    <fullName>Long Term Survey</fullName>
+                    <default>false</default>
+                    <label>Long Term Survey</label>
+                </value>
+                <value>
+                    <fullName>Pt Survey Call 2</fullName>
+                    <default>false</default>
+                    <label>Pt Survey Call 2</label>
+                </value>
+                <value>
+                    <fullName>Pt Survey Call 3</fullName>
+                    <default>false</default>
+                    <label>Pt Survey Call 3</label>
+                </value>
+                <value>
+                    <fullName>Short Term Survey</fullName>
+                    <default>false</default>
+                    <label>Short Term Survey</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Conduct Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Reply Text</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Request Stop</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Reschedule FU 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Reschedule FU 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Reschedule FU 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Schedule Delivery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Schedule Follow-Up 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Schedule Follow-Up 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Schedule Follow-Up 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>HCP Follow-Up 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>HCP Follow-Up 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>HCP Follow-Up 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>PT Follow-Up 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>PT Follow-Up 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>PT Follow-Up 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>PT Welcome Call</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Reschedule Delivery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Reschedule Delivery 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Reschedule Delivery 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Reschedule Delivery 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Welcome Call FU 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Welcome Call FU 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Welcome Call FU 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Pt Survey Call 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Long Term Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Pt Survey Call 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Pt Survey Call 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PSR</controllingFieldValue>
+                <valueName>Short Term Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Email - Outbound</controllingFieldValue>
+                <valueName>Sent Email</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Email Update</controllingFieldValue>
+                <valueName>Bounce Back</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Email Update</controllingFieldValue>
+                <valueName>Unsubscribe</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Email - Inbound</controllingFieldValue>
+                <controllingFieldValue>Index</controllingFieldValue>
+                <valueName>Communication</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <controllingFieldValue>Index</controllingFieldValue>
+                <valueName>Escalation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Index</controllingFieldValue>
+                <valueName>Exception</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Index</controllingFieldValue>
+                <valueName>Clinic Notification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Index</controllingFieldValue>
+                <valueName>FAX Received</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Index</controllingFieldValue>
+                <valueName>Services Requested</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SLAViolation__c</fullName>
+        <externalId>false</externalId>
+        <label>SLA Violation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PotentialLiability__c</fullName>
+        <externalId>false</externalId>
+        <label>Potential Liability</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EngineeringReqNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Engineering Req Number</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <webLinks>
+        <fullName>UpsellCrosssellOpportunity</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Up-sell / Cross-sell Opportunity</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>https://na1.salesforce.com/opp/oppedit.jsp?accid={!Account_ID}&amp;opp3=Up-sell+/+Cross-sell&amp;opp5=Existing+Customer&amp;opp6=Customer+Support</url>
+    </webLinks>
+</CustomObject>

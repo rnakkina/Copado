@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Allergies</label>
+    <nameField>
+        <displayFormat>Alg-{0000000000}</displayFormat>
+        <label>Allergies Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Allergies</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Sevi__c</fullName>
+        <externalId>false</externalId>
+        <label>Severity</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Fatal</fullName>
+                    <default>false</default>
+                    <label>Fatal</label>
+                </value>
+                <value>
+                    <fullName>Mild</fullName>
+                    <default>false</default>
+                    <label>Mild</label>
+                </value>
+                <value>
+                    <fullName>Moderate</fullName>
+                    <default>false</default>
+                    <label>Moderate</label>
+                </value>
+                <value>
+                    <fullName>Severe</fullName>
+                    <default>false</default>
+                    <label>Severe</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Allergy__c</fullName>
+        <externalId>false</externalId>
+        <label>Allergy</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Acariens</fullName>
+                    <default>false</default>
+                    <label>Acariens</label>
+                </value>
+                <value>
+                    <fullName>ACE inhibitors</fullName>
+                    <default>false</default>
+                    <label>ACE inhibitors</label>
+                </value>
+                <value>
+                    <fullName>Acetaminophen</fullName>
+                    <default>false</default>
+                    <label>Acetaminophen</label>
+                </value>
+                <value>
+                    <fullName>Acétaminophène</fullName>
+                    <default>false</default>
+                    <label>Acétaminophène</label>
+                </value>
+                <value>
+                    <fullName>Acetominophen Tramadol Hydrochloride</fullName>
+                    <default>false</default>
+                    <label>Acetominophen Tramadol Hydrochloride</label>
+                </value>
+                <value>
+                    <fullName>Acetyl cysteine</fullName>
+                    <default>false</default>
+                    <label>Acetyl cysteine</label>
+                </value>
+                <value>
+                    <fullName>Acétyl cystéine</fullName>
+                    <default>false</default>
+                    <label>Acétyl cystéine</label>
+                </value>
+                <value>
+                    <fullName>Acide alendronique</fullName>
+                    <default>false</default>
+                    <label>Acide alendronique</label>
+                </value>
+                <value>
+                    <fullName>ACIDE NALIDIXIQUE</fullName>
+                    <default>false</default>
+                    <label>ACIDE NALIDIXIQUE</label>
+                </value>
+                <value>
+                    <fullName>Aerosols (Insect</fullName>
+                    <default>false</default>
+                    <label>Aerosols (Insect</label>
+                </value>
+                <value>
+                    <fullName>Aérosols (insectes</fullName>
+                    <default>false</default>
+                    <label>Aérosols (insectes</label>
+                </value>
+                <value>
+                    <fullName>Agents chimiothérapeutiques (asparaginase</fullName>
+                    <default>false</default>
+                    <label>Agents chimiothérapeutiques (asparaginase</label>
+                </value>
+                <value>
+                    <fullName>Agents de conservations (parabène et sulfites)</fullName>
+                    <default>false</default>
+                    <label>Agents de conservations (parabène et sulfites)</label>
+                </value>
+                <value>
+                    <fullName>Agents de diagnostic (fluoroscéine</fullName>
+                    <default>false</default>
+                    <label>Agents de diagnostic (fluoroscéine</label>
+                </value>
+                <value>
+                    <fullName>AINS (tous)</fullName>
+                    <default>false</default>
+                    <label>AINS (tous)</label>
+                </value>
+                <value>
+                    <fullName>Albumine sérique humaine</fullName>
+                    <default>false</default>
+                    <label>Albumine sérique humaine</label>
+                </value>
+                <value>
+                    <fullName>Alcohol</fullName>
+                    <default>false</default>
+                    <label>Alcohol</label>
+                </value>
+                <value>
+                    <fullName>Alcool</fullName>
+                    <default>false</default>
+                    <label>Alcool</label>
+                </value>
+                <value>
+                    <fullName>Aldosterone Antagonists (Spironolactone</fullName>
+                    <default>false</default>
+                    <label>Aldosterone Antagonists (Spironolactone</label>
+                </value>
+                <value>
+                    <fullName>Alendronic Acid</fullName>
+                    <default>false</default>
+                    <label>Alendronic Acid</label>
+                </value>
+                <value>
+                    <fullName>Allerg. aux prod. cosmétiques</fullName>
+                    <default>false</default>
+                    <label>Allerg. aux prod. cosmétiques</label>
+                </value>
+                <value>
+                    <fullName>Allerg. herbe à puce et plantes</fullName>
+                    <default>false</default>
+                    <label>Allerg. herbe à puce et plantes</label>
+                </value>
+                <value>
+                    <fullName>Allerg.yeux (conjonctiv. allerg.)</fullName>
+                    <default>false</default>
+                    <label>Allerg.yeux (conjonctiv. allerg.)</label>
+                </value>
+                <value>
+                    <fullName>Allergie à l&apos;herbe à poux</fullName>
+                    <default>false</default>
+                    <label>Allergie à l&apos;herbe à poux</label>
+                </value>
+                <value>
+                    <fullName>Allergie à la cigarette</fullName>
+                    <default>false</default>
+                    <label>Allergie à la cigarette</label>
+                </value>
+                <value>
+                    <fullName>Allergie à la moisissure</fullName>
+                    <default>false</default>
+                    <label>Allergie à la moisissure</label>
+                </value>
+                <value>
+                    <fullName>Allergie à la pénicilline</fullName>
+                    <default>false</default>
+                    <label>Allergie à la pénicilline</label>
+                </value>
+                <value>
+                    <fullName>Allergie à la poussière</fullName>
+                    <default>false</default>
+                    <label>Allergie à la poussière</label>
+                </value>
+                <value>
+                    <fullName>Allergie à l’aspirine (au salicylate)</fullName>
+                    <default>false</default>
+                    <label>Allergie à l’aspirine (au salicylate)</label>
+                </value>
+                <value>
+                    <fullName>Allergie au blé</fullName>
+                    <default>false</default>
+                    <label>Allergie au blé</label>
+                </value>
+                <value>
+                    <fullName>Allergie au gluten (maladie cœliaque)</fullName>
+                    <default>false</default>
+                    <label>Allergie au gluten (maladie cœliaque)</label>
+                </value>
+                <value>
+                    <fullName>Allergie au lait</fullName>
+                    <default>false</default>
+                    <label>Allergie au lait</label>
+                </value>
+                <value>
+                    <fullName>Allergie au latex</fullName>
+                    <default>false</default>
+                    <label>Allergie au latex</label>
+                </value>
+                <value>
+                    <fullName>Allergie au poisson</fullName>
+                    <default>false</default>
+                    <label>Allergie au poisson</label>
+                </value>
+                <value>
+                    <fullName>Allergie au pollen des arbres</fullName>
+                    <default>false</default>
+                    <label>Allergie au pollen des arbres</label>
+                </value>
+                <value>
+                    <fullName>Allergie au soleil</fullName>
+                    <default>false</default>
+                    <label>Allergie au soleil</label>
+                </value>
+                <value>
+                    <fullName>Allergie au soufre</fullName>
+                    <default>false</default>
+                    <label>Allergie au soufre</label>
+                </value>
+                <value>
+                    <fullName>Allergie au soya</fullName>
+                    <default>false</default>
+                    <label>Allergie au soya</label>
+                </value>
+                <value>
+                    <fullName>Allergie au sulfite</fullName>
+                    <default>false</default>
+                    <label>Allergie au sulfite</label>
+                </value>
+                <value>
+                    <fullName>Allergie aux cafards</fullName>
+                    <default>false</default>
+                    <label>Allergie aux cafards</label>
+                </value>
+                <value>
+                    <fullName>Allergie aux mollusques et crustacés</fullName>
+                    <default>false</default>
+                    <label>Allergie aux mollusques et crustacés</label>
+                </value>
+                <value>
+                    <fullName>Allergie aux noix</fullName>
+                    <default>false</default>
+                    <label>Allergie aux noix</label>
+                </value>
+                <value>
+                    <fullName>Allergie aux œufs</fullName>
+                    <default>false</default>
+                    <label>Allergie aux œufs</label>
+                </value>
+                <value>
+                    <fullName>Allergie aux piqûres d’abeilles</fullName>
+                    <default>false</default>
+                    <label>Allergie aux piqûres d’abeilles</label>
+                </value>
+                <value>
+                    <fullName>Allergies aux animaux de comp.</fullName>
+                    <default>false</default>
+                    <label>Allergies aux animaux de comp.</label>
+                </value>
+                <value>
+                    <fullName>Allergies aux bijoux</fullName>
+                    <default>false</default>
+                    <label>Allergies aux bijoux</label>
+                </value>
+                <value>
+                    <fullName>Allergy immunotherapy vaccines</fullName>
+                    <default>false</default>
+                    <label>Allergy immunotherapy vaccines</label>
+                </value>
+                <value>
+                    <fullName>Amoxicillin</fullName>
+                    <default>false</default>
+                    <label>Amoxicillin</label>
+                </value>
+                <value>
+                    <fullName>Amoxicilline</fullName>
+                    <default>false</default>
+                    <label>Amoxicilline</label>
+                </value>
+                <value>
+                    <fullName>Anesthésie locale</fullName>
+                    <default>false</default>
+                    <label>Anesthésie locale</label>
+                </value>
+                <value>
+                    <fullName>Antagonistes de l’aldostérone (spironolactone</fullName>
+                    <default>false</default>
+                    <label>Antagonistes de l’aldostérone (spironolactone</label>
+                </value>
+                <value>
+                    <fullName>Antibiotics (neomycin</fullName>
+                    <default>false</default>
+                    <label>Antibiotics (neomycin</label>
+                </value>
+                <value>
+                    <fullName>Antibiotiques (néomycine</fullName>
+                    <default>false</default>
+                    <label>Antibiotiques (néomycine</label>
+                </value>
+                <value>
+                    <fullName>Anticoagulants (Heparin</fullName>
+                    <default>false</default>
+                    <label>Anticoagulants (Heparin</label>
+                </value>
+                <value>
+                    <fullName>Anticonvulsants</fullName>
+                    <default>false</default>
+                    <label>Anticonvulsants</label>
+                </value>
+                <value>
+                    <fullName>Anticonvulsivants</fullName>
+                    <default>false</default>
+                    <label>Anticonvulsivants</label>
+                </value>
+                <value>
+                    <fullName>Anticorps monoclonaux (Remicade</fullName>
+                    <default>false</default>
+                    <label>Anticorps monoclonaux (Remicade</label>
+                </value>
+                <value>
+                    <fullName>Anti-émétiques</fullName>
+                    <default>false</default>
+                    <label>Anti-émétiques</label>
+                </value>
+                <value>
+                    <fullName>Anti-fongiques</fullName>
+                    <default>false</default>
+                    <label>Anti-fongiques</label>
+                </value>
+                <value>
+                    <fullName>Anti-Fungal</fullName>
+                    <default>false</default>
+                    <label>Anti-Fungal</label>
+                </value>
+                <value>
+                    <fullName>Anti-histamines</fullName>
+                    <default>false</default>
+                    <label>Anti-histamines</label>
+                </value>
+                <value>
+                    <fullName>Anti-histaminiques</fullName>
+                    <default>false</default>
+                    <label>Anti-histaminiques</label>
+                </value>
+                <value>
+                    <fullName>Anti-inflammatory drugs (diclofena</fullName>
+                    <default>false</default>
+                    <label>Anti-inflammatory drugs (diclofena</label>
+                </value>
+                <value>
+                    <fullName>Anti-Muscarinic</fullName>
+                    <default>false</default>
+                    <label>Anti-Muscarinic</label>
+                </value>
+                <value>
+                    <fullName>Antimuscarinique</fullName>
+                    <default>false</default>
+                    <label>Antimuscarinique</label>
+                </value>
+                <value>
+                    <fullName>Antinéoplasiques (Taxol)</fullName>
+                    <default>false</default>
+                    <label>Antinéoplasiques (Taxol)</label>
+                </value>
+                <value>
+                    <fullName>Antineoplastic (Taxol)</fullName>
+                    <default>false</default>
+                    <label>Antineoplastic (Taxol)</label>
+                </value>
+                <value>
+                    <fullName>Antiseptics (mercurochrome</fullName>
+                    <default>false</default>
+                    <label>Antiseptics (mercurochrome</label>
+                </value>
+                <value>
+                    <fullName>Antiseptiques (mercurochrome</fullName>
+                    <default>false</default>
+                    <label>Antiseptiques (mercurochrome</label>
+                </value>
+                <value>
+                    <fullName>Antivenins</fullName>
+                    <default>false</default>
+                    <label>Antivenins</label>
+                </value>
+                <value>
+                    <fullName>Antivenoms</fullName>
+                    <default>false</default>
+                    <label>Antivenoms</label>
+                </value>
+                <value>
+                    <fullName>Arian Cough</fullName>
+                    <default>false</default>
+                    <label>Arian Cough</label>
+                </value>
+                <value>
+                    <fullName>Aripiprazole</fullName>
+                    <default>false</default>
+                    <label>Aripiprazole</label>
+                </value>
+                <value>
+                    <fullName>Aspirin Allergy (Salicylate Allergy)</fullName>
+                    <default>false</default>
+                    <label>Aspirin Allergy (Salicylate Allergy)</label>
+                </value>
+                <value>
+                    <fullName>Atovaquone/Chlorhydrate de proguanil</fullName>
+                    <default>false</default>
+                    <label>Atovaquone/Chlorhydrate de proguanil</label>
+                </value>
+                <value>
+                    <fullName>Atovaquone/Proguanil Hydrochloride</fullName>
+                    <default>false</default>
+                    <label>Atovaquone/Proguanil Hydrochloride</label>
+                </value>
+                <value>
+                    <fullName>Aucune n’est connue</fullName>
+                    <default>false</default>
+                    <label>Aucune n’est connue</label>
+                </value>
+                <value>
+                    <fullName>Avelox (Moxiflacin)</fullName>
+                    <default>false</default>
+                    <label>Avelox (Moxiflacin)</label>
+                </value>
+                <value>
+                    <fullName>Avelox (moxiflacine)</fullName>
+                    <default>false</default>
+                    <label>Avelox (moxiflacine)</label>
+                </value>
+                <value>
+                    <fullName>AZATHIOPRINE</fullName>
+                    <default>false</default>
+                    <label>AZATHIOPRINE</label>
+                </value>
+                <value>
+                    <fullName>Barbiturates</fullName>
+                    <default>false</default>
+                    <label>Barbiturates</label>
+                </value>
+                <value>
+                    <fullName>Barbituriques</fullName>
+                    <default>false</default>
+                    <label>Barbituriques</label>
+                </value>
+                <value>
+                    <fullName>Bee Sting Allergy</fullName>
+                    <default>false</default>
+                    <label>Bee Sting Allergy</label>
+                </value>
+                <value>
+                    <fullName>Bellergal</fullName>
+                    <default>false</default>
+                    <label>Bellergal</label>
+                </value>
+                <value>
+                    <fullName>Biaxin</fullName>
+                    <default>false</default>
+                    <label>Biaxin</label>
+                </value>
+                <value>
+                    <fullName>Biphosphonates</fullName>
+                    <default>false</default>
+                    <label>Biphosphonates</label>
+                </value>
+                <value>
+                    <fullName>Caféine</fullName>
+                    <default>false</default>
+                    <label>Caféine</label>
+                </value>
+                <value>
+                    <fullName>Caffeine</fullName>
+                    <default>false</default>
+                    <label>Caffeine</label>
+                </value>
+                <value>
+                    <fullName>Calcium Channel Blocking Drugs</fullName>
+                    <default>false</default>
+                    <label>Calcium Channel Blocking Drugs</label>
+                </value>
+                <value>
+                    <fullName>Captain America</fullName>
+                    <default>false</default>
+                    <label>Captain America</label>
+                </value>
+                <value>
+                    <fullName>Celecoxib (Celebrex)</fullName>
+                    <default>false</default>
+                    <label>Celecoxib (Celebrex)</label>
+                </value>
+                <value>
+                    <fullName>Celecoxib  (Celebrex)</fullName>
+                    <default>false</default>
+                    <label>Celecoxib  (Celebrex)</label>
+                </value>
+                <value>
+                    <fullName>cGMP-Specific Phosphodiesterase Type 5 Inhibitor</fullName>
+                    <default>false</default>
+                    <label>cGMP-Specific Phosphodiesterase Type 5 Inhibitor</label>
+                </value>
+                <value>
+                    <fullName>Chemotherapeutic agents (asparaginase</fullName>
+                    <default>false</default>
+                    <label>Chemotherapeutic agents (asparaginase</label>
+                </value>
+                <value>
+                    <fullName>Chlorhydrate de méfloquine</fullName>
+                    <default>false</default>
+                    <label>Chlorhydrate de méfloquine</label>
+                </value>
+                <value>
+                    <fullName>Chlorhydrate d’acétaminophène/tramadol</fullName>
+                    <default>false</default>
+                    <label>Chlorhydrate d’acétaminophène/tramadol</label>
+                </value>
+                <value>
+                    <fullName>Cigarette Smoke Allergy</fullName>
+                    <default>false</default>
+                    <label>Cigarette Smoke Allergy</label>
+                </value>
+                <value>
+                    <fullName>Cimetidine</fullName>
+                    <default>false</default>
+                    <label>Cimetidine</label>
+                </value>
+                <value>
+                    <fullName>Cimétidine</fullName>
+                    <default>false</default>
+                    <label>Cimétidine</label>
+                </value>
+                <value>
+                    <fullName>Cockroach Allergy</fullName>
+                    <default>false</default>
+                    <label>Cockroach Allergy</label>
+                </value>
+                <value>
+                    <fullName>Codeine</fullName>
+                    <default>false</default>
+                    <label>Codeine</label>
+                </value>
+                <value>
+                    <fullName>Codéine</fullName>
+                    <default>false</default>
+                    <label>Codéine</label>
+                </value>
+                <value>
+                    <fullName>Colorant</fullName>
+                    <default>false</default>
+                    <label>Colorant</label>
+                </value>
+                <value>
+                    <fullName>Colorants (Érythrosine et tatrazine)</fullName>
+                    <default>false</default>
+                    <label>Colorants (Érythrosine et tatrazine)</label>
+                </value>
+                <value>
+                    <fullName>Contrast Dye</fullName>
+                    <default>false</default>
+                    <label>Contrast Dye</label>
+                </value>
+                <value>
+                    <fullName>Corticostéroïdes</fullName>
+                    <default>false</default>
+                    <label>Corticostéroïdes</label>
+                </value>
+                <value>
+                    <fullName>Corticosteroids</fullName>
+                    <default>false</default>
+                    <label>Corticosteroids</label>
+                </value>
+                <value>
+                    <fullName>Cosmetic Allergies</fullName>
+                    <default>false</default>
+                    <label>Cosmetic Allergies</label>
+                </value>
+                <value>
+                    <fullName>Demerol</fullName>
+                    <default>false</default>
+                    <label>Demerol</label>
+                </value>
+                <value>
+                    <fullName>Démérol</fullName>
+                    <default>false</default>
+                    <label>Démérol</label>
+                </value>
+                <value>
+                    <fullName>Desferoxamine</fullName>
+                    <default>false</default>
+                    <label>Desferoxamine</label>
+                </value>
+                <value>
+                    <fullName>Dextranes</fullName>
+                    <default>false</default>
+                    <label>Dextranes</label>
+                </value>
+                <value>
+                    <fullName>Dextrans</fullName>
+                    <default>false</default>
+                    <label>Dextrans</label>
+                </value>
+                <value>
+                    <fullName>Diagnostic agents (fluoroscein</fullName>
+                    <default>false</default>
+                    <label>Diagnostic agents (fluoroscein</label>
+                </value>
+                <value>
+                    <fullName>Dimenhydrinate</fullName>
+                    <default>false</default>
+                    <label>Dimenhydrinate</label>
+                </value>
+                <value>
+                    <fullName>Dust Mites</fullName>
+                    <default>false</default>
+                    <label>Dust Mites</label>
+                </value>
+                <value>
+                    <fullName>Dyes (erythrosine and tatrazine)</fullName>
+                    <default>false</default>
+                    <label>Dyes (erythrosine and tatrazine)</label>
+                </value>
+                <value>
+                    <fullName>Eczema (Atopic Dermatitis)</fullName>
+                    <default>false</default>
+                    <label>Eczema (Atopic Dermatitis)</label>
+                </value>
+                <value>
+                    <fullName>Eczéma (dermatite atopique)</fullName>
+                    <default>false</default>
+                    <label>Eczéma (dermatite atopique)</label>
+                </value>
+                <value>
+                    <fullName>Egg Allergy</fullName>
+                    <default>false</default>
+                    <label>Egg Allergy</label>
+                </value>
+                <value>
+                    <fullName>Endothelin Receptor Antagonist (Tracleer</fullName>
+                    <default>false</default>
+                    <label>Endothelin Receptor Antagonist (Tracleer</label>
+                </value>
+                <value>
+                    <fullName>Enzymes (aprotinin</fullName>
+                    <default>false</default>
+                    <label>Enzymes (aprotinin</label>
+                </value>
+                <value>
+                    <fullName>Enzymes (aprotinine</fullName>
+                    <default>false</default>
+                    <label>Enzymes (aprotinine</label>
+                </value>
+                <value>
+                    <fullName>Érythromycine-sulfisoxazole</fullName>
+                    <default>false</default>
+                    <label>Érythromycine-sulfisoxazole</label>
+                </value>
+                <value>
+                    <fullName>Erythromycin-sulfisoxazole</fullName>
+                    <default>false</default>
+                    <label>Erythromycin-sulfisoxazole</label>
+                </value>
+                <value>
+                    <fullName>Eye Allergies (Allergic Conjunctivitis)</fullName>
+                    <default>false</default>
+                    <label>Eye Allergies (Allergic Conjunctivitis)</label>
+                </value>
+                <value>
+                    <fullName>Fentanyl</fullName>
+                    <default>false</default>
+                    <label>Fentanyl</label>
+                </value>
+                <value>
+                    <fullName>Fish Allergy</fullName>
+                    <default>false</default>
+                    <label>Fish Allergy</label>
+                </value>
+                <value>
+                    <fullName>Fragrance and Scent</fullName>
+                    <default>false</default>
+                    <label>Fragrance and Scent</label>
+                </value>
+                <value>
+                    <fullName>Fruit and Nuts</fullName>
+                    <default>false</default>
+                    <label>Fruit and Nuts</label>
+                </value>
+                <value>
+                    <fullName>Fruits tropicaux</fullName>
+                    <default>false</default>
+                    <label>Fruits tropicaux</label>
+                </value>
+                <value>
+                    <fullName>Furosemide (Lasix)</fullName>
+                    <default>false</default>
+                    <label>Furosemide (Lasix)</label>
+                </value>
+                <value>
+                    <fullName>Furosémide (Lasix)</fullName>
+                    <default>false</default>
+                    <label>Furosémide (Lasix)</label>
+                </value>
+                <value>
+                    <fullName>Gabapentin (Neurontin)</fullName>
+                    <default>false</default>
+                    <label>Gabapentin (Neurontin)</label>
+                </value>
+                <value>
+                    <fullName>Gabapentine (Neurontin)</fullName>
+                    <default>false</default>
+                    <label>Gabapentine (Neurontin)</label>
+                </value>
+                <value>
+                    <fullName>Gadolinium (contraste IRM)</fullName>
+                    <default>false</default>
+                    <label>Gadolinium (contraste IRM)</label>
+                </value>
+                <value>
+                    <fullName>Gadolinium (MRI Contrast)</fullName>
+                    <default>false</default>
+                    <label>Gadolinium (MRI Contrast)</label>
+                </value>
+                <value>
+                    <fullName>Garamycin</fullName>
+                    <default>false</default>
+                    <label>Garamycin</label>
+                </value>
+                <value>
+                    <fullName>Garamycine</fullName>
+                    <default>false</default>
+                    <label>Garamycine</label>
+                </value>
+                <value>
+                    <fullName>General Tropical Fruits</fullName>
+                    <default>false</default>
+                    <label>General Tropical Fruits</label>
+                </value>
+                <value>
+                    <fullName>Generic Drugs</fullName>
+                    <default>false</default>
+                    <label>Generic Drugs</label>
+                </value>
+                <value>
+                    <fullName>Glimepiride (Amaryl)</fullName>
+                    <default>false</default>
+                    <label>Glimepiride (Amaryl)</label>
+                </value>
+                <value>
+                    <fullName>Glimépiride (Amaryl)</fullName>
+                    <default>false</default>
+                    <label>Glimépiride (Amaryl)</label>
+                </value>
+                <value>
+                    <fullName>Gluten Allergy (Celiac Disease)</fullName>
+                    <default>false</default>
+                    <label>Gluten Allergy (Celiac Disease)</label>
+                </value>
+                <value>
+                    <fullName>Glyburide (Glynase</fullName>
+                    <default>false</default>
+                    <label>Glyburide (Glynase</label>
+                </value>
+                <value>
+                    <fullName>Glyburide  (Glynase</fullName>
+                    <default>false</default>
+                    <label>Glyburide  (Glynase</label>
+                </value>
+                <value>
+                    <fullName>Gravol</fullName>
+                    <default>false</default>
+                    <label>Gravol</label>
+                </value>
+                <value>
+                    <fullName>Hay Fever (Allergic Rhinitis)</fullName>
+                    <default>false</default>
+                    <label>Hay Fever (Allergic Rhinitis)</label>
+                </value>
+                <value>
+                    <fullName>Héparine</fullName>
+                    <default>false</default>
+                    <label>Héparine</label>
+                </value>
+                <value>
+                    <fullName>Herbal Products “ Drinks</fullName>
+                    <default>false</default>
+                    <label>Herbal Products “ Drinks</label>
+                </value>
+                <value>
+                    <fullName>Hives (Urticaria)</fullName>
+                    <default>false</default>
+                    <label>Hives (Urticaria)</label>
+                </value>
+                <value>
+                    <fullName>Hormones (ACTH</fullName>
+                    <default>false</default>
+                    <label>Hormones (ACTH</label>
+                </value>
+                <value>
+                    <fullName>House Dust Allergy</fullName>
+                    <default>false</default>
+                    <label>House Dust Allergy</label>
+                </value>
+                <value>
+                    <fullName>Human serum albumin</fullName>
+                    <default>false</default>
+                    <label>Human serum albumin</label>
+                </value>
+                <value>
+                    <fullName>Hydrochlorothiazide (Microzide)</fullName>
+                    <default>false</default>
+                    <label>Hydrochlorothiazide (Microzide)</label>
+                </value>
+                <value>
+                    <fullName>Hydrochlorothiazide  (Microzide)</fullName>
+                    <default>false</default>
+                    <label>Hydrochlorothiazide  (Microzide)</label>
+                </value>
+                <value>
+                    <fullName>Hydrochlorure d’oxycodone</fullName>
+                    <default>false</default>
+                    <label>Hydrochlorure d’oxycodone</label>
+                </value>
+                <value>
+                    <fullName>Hydromorphone chlorohydrate</fullName>
+                    <default>false</default>
+                    <label>Hydromorphone chlorohydrate</label>
+                </value>
+                <value>
+                    <fullName>Hydromorphone Hydrochloride</fullName>
+                    <default>false</default>
+                    <label>Hydromorphone Hydrochloride</label>
+                </value>
+                <value>
+                    <fullName>Hydroxychloroquine Sulphate</fullName>
+                    <default>false</default>
+                    <label>Hydroxychloroquine Sulphate</label>
+                </value>
+                <value>
+                    <fullName>Ibuprofen</fullName>
+                    <default>false</default>
+                    <label>Ibuprofen</label>
+                </value>
+                <value>
+                    <fullName>Ibuprofène</fullName>
+                    <default>false</default>
+                    <label>Ibuprofène</label>
+                </value>
+                <value>
+                    <fullName>Immunosuppresseur (Imuran)</fullName>
+                    <default>false</default>
+                    <label>Immunosuppresseur (Imuran)</label>
+                </value>
+                <value>
+                    <fullName>INDOMETHACIN</fullName>
+                    <default>false</default>
+                    <label>INDOMETHACIN</label>
+                </value>
+                <value>
+                    <fullName>INDOMÉTHACINE</fullName>
+                    <default>false</default>
+                    <label>INDOMÉTHACINE</label>
+                </value>
+                <value>
+                    <fullName>Infliximab</fullName>
+                    <default>false</default>
+                    <label>Infliximab</label>
+                </value>
+                <value>
+                    <fullName>Inhibiteur de l’agrégation plaquettaire</fullName>
+                    <default>false</default>
+                    <label>Inhibiteur de l’agrégation plaquettaire</label>
+                </value>
+                <value>
+                    <fullName>Inhibiteurs calciques</fullName>
+                    <default>false</default>
+                    <label>Inhibiteurs calciques</label>
+                </value>
+                <value>
+                    <fullName>Inhibiteurs IEC</fullName>
+                    <default>false</default>
+                    <label>Inhibiteurs IEC</label>
+                </value>
+                <value>
+                    <fullName>Ink</fullName>
+                    <default>false</default>
+                    <label>Ink</label>
+                </value>
+                <value>
+                    <fullName>Insect Stings and Bites</fullName>
+                    <default>false</default>
+                    <label>Insect Stings and Bites</label>
+                </value>
+                <value>
+                    <fullName>Intolérance au lactose</fullName>
+                    <default>false</default>
+                    <label>Intolérance au lactose</label>
+                </value>
+                <value>
+                    <fullName>Intravenous Pyelogram Dye</fullName>
+                    <default>false</default>
+                    <label>Intravenous Pyelogram Dye</label>
+                </value>
+                <value>
+                    <fullName>Isoniazid</fullName>
+                    <default>false</default>
+                    <label>Isoniazid</label>
+                </value>
+                <value>
+                    <fullName>Isoniazide</fullName>
+                    <default>false</default>
+                    <label>Isoniazide</label>
+                </value>
+                <value>
+                    <fullName>Jewelry Allergies</fullName>
+                    <default>false</default>
+                    <label>Jewelry Allergies</label>
+                </value>
+                <value>
+                    <fullName>Juggernaut</fullName>
+                    <default>false</default>
+                    <label>Juggernaut</label>
+                </value>
+                <value>
+                    <fullName>kryptonite</fullName>
+                    <default>false</default>
+                    <label>kryptonite</label>
+                </value>
+                <value>
+                    <fullName>Lactose Intolerance</fullName>
+                    <default>false</default>
+                    <label>Lactose Intolerance</label>
+                </value>
+                <value>
+                    <fullName>Latex Allergy</fullName>
+                    <default>false</default>
+                    <label>Latex Allergy</label>
+                </value>
+                <value>
+                    <fullName>Lithium</fullName>
+                    <default>false</default>
+                    <label>Lithium</label>
+                </value>
+                <value>
+                    <fullName>Local anaesthetics</fullName>
+                    <default>false</default>
+                    <label>Local anaesthetics</label>
+                </value>
+                <value>
+                    <fullName>Lorazepam</fullName>
+                    <default>false</default>
+                    <label>Lorazepam</label>
+                </value>
+                <value>
+                    <fullName>Lorazépam</fullName>
+                    <default>false</default>
+                    <label>Lorazépam</label>
+                </value>
+                <value>
+                    <fullName>Macrobid (nitrofurantoin)</fullName>
+                    <default>false</default>
+                    <label>Macrobid (nitrofurantoin)</label>
+                </value>
+                <value>
+                    <fullName>Macrobid (nitrofurantoine)</fullName>
+                    <default>false</default>
+                    <label>Macrobid (nitrofurantoine)</label>
+                </value>
+                <value>
+                    <fullName>Maladie sérique</fullName>
+                    <default>false</default>
+                    <label>Maladie sérique</label>
+                </value>
+                <value>
+                    <fullName>Méd. anti-inflammatoires (diclofénac</fullName>
+                    <default>false</default>
+                    <label>Méd. anti-inflammatoires (diclofénac</label>
+                </value>
+                <value>
+                    <fullName>Méd. contre l’hyperthyroïdie</fullName>
+                    <default>false</default>
+                    <label>Méd. contre l’hyperthyroïdie</label>
+                </value>
+                <value>
+                    <fullName>Medicines for hyperthyroidism</fullName>
+                    <default>false</default>
+                    <label>Medicines for hyperthyroidism</label>
+                </value>
+                <value>
+                    <fullName>Mefloquine Hydrochloride</fullName>
+                    <default>false</default>
+                    <label>Mefloquine Hydrochloride</label>
+                </value>
+                <value>
+                    <fullName>Methocarbamol and Acetaminophen</fullName>
+                    <default>false</default>
+                    <label>Methocarbamol and Acetaminophen</label>
+                </value>
+                <value>
+                    <fullName>Méthocarbamol et acétaminophène</fullName>
+                    <default>false</default>
+                    <label>Méthocarbamol et acétaminophène</label>
+                </value>
+                <value>
+                    <fullName>Milk Allergy</fullName>
+                    <default>false</default>
+                    <label>Milk Allergy</label>
+                </value>
+                <value>
+                    <fullName>Mold Allergy</fullName>
+                    <default>false</default>
+                    <label>Mold Allergy</label>
+                </value>
+                <value>
+                    <fullName>Morphine</fullName>
+                    <default>false</default>
+                    <label>Morphine</label>
+                </value>
+                <value>
+                    <fullName>Moules (mollusque)</fullName>
+                    <default>false</default>
+                    <label>Moules (mollusque)</label>
+                </value>
+                <value>
+                    <fullName>Muscle relaxants</fullName>
+                    <default>false</default>
+                    <label>Muscle relaxants</label>
+                </value>
+                <value>
+                    <fullName>Mussels (shellfish)</fullName>
+                    <default>false</default>
+                    <label>Mussels (shellfish)</label>
+                </value>
+                <value>
+                    <fullName>Myorelaxants</fullName>
+                    <default>false</default>
+                    <label>Myorelaxants</label>
+                </value>
+                <value>
+                    <fullName>NALIDIXIC ACID</fullName>
+                    <default>false</default>
+                    <label>NALIDIXIC ACID</label>
+                </value>
+                <value>
+                    <fullName>Niacine</fullName>
+                    <default>false</default>
+                    <label>Niacine</label>
+                </value>
+                <value>
+                    <fullName>Nitrofurantion</fullName>
+                    <default>false</default>
+                    <label>Nitrofurantion</label>
+                </value>
+                <value>
+                    <fullName>Nitrofurantoïne</fullName>
+                    <default>false</default>
+                    <label>Nitrofurantoïne</label>
+                </value>
+                <value>
+                    <fullName>NSAID’s (all)</fullName>
+                    <default>false</default>
+                    <label>NSAID’s (all)</label>
+                </value>
+                <value>
+                    <fullName>Nut Allergy</fullName>
+                    <default>false</default>
+                    <label>Nut Allergy</label>
+                </value>
+                <value>
+                    <fullName>Oxycodone Hydrochloride</fullName>
+                    <default>false</default>
+                    <label>Oxycodone Hydrochloride</label>
+                </value>
+                <value>
+                    <fullName>Parfums</fullName>
+                    <default>false</default>
+                    <label>Parfums</label>
+                </value>
+                <value>
+                    <fullName>Penicillin Allergy</fullName>
+                    <default>false</default>
+                    <label>Penicillin Allergy</label>
+                </value>
+                <value>
+                    <fullName>Pentazocine</fullName>
+                    <default>false</default>
+                    <label>Pentazocine</label>
+                </value>
+                <value>
+                    <fullName>Pet Allergies</fullName>
+                    <default>false</default>
+                    <label>Pet Allergies</label>
+                </value>
+                <value>
+                    <fullName>Pethidine</fullName>
+                    <default>false</default>
+                    <label>Pethidine</label>
+                </value>
+                <value>
+                    <fullName>Péthidine</fullName>
+                    <default>false</default>
+                    <label>Péthidine</label>
+                </value>
+                <value>
+                    <fullName>Phosphate de primaquine</fullName>
+                    <default>false</default>
+                    <label>Phosphate de primaquine</label>
+                </value>
+                <value>
+                    <fullName>Photosensibilité</fullName>
+                    <default>false</default>
+                    <label>Photosensibilité</label>
+                </value>
+                <value>
+                    <fullName>Photosensitivity</fullName>
+                    <default>false</default>
+                    <label>Photosensitivity</label>
+                </value>
+                <value>
+                    <fullName>Piqûres et morsures d’insectes</fullName>
+                    <default>false</default>
+                    <label>Piqûres et morsures d’insectes</label>
+                </value>
+                <value>
+                    <fullName>Platelet Aggregation Inhibitors</fullName>
+                    <default>false</default>
+                    <label>Platelet Aggregation Inhibitors</label>
+                </value>
+                <value>
+                    <fullName>Poison Ivy &amp; Plant Allergies</fullName>
+                    <default>false</default>
+                    <label>Poison Ivy &amp; Plant Allergies</label>
+                </value>
+                <value>
+                    <fullName>Preservatives (parabens and sulphites)</fullName>
+                    <default>false</default>
+                    <label>Preservatives (parabens and sulphites)</label>
+                </value>
+                <value>
+                    <fullName>Primaquine Phosphate</fullName>
+                    <default>false</default>
+                    <label>Primaquine Phosphate</label>
+                </value>
+                <value>
+                    <fullName>Produits à base de plantes (Boissons</fullName>
+                    <default>false</default>
+                    <label>Produits à base de plantes (Boissons</label>
+                </value>
+                <value>
+                    <fullName>Ragweed Allergies</fullName>
+                    <default>false</default>
+                    <label>Ragweed Allergies</label>
+                </value>
+                <value>
+                    <fullName>Ramipril</fullName>
+                    <default>false</default>
+                    <label>Ramipril</label>
+                </value>
+                <value>
+                    <fullName>Ranitidine</fullName>
+                    <default>false</default>
+                    <label>Ranitidine</label>
+                </value>
+                <value>
+                    <fullName>Resperidone</fullName>
+                    <default>false</default>
+                    <label>Resperidone</label>
+                </value>
+                <value>
+                    <fullName>Respéridone</fullName>
+                    <default>false</default>
+                    <label>Respéridone</label>
+                </value>
+                <value>
+                    <fullName>Rhume des foins (rhinite allergique)</fullName>
+                    <default>false</default>
+                    <label>Rhume des foins (rhinite allergique)</label>
+                </value>
+                <value>
+                    <fullName>Serum sickness</fullName>
+                    <default>false</default>
+                    <label>Serum sickness</label>
+                </value>
+                <value>
+                    <fullName>Shellfish Allergy</fullName>
+                    <default>false</default>
+                    <label>Shellfish Allergy</label>
+                </value>
+                <value>
+                    <fullName>Solvants (crémophor)</fullName>
+                    <default>false</default>
+                    <label>Solvants (crémophor)</label>
+                </value>
+                <value>
+                    <fullName>Solvents (cremophor)</fullName>
+                    <default>false</default>
+                    <label>Solvents (cremophor)</label>
+                </value>
+                <value>
+                    <fullName>Soy Allergy</fullName>
+                    <default>false</default>
+                    <label>Soy Allergy</label>
+                </value>
+                <value>
+                    <fullName>Statines</fullName>
+                    <default>false</default>
+                    <label>Statines</label>
+                </value>
+                <value>
+                    <fullName>Statins</fullName>
+                    <default>false</default>
+                    <label>Statins</label>
+                </value>
+                <value>
+                    <fullName>Sulfa Allergy</fullName>
+                    <default>false</default>
+                    <label>Sulfa Allergy</label>
+                </value>
+                <value>
+                    <fullName>Sulfamethoxazole</fullName>
+                    <default>false</default>
+                    <label>Sulfamethoxazole</label>
+                </value>
+                <value>
+                    <fullName>Sulfaméthoxazole</fullName>
+                    <default>false</default>
+                    <label>Sulfaméthoxazole</label>
+                </value>
+                <value>
+                    <fullName>Sulfasalazine (Azulfidine)</fullName>
+                    <default>false</default>
+                    <label>Sulfasalazine (Azulfidine)</label>
+                </value>
+                <value>
+                    <fullName>Sulfate d’hydrochloroquine</fullName>
+                    <default>false</default>
+                    <label>Sulfate d’hydrochloroquine</label>
+                </value>
+                <value>
+                    <fullName>Sulfite Allergy</fullName>
+                    <default>false</default>
+                    <label>Sulfite Allergy</label>
+                </value>
+                <value>
+                    <fullName>Sumatriptan (Imitrex)</fullName>
+                    <default>false</default>
+                    <label>Sumatriptan (Imitrex)</label>
+                </value>
+                <value>
+                    <fullName>Sumatriptan  (Imitrex)</fullName>
+                    <default>false</default>
+                    <label>Sumatriptan  (Imitrex)</label>
+                </value>
+                <value>
+                    <fullName>Sun Allergy</fullName>
+                    <default>false</default>
+                    <label>Sun Allergy</label>
+                </value>
+                <value>
+                    <fullName>TEST</fullName>
+                    <default>false</default>
+                    <label>TEST</label>
+                </value>
+                <value>
+                    <fullName>Test_99</fullName>
+                    <default>false</default>
+                    <label>Test_99</label>
+                </value>
+                <value>
+                    <fullName>Test 10</fullName>
+                    <default>false</default>
+                    <label>Test 10</label>
+                </value>
+                <value>
+                    <fullName>Test99</fullName>
+                    <default>false</default>
+                    <label>Test99</label>
+                </value>
+                <value>
+                    <fullName>Test Allergy 08112015</fullName>
+                    <default>false</default>
+                    <label>Test Allergy 08112015</label>
+                </value>
+                <value>
+                    <fullName>Test Pollen</fullName>
+                    <default>false</default>
+                    <label>Test Pollen</label>
+                </value>
+                <value>
+                    <fullName>Tetracycline</fullName>
+                    <default>false</default>
+                    <label>Tetracycline</label>
+                </value>
+                <value>
+                    <fullName>Tétracycline</fullName>
+                    <default>false</default>
+                    <label>Tétracycline</label>
+                </value>
+                <value>
+                    <fullName>TRAMADOL</fullName>
+                    <default>false</default>
+                    <label>TRAMADOL</label>
+                </value>
+                <value>
+                    <fullName>Trazadone</fullName>
+                    <default>false</default>
+                    <label>Trazadone</label>
+                </value>
+                <value>
+                    <fullName>Tree Pollen Allergy</fullName>
+                    <default>false</default>
+                    <label>Tree Pollen Allergy</label>
+                </value>
+                <value>
+                    <fullName>Triméthoprime-sulfaméthoxazole (Septra</fullName>
+                    <default>false</default>
+                    <label>Triméthoprime-sulfaméthoxazole (Septra</label>
+                </value>
+                <value>
+                    <fullName>Trimethoprim-sulfamethoxazole (Septra</fullName>
+                    <default>false</default>
+                    <label>Trimethoprim-sulfamethoxazole (Septra</label>
+                </value>
+                <value>
+                    <fullName>Urographie intraveineuse</fullName>
+                    <default>false</default>
+                    <label>Urographie intraveineuse</label>
+                </value>
+                <value>
+                    <fullName>Urticaire</fullName>
+                    <default>false</default>
+                    <label>Urticaire</label>
+                </value>
+                <value>
+                    <fullName>Vaccines</fullName>
+                    <default>false</default>
+                    <label>Vaccines</label>
+                </value>
+                <value>
+                    <fullName>Vaccins</fullName>
+                    <default>false</default>
+                    <label>Vaccins</label>
+                </value>
+                <value>
+                    <fullName>Vaccins immuno. ctre allergies</fullName>
+                    <default>false</default>
+                    <label>Vaccins immuno. ctre allergies</label>
+                </value>
+                <value>
+                    <fullName>Vasodilator (Remodulin</fullName>
+                    <default>false</default>
+                    <label>Vasodilator (Remodulin</label>
+                </value>
+                <value>
+                    <fullName>Vitamines</fullName>
+                    <default>false</default>
+                    <label>Vitamines</label>
+                </value>
+                <value>
+                    <fullName>Vitamins</fullName>
+                    <default>false</default>
+                    <label>Vitamins</label>
+                </value>
+                <value>
+                    <fullName>Wheat Allergy</fullName>
+                    <default>false</default>
+                    <label>Wheat Allergy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Allergies</relationshipLabel>
+        <relationshipName>Allergies</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reaction__c</fullName>
+        <externalId>false</externalId>
+        <label>Reaction</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Abdominal pain and/or cramps</fullName>
+                    <default>false</default>
+                    <label>Abdominal pain and/or cramps</label>
+                </value>
+                <value>
+                    <fullName>Anaphylaxis</fullName>
+                    <default>false</default>
+                    <label>Anaphylaxis</label>
+                </value>
+                <value>
+                    <fullName>Asthma or wheezing</fullName>
+                    <default>false</default>
+                    <label>Asthma or wheezing</label>
+                </value>
+                <value>
+                    <fullName>Chest tightness or pain</fullName>
+                    <default>false</default>
+                    <label>Chest tightness or pain</label>
+                </value>
+                <value>
+                    <fullName>Congestion</fullName>
+                    <default>false</default>
+                    <label>Congestion</label>
+                </value>
+                <value>
+                    <fullName>Constipation</fullName>
+                    <default>false</default>
+                    <label>Constipation</label>
+                </value>
+                <value>
+                    <fullName>Diarrhea</fullName>
+                    <default>false</default>
+                    <label>Diarrhea</label>
+                </value>
+                <value>
+                    <fullName>Difficulty breathing</fullName>
+                    <default>false</default>
+                    <label>Difficulty breathing</label>
+                </value>
+                <value>
+                    <fullName>Difficulty swallowing</fullName>
+                    <default>false</default>
+                    <label>Difficulty swallowing</label>
+                </value>
+                <value>
+                    <fullName>Dizziness</fullName>
+                    <default>false</default>
+                    <label>Dizziness</label>
+                </value>
+                <value>
+                    <fullName>Eczema</fullName>
+                    <default>false</default>
+                    <label>Eczema</label>
+                </value>
+                <value>
+                    <fullName>Fatigue</fullName>
+                    <default>false</default>
+                    <label>Fatigue</label>
+                </value>
+                <value>
+                    <fullName>Flushing</fullName>
+                    <default>false</default>
+                    <label>Flushing</label>
+                </value>
+                <value>
+                    <fullName>Headaches</fullName>
+                    <default>false</default>
+                    <label>Headaches</label>
+                </value>
+                <value>
+                    <fullName>Hives</fullName>
+                    <default>false</default>
+                    <label>Hives</label>
+                </value>
+                <value>
+                    <fullName>Itchiness</fullName>
+                    <default>false</default>
+                    <label>Itchiness</label>
+                </value>
+                <value>
+                    <fullName>Itchy, red, swollen eyes</fullName>
+                    <default>false</default>
+                    <label>Itchy, red, swollen eyes</label>
+                </value>
+                <value>
+                    <fullName>Itchy, watery eyes</fullName>
+                    <default>false</default>
+                    <label>Itchy, watery eyes</label>
+                </value>
+                <value>
+                    <fullName>Mental confusion</fullName>
+                    <default>false</default>
+                    <label>Mental confusion</label>
+                </value>
+                <value>
+                    <fullName>Nauseau and vomiting</fullName>
+                    <default>false</default>
+                    <label>Nauseau and vomiting</label>
+                </value>
+                <value>
+                    <fullName>Rash</fullName>
+                    <default>false</default>
+                    <label>Rash</label>
+                </value>
+                <value>
+                    <fullName>Reflux</fullName>
+                    <default>false</default>
+                    <label>Reflux</label>
+                </value>
+                <value>
+                    <fullName>Shortness of breathe</fullName>
+                    <default>false</default>
+                    <label>Shortness of breathe</label>
+                </value>
+                <value>
+                    <fullName>Sneezing and/or coughing</fullName>
+                    <default>false</default>
+                    <label>Sneezing and/or coughing</label>
+                </value>
+                <value>
+                    <fullName>Swelling</fullName>
+                    <default>false</default>
+                    <label>Swelling</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <webLinks>
+        <fullName>Go_To_Patient</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Go To Patient</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Action.Contact.View,  Allergies__c.ContactId__c , null)}</url>
+    </webLinks>
+</CustomObject>
