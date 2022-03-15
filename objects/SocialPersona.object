@@ -107,4 +107,12 @@
         <searchResultsAdditionalFields>Provider</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <listViews>
+        <fullName>AllSocialPersonas</fullName>
+        <columns>Name</columns>
+        <columns>Provider</columns>
+        <columns>Parent</columns>
+        <filterScope>Everything</filterScope>
+        <label>All social personas</label>
+    </listViews>
 </CustomObject>

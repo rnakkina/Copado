@@ -150,4 +150,9 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_PartyConsents</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Party Consents</label>
+    </listViews>
 </CustomObject>

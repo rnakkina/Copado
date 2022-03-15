@@ -102,4 +102,9 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <sharingModel>ControlledByParent</sharingModel>
+    <listViews>
+        <fullName>RefundLinePayment</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>

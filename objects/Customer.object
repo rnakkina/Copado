@@ -134,4 +134,9 @@
         <searchResultsAdditionalFields>TotalLifeTimeValue</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <listViews>
+        <fullName>All_Customers</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Customers</label>
+    </listViews>
 </CustomObject>

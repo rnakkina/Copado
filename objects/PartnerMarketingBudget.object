@@ -156,4 +156,14 @@
         <searchResultsAdditionalFields>ChannelPartner</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>My_Partner_Marketing_Budgets</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Partner Marketing Budgets</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Partner_Marketing_Budgets</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Partner Marketing Budgets</label>
+    </listViews>
 </CustomObject>

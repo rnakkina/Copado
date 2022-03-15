@@ -138,4 +138,9 @@
         <searchResultsAdditionalFields>SalesAmount</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <listViews>
+        <fullName>All_Sellers</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Sellers</label>
+    </listViews>
 </CustomObject>

@@ -140,4 +140,9 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_DataUseLegalBases</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Data Use Legal Bases</label>
+    </listViews>
 </CustomObject>

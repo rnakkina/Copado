@@ -116,4 +116,14 @@
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>My_External_Managed_Accounts</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My External Managed Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>All_External_Managed_Accounts</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All External Managed Accounts</label>
+    </listViews>
 </CustomObject>

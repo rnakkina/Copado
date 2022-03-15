@@ -142,4 +142,9 @@
         <searchResultsAdditionalFields>PreferredTimeZone</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <listViews>
+        <fullName>All_CommSubscriptionTimings</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Communication Subscription Timings</label>
+    </listViews>
 </CustomObject>

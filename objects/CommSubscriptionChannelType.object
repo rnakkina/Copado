@@ -136,4 +136,9 @@
         <searchResultsAdditionalFields>EngagementChannelType</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_CommSubscriptionChannelTypes</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Communication Subscription Channel Types</label>
+    </listViews>
 </CustomObject>

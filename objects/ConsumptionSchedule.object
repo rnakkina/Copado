@@ -131,4 +131,14 @@
     <externalSharingModel>Read</externalSharingModel>
     <searchLayouts/>
     <sharingModel>Read</sharingModel>
+    <listViews>
+        <fullName>My_ConsumptionSchedules</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Consumption Schedules</label>
+    </listViews>
+    <listViews>
+        <fullName>All_ConsumptionSchedules</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Consumption Schedules</label>
+    </listViews>
 </CustomObject>

@@ -142,4 +142,9 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_DataUsePurposes</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Data Use Purposes</label>
+    </listViews>
 </CustomObject>

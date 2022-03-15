@@ -142,4 +142,14 @@
         <searchResultsAdditionalFields>ImpactAmount</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>Name</columns>
+        <columns>TotalAmountWithTax</columns>
+        <columns>ReferenceEntity</columns>
+        <columns>TransactionDate</columns>
+        <columns>EffectiveDate</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Finance Transactions</label>
+    </listViews>
 </CustomObject>

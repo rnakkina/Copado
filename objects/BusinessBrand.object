@@ -134,4 +134,9 @@
         <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <listViews>
+        <fullName>All_BusinessBrands</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Business Brands</label>
+    </listViews>
 </CustomObject>
